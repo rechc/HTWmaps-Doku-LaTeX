@@ -36,9 +36,26 @@
 \tracking_changes false
 \output_changes false
 \author "" 
+\author "" 
 \end_header
 
 \begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
 
 \begin_layout Section
 Projektübersicht
@@ -109,7 +126,7 @@ Tartakowski, Stanislaw
 \end_layout
 
 \begin_layout Itemize
-Volkan, Gökaya 
+Gökayya, Volkan
 \end_layout
 
 \begin_layout Standard
@@ -173,18 +190,532 @@ Gruppeneinteilung
 \begin_layout Standard
 Das finden von Modulen und deren Abgrenzung auf abstrakter Ebene hat auf
  Anhieb funktioniert.
- Schon zu Beginn der Projektphase war mehr oder minder klar, was prinzipiell
- zu tun ist.
+ Zu Beginn wurde geklärt welche Aufgaben grob vollzogen werden müssten.
+ Hier wurden kleine Arbeitsgruppen gebildet.
  Die Gruppeneinteilung war jedoch keine leichte Aufgabe.
- Problematisch war, dass bis dato keiner der Teilnehmer über den Realisierungsau
-fwand der Module etwas wusste.
+ Problematisch war, dass bis dato keiner der Teilnehmer den Realisierungsaufwand
+ der einzelnen Module abschätzen konnte.
  Man hat folglich darauf verzichtet Verantwortungsbereiche klar voneinander
  zu trennen.
  Jedoch haben sich über die Projektphase hinweg Gruppen herauskristallisiert,
  da einige ein besonders großes Maß an Arbeit in ihre Aufgabe investierten
  und dementsprechend sich in ihrem Bereich sicherer fühlten, als in anderen
  Bereichen.
- Im Gesamtblick gab es diese Gruppen:
+ Im Gesamtblick gab es diese Gruppen: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bereich
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Personen
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Algorithmen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Volkan Goekayya, Lucian Schneider, Christian Rech
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Datenbanken
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yassir Klos, Tobias Lana
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GUI
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Thomas Altmeyer, Tim Bartsch
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Routingalgorithmen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stanislav Tartakowski, Tim Bartsch
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Serververwaltung
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Christian Rech, Lucian Schneider
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Produktumfang
+\end_layout
+
+\begin_layout Subsubsection
+Zielgruppe
+\end_layout
+
+\begin_layout Standard
+........
+\end_layout
+
+\begin_layout Standard
+Da es bereits einige Routenplaner gibt konnte sich jeder Projektteilnehmer
+ sehr gut vorstellen, was in dem Projekt verlangt wurde.
+ So kam es auch dazu, dass wir unser Programm mit anderen Routenplanern
+ verglichen haben.
+ Da die am meisten genutzen Routenplaner vom Internet aus zu bedienen sind,
+ haben wir uns dies auch als Ziel gesetzt.
+\end_layout
+
+\begin_layout Section
+Allgemeines
+\end_layout
+
+\begin_layout Subsection
+Vorbereitende Tätigkeiten
+\end_layout
+
+\begin_layout Subsubsection
+Git
+\end_layout
+
+\begin_layout Subsubsection
+GWT
+\end_layout
+
+\begin_layout Subsubsection
+Server
+\end_layout
+
+\begin_layout Subsection
+Gesamtes UML
+\end_layout
+
+\begin_layout Section
+Lastenheft
+\end_layout
+
+\begin_layout Standard
+Das Lastenheft mit den unterstützten Funktionen & Anforderungen finden Sie
+ im Anhang
+\end_layout
+
+\begin_layout Section
+Technische Dokumentation
+\end_layout
+
+\begin_layout Subsection
+Vorwort
+\end_layout
+
+\begin_layout Standard
+Die folgende Dokumentation erläutert den Aufbau von HTWmaps.
+ Sie geht auf das zu Grunde liegende Konzept, die Implementierung und den
+ Aufbau der Datenbank ein.
+ 
+\end_layout
+
+\begin_layout Subsection
+Allgemeiner Programmablauf
+\end_layout
+
+\begin_layout Standard
+Der Benutzer interagiert mit der Software über einen Javaskript-fähigen
+ Internetbrowser.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/Ablauf_alg.png
+	lyxscale 70
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Datenbank
+\end_layout
+
+\begin_layout Subsubsection
+Vorwort
+\end_layout
+
+\begin_layout Subsubsection
+Konzept
+\end_layout
+
+\begin_layout Subsection
+Algorithmen
+\end_layout
+
+\begin_layout Subsubsection
+Vorwort
+\end_layout
+
+\begin_layout Subsubsection
+Konzept
+\end_layout
+
+\begin_layout Subsubsection
+Routingalgorithmus
+\end_layout
+
+\begin_layout Subsubsection
+Wegbeschreibung
+\end_layout
+
+\begin_layout Subsubsection
+Property-Klasse
+\end_layout
+
+\begin_layout Subsection
+GUI
+\end_layout
+
+\begin_layout Subsubsection
+Vorwort
+\end_layout
+
+\begin_layout Subsubsection
+Konzept
+\end_layout
+
+\begin_layout Section
+Glossar
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="2">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wort
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Beschreibung
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Route
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+asdkopkp oijadsoij ijasoidn dfnjnoijasoid adsdnoi
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Anhang
+\end_layout
+
+\begin_layout Itemize
+Lastenheft
+\end_layout
+
+\begin_layout Itemize
+Testplan
+\end_layout
+
+\begin_layout Itemize
+Meeting Protokolle
+\end_layout
+
+\begin_layout Itemize
+Zeitnachweis
 \end_layout
 
 \end_body
