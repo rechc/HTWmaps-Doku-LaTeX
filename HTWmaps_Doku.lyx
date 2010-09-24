@@ -1,0 +1,191 @@
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Projektübersicht
+\end_layout
+
+\begin_layout Subsection
+Einleitung
+\end_layout
+
+\begin_layout Subsubsection
+Vorwort
+\end_layout
+
+\begin_layout Standard
+Im Rahmen des 4.
+ Semesters war es Aufgabe ein Projekt, über die Dauer des Semesters, anzufertige
+n.
+ Diese Dokumentation umfasst folgendes Thema: 
+\end_layout
+
+\begin_layout Standard
+Erstellen Sie einen Routenplaner mit Hilfe des Kartenmaterials von OpenStreetMap.
+ Die zu entwickelnde Software soll das Planen von Routen innerhalb Deutschlands
+ ermöglichen.
+\end_layout
+
+\begin_layout Standard
+Als Projektnamen haben wir den Namen „HTWmaps“ gewählt.
+\end_layout
+
+\begin_layout Subsubsection
+Das Projektteam
+\end_layout
+
+\begin_layout Standard
+Das Projektteam, unter der Betreuung von Prof.
+ Dr.
+ Thomas Kretschmer, umfasste 8 Mitglieder mit verschiedenen Zuständigkeiten.
+ Die folgende Liste zeigt die Mitarbeiter, die am Projekt teilgenommen haben:
+\end_layout
+
+\begin_layout Itemize
+Altmeyer, Thomas 
+\end_layout
+
+\begin_layout Itemize
+Bartsch, Tim 
+\end_layout
+
+\begin_layout Itemize
+Klos, Yassir 
+\end_layout
+
+\begin_layout Itemize
+Lana, Tobias 
+\end_layout
+
+\begin_layout Itemize
+Rech, Christian 
+\end_layout
+
+\begin_layout Itemize
+Schneider, Lucian 
+\end_layout
+
+\begin_layout Itemize
+Tartakowski, Stanislaw 
+\end_layout
+
+\begin_layout Itemize
+Volkan, Gökaya 
+\end_layout
+
+\begin_layout Standard
+Das Projekt wurde von Christian Rech geleitet.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Zielsetzung
+\end_layout
+
+\begin_layout Standard
+Ziel des Projektes war die Fertigstellung der Software bis zum 30.
+ September 2010.
+ Der Prototyp sollte bis dahin den im Lastenheft definierten Funktionsumfang
+ besitzen.
+ Außerdem sollte eine umfassende Dokumentation des Projektes er- stellt
+ werden, welche ebenfalls bis zum 30.
+ September 2010 vervollständigt und abgegeben sein sollte.
+ 
+\end_layout
+
+\begin_layout Subsection
+Vorgehenweise
+\end_layout
+
+\begin_layout Subsubsection
+Vorgehensmodell Scrum (oder Code & Fix)
+\end_layout
+
+\begin_layout Standard
+Die Projektgruppe hat sich für das agile Vorgehensmodell Scrum entschieden.
+ Scrum beruht auf dem Prinzip, dass die Teammitglieder sich weitgehend selbst
+ organisieren und das stetig darüber bestimmt wird, ob Funktionen wichtig
+ sind und implementiert werden, oder ob es wichtigere Funktionen gibt, auf
+ welche man sich konzentriert.
+ Die Projektteilnehmer hielten jede Woche Meetings, in denen neue Erkenntnisse
+ berichtet wurden und zusammen weitergearbeitet wurde.
+ Hierdurch konnte der noch zu erbringende Arbeitsaufwand abgeschätzt werden.
+ Weiterhin haben sich die Projektteilnehmer auch außerhalb der regelmäßigen
+ Meetings getroffen um zusammen aktuelle Schwierigkeiten zu besprechen.
+ 
+\end_layout
+
+\begin_layout Standard
+Andere Modelle, wie beispielsweise das Wasserfallmodell, erschienen zu unexibel
+ für die Aufgabenstellung.
+ Obwohl das Projekt von Anfang bis Ende geplant wurde und das Vorgehen festgeleg
+t wurde, stellte sich häufiger herraus, dass (meist aus Performanz Gründen)
+ das Vorgehen verändert werden musste.
+ Dies traf größtenteils den Datenbankbereich, wodurch dann auch andere Teile
+ überarbeitet werden musste.
+ Dies glich dann dem Vorgehensmodell Code & Fix.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Gruppeneinteilung
+\end_layout
+
+\begin_layout Standard
+Das finden von Modulen und deren Abgrenzung auf abstrakter Ebene hat auf
+ Anhieb funktioniert.
+ Schon zu Beginn der Projektphase war mehr oder minder klar, was prinzipiell
+ zu tun ist.
+ Die Gruppeneinteilung war jedoch keine leichte Aufgabe.
+ Problematisch war, dass bis dato keiner der Teilnehmer über den Realisierungsau
+fwand der Module etwas wusste.
+ Man hat folglich darauf verzichtet Verantwortungsbereiche klar voneinander
+ zu trennen.
+ Jedoch haben sich über die Projektphase hinweg Gruppen herauskristallisiert,
+ da einige ein besonders großes Maß an Arbeit in ihre Aufgabe investierten
+ und dementsprechend sich in ihrem Bereich sicherer fühlten, als in anderen
+ Bereichen.
+ Im Gesamtblick gab es diese Gruppen:
+\end_layout
+
+\end_body
+\end_document
