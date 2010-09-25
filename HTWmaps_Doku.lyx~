@@ -149,6 +149,23 @@ Ziel des Projektes war die Fertigstellung der Software bis zum 30.
  
 \end_layout
 
+\begin_layout Subsubsection
+Zielgruppe
+\end_layout
+
+\begin_layout Standard
+HTWmaps gleicht im Aufbau anderen Online-Routenplanern.
+ Es wurde versucht (soweit technisch und zeitlich möglich) die besten Funktionen
+ dieser Routenplaner (z.B.
+ 
+\color red
+GOOGLEmaps, Falk24,.....
+\color black
+) in HTWmaps einzubauen.
+ Zielgruppe ist deswegen die selbe wie andere Routenplaner haben.
+ Diese sind größtenteils Autofahrer.
+\end_layout
+
 \begin_layout Subsection
 Vorgehenweise
 \end_layout
@@ -344,6 +361,26 @@ Christian Rech, Lucian Schneider
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Die Tabelle zeigt nur Tätigkeit die sich über einen längeren Zeitraum erstreckte
+n.
+ Jedes Teammitglied hat sich auch kurzfristig um andere Aufgaben gekümmert.
+\end_layout
+
 \begin_layout Subsection
 Produktumfang
 \end_layout
@@ -386,7 +423,149 @@ Server
 \end_layout
 
 \begin_layout Subsection
+Unvollständigkeit der Daten
+\end_layout
+
+\begin_layout Standard
+Die Daten bei Openstreet Maps sind derzeit noch unvollständig.
+ So sind manchmal Wege und Straßen nicht verzeichnet, oder besitzen ungültige
+ Namen, wie beispielsweise „unbekannt“.
+ Auswirkung der Unvollständigkeit auf den Routenplaner haben folge Dinge
+ Viele Straßen sind nicht verzeichnet, oder besitzen ungültige Namen Postleitzah
+len und Hausnummern sind fast nirgendwo erfasst Straßen sind fast nie mit
+ einem Ort gekennzeichnet in dem sie liegen Häufige Rechtschreibfehler der
+ Orte/Straßen Manche Orte hab keine Straßennamen Orte sind sehr selten klar
+ voneinander getrennt (Keine Grenzen) Viele Orte, vor allem Dörfer sind
+ vom falschen Typ (Hamlet, Village).
+ So variiert die Größe eines Dorfes sehr stark, jedoch haben viele Dörfer
+ unterschiedlicher Größe im Kartenmaterial die gleiche Beschreibung.
+ Ein kleines Dorf muss als „Hamlet“ beschrieben werden, ab ca.
+ 2km Durchmesser schon „Village“ Es gibt Orte zu denen keine Straße führt.
+ Der Algorithmus versagt an dieser Stelle.
+ Vor allem sind Straßen problematisch, die keinem Ort zugeordnet wurden.
+ Der Benutzer muss in der Lage sein, eine Straße und einen Ort anzugeben,
+ um dem Programm mitzuteilen, wohin und von wo er routen will.
+ Dieses Problem wurde von uns nur teilweise gelöst.
+ Um jeden Ort, abhängig vom Typ, wie Dorf, Stadt, etc., wurde jeweils ein
+ Kreis bestimmten Radius gezogen, der alle beinhalteten Straßen mit dem
+ jeweiligen Ort kennzeichnet.
+ Manche Orte sind jedoch exakt vermerkt, sodass man jede Straße mit einem
+ anderen Verfahren („Punkt in Polygon“) kennzeichnen konnte.
+ Allerdings sind solche exakt verzeichnete Orte selten.
+ 
+\end_layout
+
+\begin_layout Standard
+Letztlich gibt es über den Datenbestand in der Datenbank folgendes zu sagen:
+ 
+\end_layout
+
+\begin_layout Itemize
+Es sind nicht alle Straßen mit einem Kreis erfasst 
+\end_layout
+
+\begin_layout Itemize
+Es gibt „Übergriffe“ der Kreise auf benachbarte Orte, sodass dann Straßen
+ zum falschen Ort zugeteilt werden 
+\end_layout
+
+\begin_layout Itemize
+Straßen in Orten, die als solche exakt gekennzeichnet sind (Polygone), sind
+ alle vermerkt.
+ 
+\end_layout
+
+\begin_layout Standard
+Anzahl der Daten, die effektiv der Datenbank entnommen werden können.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bereich
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anzahl
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Städte
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+43545
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Straßen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1251450
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
 Gesamtes UML
+\end_layout
+
+\begin_layout Subsubsection
+Vorwort
+\end_layout
+
+\begin_layout Subsubsection
+Klassen und Pakete
+\end_layout
+
+\begin_layout Subsubsection
+Klassen untereinander
 \end_layout
 
 \begin_layout Section
@@ -445,6 +624,189 @@ Vorwort
 Konzept
 \end_layout
 
+\begin_layout Subsubsection
+Datenbankschema
+\end_layout
+
+\begin_layout Paragraph
+Technisches: 
+\end_layout
+
+\begin_layout Standard
+Datenbanksoftware: MySQL 
+\end_layout
+
+\begin_layout Standard
+Version: 5.1.41 
+\end_layout
+
+\begin_layout Standard
+Betriebssystem: Ubuntu Server Version: 10.04 
+\end_layout
+
+\begin_layout Standard
+Server: stud-i-pr2.htw-saarland.de 
+\end_layout
+
+\begin_layout Standard
+Standort: Virtuelle Maschine auf dem Server der Fachschaft Informatik  
+ 
+\end_layout
+
+\begin_layout Standard
+Hardware / Ressourcen: 2x2,8GHz; 2GB Ram; 20GB Festplatte 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In der ersten Version des Datenbankschemas ging man davon aus, dass zum
+ Rendern der Route alle Daten aus der Quelldatei benötigt würden.
+ Dazu gehörten auch die Daten die nichts mit der direkten Routenplanung
+ zu tun haben, z.B.
+ Umrisse von Wäldern, Flüsse, Bundeslandgrenzen, etc.
+ Daher wurden in den ersten Versionen alle Daten aus der Quelldatei in die
+ Datenbank übernommen.
+ 
+\end_layout
+
+\begin_layout Standard
+In den ersten Versionen lag die Priorität des Datenbankentwurfs auf dem
+ Layout, bzw.
+ auf der Normalisierung der Datenbank.
+ Mit Umstieg von Saarland -> Deutschland wurde jedoch schnell klar, dass
+ die Performance sehr stark unter dem normalisierten Datenbankentwurf leidet.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Ein neuer Ansatz brachte zwei wichtige Änderungen:
+\end_layout
+
+\begin_layout Enumerate
+das Rendern der Karte wird an eine externe Lösung abgegeben.
+ Das heißt das nur noch die zum Routen relevanten Daten in die Datenbank
+ gespeichert werden 
+\end_layout
+
+\begin_layout Enumerate
+Performance hat höhere Priorität als Normalisierung.
+ Als Folge wurden Redundanzen in Kauf genommen, da dadurch viel Zeit, durch
+ entfallene JOINS, eingespart werden konnte.
+ 
+\end_layout
+
+\begin_layout Standard
+Die Versionen 0.1 - 0.3 wurden ausschließlich auf Grundlage der Kartendaten
+ des Saarlandes entwickelt und gefüllt.
+ Erst ab Version 0.4 wurde ganz Deutschland berücksichtigt.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Finales Datenbankschema (1.0)
+\end_layout
+
+\begin_layout Standard
+Ein ER-Diagramm erweist sich hier als wenig sinnvoll, da fast jede Tabelle
+ mit jeder anderen aufgrund von Redundanz in Verbindung gebracht werden
+ kann.
+ Ausserdem sind JOINS und andere SQL Anfragen, die tabellenübergreifend
+ sind aufgrund von Performance nicht erwünscht.
+\end_layout
+
+\begin_layout Paragraph
+Übersicht über die einzelnen Tabellen
+\end_layout
+
+\begin_layout Paragraph
+cities 
+\end_layout
+
+\begin_layout Subparagraph
+Beschreibung (in Tabellen Form bringen)
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Inhalt beinhaltet alle “Stadtzentrum”-Knoten mit ID, Koordinaten und Name
+ der Stadt Diese Tabelle dient nur dem Straßen importskrip (Updatestreets.java)
+ Quelle alle Knoten aus der osm Datei die als “place” markiert sind.
+ Größe 70,268 Einträge Indizes ID: Primärschlüssel
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Aufbau
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Feld Typ Null Standard Extra Beschreibung Wird in Folgendem Schritt gefüllt
+ ID int(11) nein nein PK ID des nodes 2 lat float nein nein
+\end_layout
+
+\begin_layout Standard
+
+\color red
+lat Koordinate 2 lon float nein nein
+\end_layout
+
+\begin_layout Standard
+
+\color red
+lon Koordinate 2 name varchar(255) nein nein
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Name des Nodes 2
+\end_layout
+
+\begin_layout Standard
+
+\color red
+edges_all Beschreibung
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Inhalt beinhaltet alle Kanten eines Ways der als Straße markiert ist mit
+ allen Informationen der beiden Knoten (je ID, lat, lon), der ID des Ways,
+ Info ob Einbahnstraße ja/nein, Info über Typ der Straße, Länge der Kante
+ Quelle ID ist Autoinkrement vom SQL Insert
+\end_layout
+
+\begin_layout Standard
+
+\color red
+node1ID, node2ID, wayID, isOneway, speedID kommen aus der osm Datei
+\end_layout
+
+\begin_layout Standard
+
+\color red
+lat und lon der beiden Knoten kommen via Update SQL aus der Tabelle nodes
+\end_layout
+
+\begin_layout Standard
+
+\color red
+lenght wird beim Insert mit NULL belegt und später durch die Methode CalculateEd
+geLength berechnet Größe ~11,695,294 Einträge Indizes ID: Primärschlüssel
+ node1lat: node1lon: node2lat: node2lon: 
+\end_layout
+
 \begin_layout Subsection
 Algorithmen
 \end_layout
@@ -463,6 +825,48 @@ Routingalgorithmus
 
 \begin_layout Subsubsection
 Wegbeschreibung
+\end_layout
+
+\begin_layout Standard
+Um die gefundene Route auch in schriftlicher Form auszugeben, wurde die
+ Klasse RouteToText erstellt.
+ Der Konstruktor der Klasse erwartet zwei Listen.
+ Dies sind erstens eine Liste mit allen besuchten Knoten (Nodes) und zweitens
+ eine Liste mit den besuchten Kanten (Edges).
+ Mithilfe der Informationen aus den Listen werden über eine SQL-Abfrage
+ weitere Informationen aus der Datenbank geladen, welche in den Nodes und
+ Edges Objekten nicht vorhanden sind.
+ Als weitere Informationen werden zum Beispiel die besuchten Straßennamen,
+ Ortsnamen, Bundesländer usw.
+ geladen.
+ Beim Laden der Nodes und Edges Daten aus der Datenbank wurden nicht gleich
+ alle Daten geladen, da ansonsten auch Informationen von Nodes und Edges
+ geladen werden würden, welche am Ende nicht auf der gefundenen Strecke
+ liegen.
+ Durch die kleineren Nodes und Edges Objekte konnte eine bessere Performance
+ erreicht werden.
+ Aus den neuen Informationen und den bereits vorhandenen, werden durch die
+ Klasse StreetDetails neue Objekte erstellt, welche jeweils die gleichen
+ Informationen eines Streckenabschnitts der Route besitzen.
+ Dies bedeutet, dass Edges mit dem selben Straßennamen oder der selben Schnellst
+raßenbezeichnung gruppiert werden.
+ Die gruppierten Informationen werden dann in einem Objekt gespeichert.
+ Sobald alle Daten zu einer gefunden Route gesammelt wurden, gibt es eine
+ Methode in der Klasse RouteToText, welche aus diesen Daten eine schriftliche
+ Routenbeschreibung generiert.
+ Dies geschieht durch verschachtelte if-then Abfragen, welche je nach Eigenschaf
+t des Streckenabschnittobjektes einen Text zur Routenbeschreibung hinzufügt.
+\end_layout
+
+\begin_layout Standard
+Die Klasse RouteToText ist außerdem dafür verantwortlich, dass eine Statistik
+ über die gefundene Strecke erstellt wird.
+ Ein Edge-Objekt besitzt die Attribute distance (beinhaltet Länge der Kante)
+ und highwayType (zeigt durch eine ID wie schnell auf dieser Kante gefahren
+ werden darf).
+ Mit diesen Informationen kann ermittelt werden, wie weit die Distanz auf
+ den einzelnen Straßentypen ist und wie lange man benötigt, um diese zu
+ befahren.
 \end_layout
 
 \begin_layout Subsubsection
