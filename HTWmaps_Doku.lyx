@@ -716,9 +716,12 @@ Studwork
 \begin_layout Standard
 Als der Server stand, musste dieser auch noch eingerichtet werden.
  Wir entschieden uns dafür Ubuntu Server als Betriebssystem zu installieren.
- Als nächstes müssten noch eine Dienste (Deamons) eingerichtet werden, welche
- wir zum arbeiten benötigten.
- 
+ Als nächstes mussten noch einige für das Projekt benötigte Dienste (Deamons)
+ eingerichtet werden.
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Standard
