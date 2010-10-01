@@ -721,10 +721,6 @@ Als der Server stand, musste dieser auch noch eingerichtet werden.
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 Diese waren:
 \end_layout
 
@@ -755,9 +751,9 @@ JRE - Um Code lokal ausführen zu können
 \begin_layout Standard
 Außer der Installation mussten auch noch einige Konfigurationen gemacht
  werden.
- So wurde auch ein Start- und Endeskript erstellt.
+ So wurden auch Start- und Endeskript erstellt.
  Außerdem wurde an den Einstellungen von MySQL und Apache gearbeitet um
- die maximale Performance raus zu holen.
+ die maximale Performance zu erreichen.
 \end_layout
 
 \begin_layout Subsection
@@ -773,13 +769,19 @@ Die Daten bei Openstreet Maps sind derzeit noch unvollständig.
 \end_layout
 
 \begin_layout Itemize
-Viele Straßen sind nicht verzeichnet, oder besitzen ungültige Namen Postleitzahl
-en und Hausnummern sind fast nirgendwo erfasst 
+Viele Straßen sind nicht verzeichnet, oder besitzen ungültige Namen 
 \end_layout
 
 \begin_layout Itemize
-Straßen sind fast nie mit einem Ort gekennzeichnet in dem sie liegen Häufige
- Rechtschreibfehler der Orte/Straßen 
+Postleitzahlen und Hausnummern sind fast nirgendwo erfasst 
+\end_layout
+
+\begin_layout Itemize
+Straßen sind fast nie mit einem Ort gekennzeichnet in dem sie liegen
+\end_layout
+
+\begin_layout Itemize
+Häufige Rechtschreibfehler der Orte/Straßen 
 \end_layout
 
 \begin_layout Itemize
