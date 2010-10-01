@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -7,9 +7,9 @@
 \language english
 \inputencoding auto
 \font_roman default
-\font_sans default
+\font_sans helvet
 \font_typewriter default
-\font_default_family default
+\font_default_family sfdefault
 \font_sc false
 \font_osf false
 \font_sf_scale 100
@@ -17,6 +17,7 @@
 
 \graphics default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -40,6 +41,17 @@
 \end_header
 
 \begin_body
+
+\begin_layout Title
+HTWmaps Dokumentation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
 
 \begin_layout Standard
 \begin_inset CommandInset toc
@@ -71,29 +83,26 @@ Vorwort
 
 \begin_layout Standard
 Im Rahmen des 4.
- Semesters war es Aufgabe ein Projekt, über die Dauer des Semesters, anzufertige
-n.
- Diese Dokumentation umfasst folgendes Thema: 
-\end_layout
-
-\begin_layout Standard
-Erstellen Sie einen Routenplaner mit Hilfe des Kartenmaterials von OpenStreetMap.
+ Semesters war es Aufgabe, ein Projekt über die Dauer des Semesters anzufertigen.
+ Aufgabe des Projektes war die Erstellung eines Routenplaners mit Hilfe
+ des Kartenmaterials von OpenStreetMap.
  Die zu entwickelnde Software soll das Planen von Routen innerhalb Deutschlands
  ermöglichen.
+ Als Projektname wurde der Name „HTWmaps“ gewählt.
 \end_layout
 
 \begin_layout Standard
-Als Projektnamen haben wir den Namen „HTWmaps“ gewählt.
+Diese Dokumentation umfasst das Vorgehen im Projekt.
 \end_layout
 
 \begin_layout Subsubsection
-Das Projektteam
+Projektteam
 \end_layout
 
 \begin_layout Standard
 Das Projektteam, unter der Betreuung von Prof.
  Dr.
- Thomas Kretschmer, umfasste 8 Mitglieder mit verschiedenen Zuständigkeiten.
+ Thomas Kretschmer umfasste 8 Mitglieder.
  Die folgende Liste zeigt die Mitarbeiter, die am Projekt teilgenommen haben:
 \end_layout
 
@@ -126,7 +135,7 @@ Tartakowski, Stanislaw
 \end_layout
 
 \begin_layout Itemize
-Gökayya, Volkan
+Gökkaya, Volkan
 \end_layout
 
 \begin_layout Standard
@@ -141,11 +150,11 @@ Zielsetzung
 \begin_layout Standard
 Ziel des Projektes war die Fertigstellung der Software bis zum 30.
  September 2010.
- Der Prototyp sollte bis dahin den im Lastenheft definierten Funktionsumfang
+ Das Programm sollte bis dahin den im Lastenheft definierten Funktionsumfang
  besitzen.
- Außerdem sollte eine umfassende Dokumentation des Projektes er- stellt
- werden, welche ebenfalls bis zum 30.
- September 2010 vervollständigt und abgegeben sein sollte.
+ Außerdem sollte eine umfassende Dokumentation des Projektes erstellt werden,
+ welche ebenfalls bis zum 30.
+ September 2010 vollständig und abgegeben sein sollte.
  
 \end_layout
 
@@ -154,16 +163,27 @@ Zielgruppe
 \end_layout
 
 \begin_layout Standard
-HTWmaps gleicht im Aufbau anderen Online-Routenplanern.
- Es wurde versucht (soweit technisch und zeitlich möglich) die besten Funktionen
- dieser Routenplaner (z.B.
+HTWmaps gleicht im Aufbau anderen Online-Routenplanern (z.B.
  
-\color red
-GOOGLEmaps, Falk24,.....
 \color black
-) in HTWmaps einzubauen.
- Zielgruppe ist deswegen die selbe wie andere Routenplaner haben.
+GoogleMaps, Falk24, ViaMichelin)
+\color inherit
+.
+ Es wurde versucht, soweit technisch und zeitlich möglich, die besten Funktionen
+ dieser Routenplaner
+\color black
+ in HTWmaps einzubauen.
+ Die Zielgruppe unterscheidet sich deswegen nicht von anderen Routenplanern.
  Diese sind größtenteils Autofahrer.
+\end_layout
+
+\begin_layout Subsection
+Hinweis auf Gloassar
+\end_layout
+
+\begin_layout Standard
+In der Dokumentation „kursiv“ geschriebene Begriffe und wichtige Begriffe,
+ die in Grafiken auftreten, werden im Kapitel 5 (Glossar) erklärt.
 \end_layout
 
 \begin_layout Subsection
@@ -177,25 +197,26 @@ Vorgehensmodell Scrum (oder Code & Fix)
 \begin_layout Standard
 Die Projektgruppe hat sich für das agile Vorgehensmodell Scrum entschieden.
  Scrum beruht auf dem Prinzip, dass die Teammitglieder sich weitgehend selbst
- organisieren und das stetig darüber bestimmt wird, ob Funktionen wichtig
- sind und implementiert werden, oder ob es wichtigere Funktionen gibt, auf
- welche man sich konzentriert.
+ organisieren.
+ Es wird stetig darüber bestimmt, ob Funktionen wichtig sind und implementiert
+ werden, oder ob es wichtigere Funktionen gibt, auf welche man sich konzentriert.
  Die Projektteilnehmer hielten jede Woche Meetings, in denen neue Erkenntnisse
- berichtet wurden und zusammen weitergearbeitet wurde.
+ berichtet und zusammen weitergearbeitet wurde.
  Hierdurch konnte der noch zu erbringende Arbeitsaufwand abgeschätzt werden.
  Weiterhin haben sich die Projektteilnehmer auch außerhalb der regelmäßigen
- Meetings getroffen um zusammen aktuelle Schwierigkeiten zu besprechen.
+ Meetings getroffen, um zusammen aktuelle Schwierigkeiten zu besprechen
+ und zu bewältigen.
  
 \end_layout
 
 \begin_layout Standard
-Andere Modelle, wie beispielsweise das Wasserfallmodell, erschienen zu unexibel
+Andere Modelle, wie beispielsweise das Wasserfallmodell, erschienen zu unfexibel
  für die Aufgabenstellung.
  Obwohl das Projekt von Anfang bis Ende geplant wurde und das Vorgehen festgeleg
 t wurde, stellte sich häufiger herraus, dass (meist aus Performanz Gründen)
  das Vorgehen verändert werden musste.
  Dies traf größtenteils den Datenbankbereich, wodurch dann auch andere Teile
- überarbeitet werden musste.
+ überarbeitet werden mussten.
  Dies glich dann dem Vorgehensmodell Code & Fix.
  
 \end_layout
@@ -205,9 +226,9 @@ Gruppeneinteilung
 \end_layout
 
 \begin_layout Standard
-Das finden von Modulen und deren Abgrenzung auf abstrakter Ebene hat auf
- Anhieb funktioniert.
- Zu Beginn wurde geklärt welche Aufgaben grob vollzogen werden müssten.
+Das finden von Modulen und deren Abgrenzung auf abstrakter Ebene funktionierte
+ auf Anhieb.
+ Zu Beginn wurde geklärt welche Aufgaben grob vollzogen werden mussten.
  Hier wurden kleine Arbeitsgruppen gebildet.
  Die Gruppeneinteilung war jedoch keine leichte Aufgabe.
  Problematisch war, dass bis dato keiner der Teilnehmer den Realisierungsaufwand
@@ -216,9 +237,8 @@ Das finden von Modulen und deren Abgrenzung auf abstrakter Ebene hat auf
  zu trennen.
  Jedoch haben sich über die Projektphase hinweg Gruppen herauskristallisiert,
  da einige ein besonders großes Maß an Arbeit in ihre Aufgabe investierten
- und dementsprechend sich in ihrem Bereich sicherer fühlten, als in anderen
- Bereichen.
- Im Gesamtblick gab es diese Gruppen: 
+ und dementsprechend sich in ihrem Bereich sicher fühlten.
+ Im Gesamtblick ergaben sich folgende Gruppen: 
 \end_layout
 
 \begin_layout Standard
@@ -268,7 +288,7 @@ Algorithmen
 \begin_inset Text
 
 \begin_layout Plain Layout
-Volkan Goekayya, Lucian Schneider, Christian Rech
+Volkan Gökkaya, Lucian Schneider, Christian Rech
 \end_layout
 
 \end_inset
@@ -378,19 +398,11 @@ Christian Rech, Lucian Schneider
 \begin_layout Standard
 Die Tabelle zeigt nur Tätigkeit die sich über einen längeren Zeitraum erstreckte
 n.
- Jedes Teammitglied hat sich auch kurzfristig um andere Aufgaben gekümmert.
+ Jedes Teammitglied hat sich auch um andere Aufgaben gekümmert.
 \end_layout
 
 \begin_layout Subsection
 Produktumfang
-\end_layout
-
-\begin_layout Subsubsection
-Zielgruppe
-\end_layout
-
-\begin_layout Standard
-........
 \end_layout
 
 \begin_layout Standard
@@ -402,8 +414,187 @@ Da es bereits einige Routenplaner gibt konnte sich jeder Projektteilnehmer
  haben wir uns dies auch als Ziel gesetzt.
 \end_layout
 
+\begin_layout Standard
+Die Funktionen wurden im Lastenheft festgehalten und können dort nachgelesen
+ werden.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Allgemeines
+\end_layout
+
+\begin_layout Subsection
+Vorwort
+\end_layout
+
+\begin_layout Standard
+Sie erreichen die Web-Anwendung unter folgender URL: 
+\color blue
+www.HTWmaps.de
+\color inherit
+.
+ Getestet wurde die Anwendung von uns unter den aktuellen Versionen von
+ Mozilla Firefox und Google Chrome.
+\end_layout
+
+\begin_layout Subsection
+Projektabgrenzung
+\end_layout
+
+\begin_layout Standard
+Die zu erstellende Software bietet nicht alle Möglichkeiten und Optionen,
+ die machbar gewesen wären.
+ Aufgrund der zeitlichen Beschränkung mussten wir auf folgende Features
+ verzichten: 
+\end_layout
+
+\begin_layout Itemize
+Fußgänger- und Farradfahrerrouten 
+\end_layout
+
+\begin_layout Itemize
+Postleitzahlen 
+\end_layout
+
+\begin_layout Itemize
+Points of Interesst (POI)
+\end_layout
+
+\begin_layout Itemize
+Drucken der Routen
+\end_layout
+
+\begin_layout Subsection
+Programmiersprache 
+\end_layout
+
+\begin_layout Standard
+Der Code wurde überwiegend mit Java geschrieben.
+ Für die importierung des Codes in GWT mussten kleinere Stellen in JavaScript
+ geändert werden.
+ Ansonsten wurde noch HTML und CSS verwendet um die Oberfläche grafisch
+ aufzuarbeiten.
+\end_layout
+
+\begin_layout Subsection
+Wie sind die Daten aufbereitet
+\end_layout
+
+\begin_layout Standard
+.osm ist die Dateiendung der Datei, die Open Street Map als Kartenmaterial
+ kostenlos anbietet.
+ 
+\end_layout
+
+\begin_layout Standard
+Es ist eine XML Datei, die folgende Struktur enthält:
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+<knoten> 
+\end_layout
+
+\begin_layout Standard
+<tag/>
+\end_layout
+
+\begin_layout Standard
+</knoten> 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+<weg> 
+\end_layout
+
+\begin_layout Standard
+<ref Knoten/> 
+\end_layout
+
+\begin_layout Standard
+<tag/> 
+\end_layout
+
+\begin_layout Standard
+</weg> 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+<Beziehungen> 
+\end_layout
+
+\begin_layout Standard
+<ref weg/> 
+\end_layout
+
+\begin_layout Standard
+<tag/> 
+\end_layout
+
+\begin_layout Standard
+</ Beziehungen > 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/OSM.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Mit diesen Informationen kann jede Gegebenheit auf der Erde abgebildet werden.
+ Die germany.osm enthält das Kartenmaterial für ganz Deutschland.
+ Diese Datei ist gepackt 803MB groß (Stand: 02.09.2010).
+\end_layout
+
+\begin_layout Standard
+< Beziehungen > spielen im Rahmen unserer Software keine Rolle.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -411,15 +602,159 @@ Vorbereitende Tätigkeiten
 \end_layout
 
 \begin_layout Subsubsection
-Git
+Versionsverwaltung und Projekthosting
+\end_layout
+
+\begin_layout Standard
+Eine Versionsverwaltung war notwendig um mit dem ganzen Projektteam gleichzeitig
+ am Code arbeiten zu können.
+ Außerdem bietet eine Versionsverwaltung die Möglichkeit das Projekt auf
+ einen früheren Status zurückzusetzen und somit eventuelle Fehler zu beseitigen.
+ Wir kamen sehr schnell auf die Idee, hierfür einen geeigneten Projekthoster
+ zu benutzen um uns so einiges an Verwaltungsaufwand zu sparen.
+\end_layout
+
+\begin_layout Standard
+In der näheren Auswahl standen bei den Projekthostern GoogleCode, Sourceforge
+ und Github, bei den Versionsverwaltungen Apache Subversion und Git.
+ Die Seite des Projekthosters Github ist intuitiv und einfach zu bedienen,
+ sie bietet deshalb auch nur eine eingeschränkte Auswahl an Funktionen,
+ aber dennoch alles was wir für unser Projekt benötigten.
+ Sourceforge hat dagegen sehr viele Funktionen und ist aufwendig einzurichten
+ und zu verwalten.
+ GoogleCode bietet nicht die möglichkeit Git-Projekte zu hosten.
+ Somit lag unsere Präferenz bei den Projekthostern klar bei Github.
+ Github bietet auch noch einen weiteren Vorteil.
+ Mit Github ist es möglich das Projekt über HTTP zu managen.
+ Bei einem Versuch Git innerhalb der HTW über SSH zu verwenden scheiterten
+ wir an der Firewall der HTW.
+\end_layout
+
+\begin_layout Standard
+Subversion ist weit verbreitet und wurde auch schon von einigen Projektteilnehme
+rn benutzt.
+ Trotzdem entschieden wir uns für Git, da es nicht wie Subversion, einen
+ Serverorientierten Ansatz verfolgt, sondern die meisten Aktionen lokal
+ ausgeführt werden.
+ Dies bietet erstens einen Geschwindigkeitsvorteil und zweitens hat jeder
+ Projektteilnehmer eine komplette Kopie der gesamten History gespeichert,
+ was bei möglichen Ausfällen des Projekthosters von Vorteil ist.
+\end_layout
+
+\begin_layout Standard
+Plugins um Git zu bedienen (für unsere Entwicklungsumgebung (IDE)), erschienen
+ uns noch zu unausgereift und besaßen noch viele Fehler.
+ Deswegen entschieden wir uns Git über die Konsole zu bedienen.
+ Hierfür organisierten wir eine interne Schulung und zeigten allen wie die
+ Versionierung funktioniert.
+\end_layout
+
+\begin_layout Standard
+Hier wurde nicht nur gezeigt wie man seinen Code hochlädt (push) und runterlädt
+ (pull), es wurde auch gezeigt wie man mit Branches arbeitet und zu älteren
+ Versionen zurückspringt.
+ Dies wurde auch dokumentiert.
 \end_layout
 
 \begin_layout Subsubsection
 GWT
 \end_layout
 
+\begin_layout Standard
+Das Google Web Toolkit (GWT) ist ein Framework zur Entwicklung von Webanwendunge
+n der Firma Google.
+ GWT ist eine freie Software.
+ Sie besitzt einen Java-nach-Javascript-Compiler, wodurch Anwendungen teilweise
+ lokal im Browser und auf dem Web-Server ablaufen können.
+\end_layout
+
+\begin_layout Standard
+Zu Beginn des Projektes, hatte keiner in unsere Gruppe Erfahrungen mit GWT.
+ Bevor wir uns für GWT entschieden haben, hatten wir uns auch über JSP und
+ Servlets informiert.
+ Diese Sprachen erschienen uns aber wesentlich komplexer.
+ Da GWT ähnlich wie Java Swing funktioniert, konnten wir uns schnell einarbeiten.
+ Es wird von Google ein Tutorial angeboten, um das Bedienen von GWT zu erlernen,
+ welches die Verantwortlichen auch durchgearbeitet haben.
+\end_layout
+
 \begin_layout Subsubsection
 Server
+\end_layout
+
+\begin_layout Standard
+Da wir uns dafür entschieden haben eine Web-Anwendung zu entwickeln, benötigten
+ wir auch einen Server dafür.
+ Zu beginn importierten wir unsere Datenbank in MySQL bei einem kleinen
+ Web-Hoster.
+ Hier waren die Ressourcen aber sehr begrenzt und dies konnte nur eine Zwischenl
+ösung sein.
+ Also installierten wir uns einen Server, welcher dann bei einem Projektmitglied
+ am privaten Internet angeschlossen werden sollte.
+ Parallel fragten wir aber auch an der HTW nach, ob es hier nicht die Möglichkei
+t gibt einen Server bzw.
+ eine Virtuelle Maschine (VM) für unser Projekt zu bekommen.
+ So wurde uns von der Fachschaft Informatik eine Virtuelle Maschine auf
+ dem 
+\begin_inset Quotes eld
+\end_inset
+
+Studwork
+\begin_inset Quotes erd
+\end_inset
+
+ eingerichtet.
+ Hiermit möchten wir uns auch wieder recht herzlich dafür bedanken.
+ Die VM musste während des Projektes auch immer wieder erweitert werden.
+ So haben wir um einen zweiten Prozessor gebeten, um mit Threads programmieren
+ zu können.
+ Um die Performance zu steigern wurde der RAM auf 2 GB erweitert.
+ Außerdem wurde die Festplatte von 10 GB auf 20 GB erweitert.
+ Dies ist bei einer VM mit ein paar Befehlen eingerichtet.
+\end_layout
+
+\begin_layout Standard
+Als der Server stand, musste dieser auch noch eingerichtet werden.
+ Wir entschieden uns dafür Ubuntu Server als Betriebssystem zu installieren.
+ Als nächstes müssten noch eine Dienste (Deamons) eingerichtet werden, welche
+ wir zum arbeiten benötigten.
+ 
+\end_layout
+
+\begin_layout Standard
+Diese waren:
+\end_layout
+
+\begin_layout Itemize
+SSH - Um eine Verbindung zur VM herzustellen
+\end_layout
+
+\begin_layout Itemize
+MySQL - Um die Datenbank darauf laufen zu lassen
+\end_layout
+
+\begin_layout Itemize
+PHPmyAdmin - Um den MySQL Server zu konfigurieren
+\end_layout
+
+\begin_layout Itemize
+Apache - Um die Web-Anwendungen darauf laufen zu lassen
+\end_layout
+
+\begin_layout Itemize
+Git - Um den aktuellen Stand des Projektes zu laden
+\end_layout
+
+\begin_layout Itemize
+JRE - Um Code lokal ausführen zu können
+\end_layout
+
+\begin_layout Standard
+Außer der Installation mussten auch noch einige Konfigurationen gemacht
+ werden.
+ So wurde auch ein Start- und Endeskript erstellt.
+ Außerdem wurde an den Einstellungen von MySQL und Apache gearbeitet um
+ die maximale Performance raus zu holen.
 \end_layout
 
 \begin_layout Subsection
@@ -431,16 +766,37 @@ Die Daten bei Openstreet Maps sind derzeit noch unvollständig.
  So sind manchmal Wege und Straßen nicht verzeichnet, oder besitzen ungültige
  Namen, wie beispielsweise „unbekannt“.
  Auswirkung der Unvollständigkeit auf den Routenplaner haben folge Dinge
- Viele Straßen sind nicht verzeichnet, oder besitzen ungültige Namen Postleitzah
-len und Hausnummern sind fast nirgendwo erfasst Straßen sind fast nie mit
- einem Ort gekennzeichnet in dem sie liegen Häufige Rechtschreibfehler der
- Orte/Straßen Manche Orte hab keine Straßennamen Orte sind sehr selten klar
- voneinander getrennt (Keine Grenzen) Viele Orte, vor allem Dörfer sind
- vom falschen Typ (Hamlet, Village).
+ 
+\end_layout
+
+\begin_layout Itemize
+Viele Straßen sind nicht verzeichnet, oder besitzen ungültige Namen Postleitzahl
+en und Hausnummern sind fast nirgendwo erfasst 
+\end_layout
+
+\begin_layout Itemize
+Straßen sind fast nie mit einem Ort gekennzeichnet in dem sie liegen Häufige
+ Rechtschreibfehler der Orte/Straßen 
+\end_layout
+
+\begin_layout Itemize
+Manche Orte hab keine Straßennamen 
+\end_layout
+
+\begin_layout Itemize
+Orte sind sehr selten klar voneinander getrennt (Keine Grenzen) 
+\end_layout
+
+\begin_layout Itemize
+Viele Orte, vor allem Dörfer sind vom falschen Typ (Hamlet, Village).
  So variiert die Größe eines Dorfes sehr stark, jedoch haben viele Dörfer
  unterschiedlicher Größe im Kartenmaterial die gleiche Beschreibung.
  Ein kleines Dorf muss als „Hamlet“ beschrieben werden, ab ca.
- 2km Durchmesser schon „Village“ Es gibt Orte zu denen keine Straße führt.
+ 2km Durchmesser schon „Village“ 
+\end_layout
+
+\begin_layout Itemize
+Es gibt Orte zu denen keine Straße führt.
  Der Algorithmus versagt an dieser Stelle.
  Vor allem sind Straßen problematisch, die keinem Ort zugeordnet wurden.
  Der Benutzer muss in der Lage sein, eine Straße und einen Ort anzugeben,
@@ -477,6 +833,13 @@ Straßen in Orten, die als solche exakt gekennzeichnet sind (Polygone), sind
 
 \begin_layout Standard
 Anzahl der Daten, die effektiv der Datenbank entnommen werden können.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -552,29 +915,97 @@ Straßen
 
 \end_layout
 
-\begin_layout Subsection
-Gesamtes UML
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
 \end_layout
 
-\begin_layout Subsubsection
-Vorwort
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/unvollst_Daten.png
+	lyxscale 60
+	display false
+	scale 60
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Subsubsection
-Klassen und Pakete
-\end_layout
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
 
-\begin_layout Subsubsection
-Klassen untereinander
+
 \end_layout
 
 \begin_layout Section
 Lastenheft
 \end_layout
 
+\begin_layout Subsection
+Vorwort
+\end_layout
+
 \begin_layout Standard
-Das Lastenheft mit den unterstützten Funktionen & Anforderungen finden Sie
- im Anhang
+Das komplette Lastenheft mit den unterstützten Funktionen & Anforderungen
+ finden Sie im Anhang.
+ Im nächsten Unterpunkt möchten wir Ihnen aber einen Überblick über die
+ Funktionen geben.
+\end_layout
+
+\begin_layout Subsection
+Beschreibung der Funktionen
+\end_layout
+
+\begin_layout Description
+Festlegen des Startpunktes: Der Benutzer wählt seinen Startpunkt aus, indem
+ er eine Startadresse im Programm eingibt.
+\end_layout
+
+\begin_layout Description
+Optionales Auswählen von Zwischenstopps: Falls Zwischenstopps erwünscht
+ sind, kann der Benutzer diese im Programm eingeben.
+\end_layout
+
+\begin_layout Description
+Festlegen des Zielpunktes: Der Benutzer wählt einen Zielpunkt aus, indem
+ er eine Zieladresse im Programm eingibt.
+ Auswahlmöglichkeit kürzeste- und schnellste Route Dem Benutzer soll es
+ möglich sein auszuwählen, ob die kürzeste Route oder die schnellste Route
+ berechnet werden soll.
+\end_layout
+
+\begin_layout Description
+Eingeben der Durchschnittsgeschwindigkeit: Die zur Berechnung notwendigen
+ Durchschnittsgeschwindigkeiten können vom Benutzer für die verschiendenen
+ Verkehrswege angepasst werden.
+\end_layout
+
+\begin_layout Description
+Berechnen der Route: Die Eingabedaten werden verarbeitet und die entsprechende
+ Route wird berechnet.
+\end_layout
+
+\begin_layout Description
+Ausgabe der Route: Der Benutzer erhält eine schriftliche Wegbeschreibung
+ und die dazugehörige grafische Darstellung der Route in Form einer Karte.
+\end_layout
+
+\begin_layout Description
+Eingabe: Die Eingabe der Startadresse, Zieladresse und der Zwischenstopps
+ erfolgt mit Ortsname und Straßenname.
+ Hausnummern und Postleitzahl werden nicht Berücksichtigt.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -586,10 +1017,163 @@ Vorwort
 \end_layout
 
 \begin_layout Standard
-Die folgende Dokumentation erläutert den Aufbau von HTWmaps.
+Der folgende Abschnitt erläutert den Aufbau von HTWmaps.
  Sie geht auf das zu Grunde liegende Konzept, die Implementierung und den
  Aufbau der Datenbank ein.
  
+\end_layout
+
+\begin_layout Subsection
+Gesamtes UML
+\end_layout
+
+\begin_layout Subsubsection
+Klassen und Pakete
+\end_layout
+
+\begin_layout Paragraph
+Vorwort
+\end_layout
+
+\begin_layout Standard
+Dieser Abschnitt dient dazu um Ihnen einen Überblick über die Paketstruktur
+ des Projektes zu geben.
+ Es handelt sich hier um eine abstrakte Ansicht aller Klassen, welche nur
+ die wichtigsten Klassen und darin die wichtigsten Methoden auflisted.
+\end_layout
+
+\begin_layout Paragraph
+Aufbau GWT
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Beim anlegen eines GWT Projektes wird eine Grundstruktur an Paketen mit
+ angelegt.
+ Diese Pakete heißen: 
+\end_layout
+
+\begin_layout Itemize
+Client - Code in diesem Ordner wir als JavaScript auf dem Client ausgeführt
+ 
+\end_layout
+
+\begin_layout Itemize
+Shared - Dient als Schnittstelle zwischen Client und 
+\end_layout
+
+\begin_layout Itemize
+Server Server - Code wird auch dem Serve ausgeführt
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/htwmaps_pakete.png
+	display false
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In den einzelnen Pakete bedindet sich eine von uns selbst angelegt Paket-Struktu
+r um unseren quellcode zu organisieren.
+\end_layout
+
+\begin_layout Paragraph
+Server Bereich
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In dem Paket Server finden Sie folgende Struktur:
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/htwmaps.server.png
+	lyxscale 60
+	display false
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Client Bereich
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In dem Paket Server finden Sie folgende Struktur:
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/htwmaps.client.png
+	display false
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -605,7 +1189,8 @@ Der Benutzer interagiert mit der Software über einen Javaskript-fähigen
 \begin_inset Graphics
 	filename Images/Ablauf_alg.png
 	lyxscale 70
-	scale 70
+	display false
+	scale 40
 
 \end_inset
 
@@ -620,8 +1205,180 @@ Datenbank
 Vorwort
 \end_layout
 
+\begin_layout Standard
+
+\color red
+Warum SQL und nicht XML?
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bereich
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anzahl
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Straßen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1,870,958
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Orte
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+43,547
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Knoten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+45,125,605
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kanten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11,695,294
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Für Für Algorithmus optimierte Kanten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3,113,686
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Für Algorithmus optimierte Knoten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2,412,902
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Konzept
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Erst Normalisierung dann wegen Performance doch Redundanz eingebaut
 \end_layout
 
 \begin_layout Subsubsection
@@ -821,6 +1578,46 @@ geLength berechnet Größe ~11,695,294 Einträge Indizes ID: Primärschlüssel
  node1lat: node1lon: node2lat: node2lon: 
 \end_layout
 
+\begin_layout Subsubsection
+Kantenoptimierung
+\end_layout
+
+\begin_layout Standard
+Im Rahmen der Performanceoptimierung der Wegsuche wurde eine Kantenoptimierung
+ realisiert.
+ Hierbei handelt es sich um einen optimierten (schlankeren) Graphen.
+ Dieser Graph unterscheidet sich vom ursprünglichen Graphen, den man aus
+ der OSM Datei entnehmen kann, um die Anzahl der Knoten und Kanten.
+ Die Anzahl wurde erheblich reduziert.
+ Es gibt im OSM Kartenmaterial viele Knoten, die für die Wegsuche keinen
+ brauchbaren Wert haben, auch wenn sie auf der Straße liegen, die eine Ergebniss
+traße ist.
+ 
+\end_layout
+
+\begin_layout Standard
+Dieses Bild veranschaulicht die Beschreibung:
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/kantenoptimierung.png
+	lyxscale 60
+	display false
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Algorithmen
 \end_layout
@@ -829,8 +1626,9 @@ Algorithmen
 Vorwort
 \end_layout
 
-\begin_layout Subsubsection
-Konzept
+\begin_layout Standard
+In diesem Abschnitt erhalten Sie einen Überblick über die wichtigsten Algorithme
+n.
 \end_layout
 
 \begin_layout Subsubsection
@@ -839,13 +1637,6 @@ Routingalgorithmus
 
 \begin_layout Paragraph
 A*
-\end_layout
-
-\begin_layout Standard
-\begin_inset space ~
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -879,9 +1670,409 @@ e zum gefundenen Weg.
 \end_layout
 
 \begin_layout Standard
+\begin_inset space ~
+\end_inset
 
-\color red
-[Momentaufnahme]
+
+\begin_inset Newline newline
+\end_inset
+
+Momentaufnahme
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/AStar_Bi_Momentaufnahme.png
+	lyxscale 60
+	display false
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Die rosa Punkte zeigen jeden Knoten der vom Algorithmus derzeit besucht
+ wurde.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Wenn jede Kante denselben Abstand besitzt, dann kann man die Ausbreitung
+ der Algorithmen auf dem Graphen veranschaulichen:
+\end_layout
+
+\begin_layout Subparagraph
+Dijkstra:
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/dijkstra_kreis.png
+	lyxscale 60
+	display false
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+Dijkstra Bidirectional:
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/dijkstra_2kreis.png
+	display false
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+A*:
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/aSTar.png
+	display false
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+A* Bidirectional:
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/astarBi.png
+	display false
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Das bidirektionale Verfahren ist immer performanter, da weniger Knoten besucht
+ werden.
+ 
+\end_layout
+
+\begin_layout Standard
+Entscheidend, was die Performance betrifft, ist eine optimale Datenstruktur.
+ 
+\end_layout
+
+\begin_layout Subparagraph
+Ohne auf Details einzugehen gibt das folgende Bild einen ausreichenden Eindruck:
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/Fibonacci_Heap.png
+	lyxscale 60
+	display false
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Zur Laufzeitoptimierung, verwenden beide Algorithmen den „Fibonacci Heap“.
+ Diese Datenstruktur ist prinzipiell eine sehr performante Prioritätsliste.
+ Sie wurde nicht vom Projektteam implementiert, sondern im Internet gefunden.
+ Leider ist es nicht gelungen den bidirektionalen A* deterministisch zu
+ implementieren.
+ Das Ergebnis hängt vom Thread-Scheduling der JVM ab und liefert manchmal
+ unterschiedliche Ergebnisse bei unveränderter Eingabe.
+ Allerdings ist der „Fehler“ nie schwerwiegend, da sich A* zielorientiert
+ auf dem Graphen ausbreitet.
+ 
+\end_layout
+
+\begin_layout Subparagraph
+Zum besseren Verständnis des Problems dient folgende Graphik:
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/thread1_thread2.png
+	lyxscale 60
+	display false
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Selektierung durch Rechteck
+\end_layout
+
+\begin_layout Standard
+Die Idee, die Daten aus der Datenbank aus einem Rechteckbereich zu beziehen,
+ hat sich im Vergleich zum Parabelselekt als performanter erwiesen.
+ Das Rechteck ähnelt auch einer Ellipse und ist im Gegensatz zur Parabel
+ immer gleich breit in der Fläche.
+ Es gibt ein kleines, inneres Rechteck das alle Straßen empfängt und ein
+ sehr großes äußeres, das nur Autobahnen empfängt.
+ Hier die Formeln für die jeweiligen Fälle von Start- und Endknoten 
+\end_layout
+
+\begin_layout Standard
+Legende: S=Start E=Ende und deren koordinaten y=Latitude x=Longitude h=Breite.
+ 
+\end_layout
+
+\begin_layout Standard
+In der Software ist h=30KM.
+ Dh das innere Rechteck ist 30 Km breit.
+ Das Autobahnrechteck ist 240 Km breit.
+ Wenn Sy < Ey && Sx < Ex
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/rechteck_formel_1.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Punkt ist drin, wenn: punktY < a(punktX) && punktY > b(punktX) && punktY
+ > c(punktX) && punktY < d(punktX).
+\end_layout
+
+\begin_layout Standard
+(2) Wenn Sy>Ey && Sx < Ex
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/rechteck_formel_2.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Punkt ist drin wenn: PunktY >d(PunktX) && PunktY < c(PunktX) && punktY>
+ a(punktX) && punktY<b(punktX)
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/rechteck_formel_3.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Punkt ist drin, wenn: punktY > a(punktX) && punktY<b(punktX)&&punktY<c(punktX)&&
+punktY>d(punktX).
+ Wenn Sy<Ey&&Sx>Ex
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/rechteck_formel_4.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Punkt ist drin, wenn: PunktY < a(punktX) && punktY > b(punktX) && punktY
+ > c(punktX) && punktY < d(punktX)
 \end_layout
 
 \begin_layout Subsubsection
@@ -915,8 +2106,9 @@ raßenbezeichnung gruppiert werden.
  Sobald alle Daten zu einer gefunden Route gesammelt wurden, gibt es eine
  Methode in der Klasse RouteToText, welche aus diesen Daten eine schriftliche
  Routenbeschreibung generiert.
- Dies geschieht durch verschachtelte if-then Abfragen, welche je nach Eigenschaf
-t des Streckenabschnittobjektes einen Text zur Routenbeschreibung hinzufügt.
+ Dies geschieht durch verschachtelte IF-THEN Abfragen, welche je nach Eigenschaf
+t des Streckenabschnittobjektes einen Text zur Routenbeschreibung hinzufügt
+ (eine genauere Beschreibung finden Sie im nächsten Paragraphen).
 \end_layout
 
 \begin_layout Standard
@@ -930,8 +2122,91 @@ Die Klasse RouteToText ist außerdem dafür verantwortlich, dass eine Statistik
  befahren.
 \end_layout
 
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/RTT.png
+	display false
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+buildRouteInfo():
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In dieser Methode wird durch Verwendung einiger Methoden der Klasse RoutToText.ja
+va eine Beschreibung des Weges ausgegeben.
+ Dabei ist es wichtig zu beachten, in welchem Straßentyp (zB.
+ Highwaytype = 1) man sich befindet und auf welchen Straßentyp man als nächstes
+ fährt.
+ Diese Unterscheidung geschieht in mehreren IF-THEN Abfragen.
+ Ein weiterer, wichtiger Punkt ist es zu unterscheiden, ob man in die nächste
+ Straße abbiegt, oder nur geradeaus fährt und sich dabei der Straßenname
+ lediglich ändert.
+ Das Problem, dass wenn man die Autobahn verlässt und auf die gleiche wieder
+ auffährt wurde mittels einer Schleife gelöst, die prüft ob sich der Name
+ verändert oder nicht.
+\end_layout
+
+\begin_layout Subsubsection
+Datenbank Connector
+\end_layout
+
+\begin_layout Standard
+Der Datenbank Connector stellt über die JDBC Schnittstelle eine Verbindung
+ zum MySQL-Server her.
+ Dazu ist es notwenig einen JDBC-Treiber, in diesem Fall einen speziellen
+ Java-MySQL-Connector in das Projekt einzubinden.
+ Ursprünglich war der Datenbank Connector als Singleton realisiert, da es
+ logisch erschien immer nur eine Verbindung zum Datenbankserver herstellen
+ zu können.
+ Dies musste jedoch später verworfen werden, da sich herausstellte, dass
+ eine ständig offene Verbindung zum MySQL zu Speicherlecks führte.
+ Der Connector liest seine Verbindungsdaten mittels der Porberty-Klasse
+ aus einer Konfigurationsdatei aus.
+\end_layout
+
 \begin_layout Subsubsection
 Property-Klasse
+\end_layout
+
+\begin_layout Standard
+Mit Hilfe einer Property-Klasse ist es in Java sehr einfach aus einer einfachen
+ Text-Datei Werte auszulesen.
+ Hier geht man in der Text-Datei ähnlich vor wie bei der Variablen-Zuweisung.
+ Diese Werte können dann über das Property-Objekt in Java verwendet werden.
+ Die Property-Klasse wurde bei uns durch ein Singleton Muster implementiert,
+ da wir nur ein Property-File haben und mehrere Klassen das selbe Objekt
+ verwenden können.
+ In der Property-Datei wurden die Zugangsdaten zum SQL-Server abgelegt.
+ Ein Eintrag in der Git-Ignore Datei hat dann dafür gesorgt, dass die Datei
+ mit den SQL Zugangsdaten nicht ins Internet auf unser öffentliches Repository
+ geladen wird.
 \end_layout
 
 \begin_layout Subsection
@@ -942,225 +2217,537 @@ GUI
 Vorwort
 \end_layout
 
+\begin_layout Standard
+Um unsere GUI zu gestalten haben wir uns für das Google Web Toolkit entschieden.
+ Der wichtigste Punkt für diese Software war, dass sie ein Java-nach-Javascript-
+Compiler besitzt.
+ Da keiner von uns Erfahrung mit Javascript hat.
+ So konnten wir die Oberfläche in Java entwickeln und das Google Web Toolkit
+ hat diesen Java Code dann nach Javascript übersetzt.
+\end_layout
+
 \begin_layout Subsubsection
 Konzept
+\end_layout
+
+\begin_layout Standard
+Mit unserem ersten Entwurf haben wir uns entscheiden die GUI in 3 wesentliche
+ Teile zu unterteilen.
+ Diese sind die Folgenden:
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/HtwMaps_bereiche.png
+	lyxscale 60
+	display false
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Der blaue Bereich ist unser Status- und Informationsbereich.
+ Der Auswahl- und Optionsbereich befindet sich im roten Bereich.
+ Der grüne Bereich ist der Kartenbereich.
+\end_layout
+
+\begin_layout Subsubsection
+Status- und Informationsbereich
+\end_layout
+
+\begin_layout Standard
+Im Status und Informationsbereich befindet sich neben unserem Logo der Statusber
+eich.
+ Dieser informiert den Benutzer, welchen Zustand das Programm gerade hat.
+ Dieser zeigt bei Programmstart den Status “Bereit”.
+ Weitere Zustände sind: 
+\end_layout
+
+\begin_layout Itemize
+“Berechne Route” dieser Zustand wird angezeigt sobald der Benutzer auf den
+ “Route berechnen” Button drückt 
+\end_layout
+
+\begin_layout Itemize
+“Ihre Route wurde berechnet.”, wenn eine Route gefunden wird
+\end_layout
+
+\begin_layout Standard
+Dazu gibt es noch weitere verschiedene Fehlermeldungen, die dann in roter
+ fetter Schrift erscheinen und den Fehler genau deklarieren.
+ Beispiele dazu sind:
+\end_layout
+
+\begin_layout Itemize
+“Leeres Ortsfeld: 1” diese Fehlermeldung sagt aus, dass das Ortsfeld in
+ der 1.
+ Zeile keinen Text enthält.
+ 
+\end_layout
+
+\begin_layout Itemize
+“Leeres Straßenfeld: 1” diese Fehlermeldung sagt aus, dass das Straßenfeld
+ in der 1.
+ Zeile keinen Text enthält.
+ 
+\end_layout
+
+\begin_layout Itemize
+“Falsche Angaben in Zeile: 2” bedeutet, dass keine sinnvollen Angaben in
+ einem der beiden Feldern vorhanden ist.
+ Diese trifft zu wenn zum Beispiel Zahlen eingegeben hat oder die Straße
+ nicht in der Datenbank vorhanden ist wegen der Ungenauigkeit der Daten.
+\end_layout
+
+\begin_layout Standard
+Am rechten Rand befinden sich dann noch 2 Hyperlinks.
+ Zum einen “Über” und “Berechnungsinformationen”.
+ Bei beiden Hyperlinks öffnet sich nach dem drücken ein Popup in der Mitte
+ des Browsers.
+\end_layout
+
+\begin_layout Paragraph
+Über
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/ueber.PNG
+	lyxscale 70
+	display false
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hier werden allgemeine Informationen zum Projekt bereitgestellt, wie um
+ welche Version es sich handelt.
+ Außerdem stehen alle Namen die an dem Projekt mitgearbeitet haben.
+\end_layout
+
+\begin_layout Paragraph
+Berechnungsinformationen
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/berechnungsinfos.PNG
+	display false
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hier wird nach ein erfolgreichen Berechnung, Informationen zu Berechnung
+ dargestellt, wie zum Beispiel wie viele Knoten der Algorithmus zu Berechnung
+ sich aus der Datenbank genommen hat oder wie lange die Berechnung insgesamt
+ gedauert hat.
+\end_layout
+
+\begin_layout Subsubsection
+Auswahl- und Optionsbereich
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/Optionsbereich.PNG
+	display false
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Im oberen Bereich kann der Client seine Start- und Zieldaten eingeben.
+ Die Ort- und Straßenfeldern besitzen eine Autofill- Funktionen.
+ Diese sucht nach Eingabe der ersten Buchstaben in der Datenbank nach gleichen
+ Orten oder Straßen die mit diesen Buchstaben beginnen.
+ So dass ein Auswahlbox erscheint, in der der Client dann den Ort oder Straße
+ nur noch auswählen muss.
+ 
+\end_layout
+
+\begin_layout Standard
+Neben jedem Ort- und Straßenfeld befindet sich ein Button mit einem “+”
+ Zeichen.
+ Mit diesem Button kann der Client ein neues Zwischenziel hinzufügen.
+ Diese wird dann ein Zeile darunter eingefügt.
+ Es ist möglich, so viele Zwischenziele wie man will, hinzuzufügen.
+ Wenn mehr als 2 Orts- und Straßenfelder vorhanden sind, erscheint dazu
+ hinter dem “+” Button noch ein zweiter Button mit einem “-” Zeichen.
+ Mit diesem kann man die momentane Zeile wieder löschen.
+ Darunter ist der “Route berechnen” Button angebracht.
+ Beim drücken dieses Buttons werden die eingegebenen Informationen an den
+ Server geschickt und versucht zu diesen Eingaben eine Route zu finden.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Anschließend folgen 3 Hyperlinks.
+ Diese sind “Optionen”, “Zusammenfassung” und “Wegbeschreibung”.Beim drücken
+ dieser Hyperlinks öffnet sich darunter ein Feld, in dem man Optionen angeben
+ kann, oder die Zusammenfassung dargestellt wird.
+\end_layout
+
+\begin_layout Paragraph
+Optionen
+\end_layout
+
+\begin_layout Standard
+Hier kann man zu aller erst die Routenart festlegen.
+ Man kann wählen zwischen “schnellste” und “kürzeste”.
+ Standardmäßig ist die “schnellste” ausgewählt.
+ Darunter kann der Benutzer seine Geschwindigkeit eintragen mit der er die
+ verschieden Straßenabschnitte absolvieren will.
+ Mit dieser Information wird die Zeitangabe, wie lange er für die Route
+ benötigt, dann genau auf seine Fahrverhalten abgestimmt.
+ Im folgenden kann er noch zwischen den zwei implementierten Algorithmen
+ wählen.
+ Zum einen “A*” oder “A* Bideriktional”.
+ Hier ist standardmäßig “A*” eingestellt.
+\end_layout
+
+\begin_layout Paragraph
+Zusammenfassung
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hier wird nach einer erfolgreichen Berechnung Angaben zu der Route gemacht.
+ 
+\end_layout
+
+\begin_layout Itemize
+“Gesamt” zeigt die zu fahrenden km und die benötigte Zeit der gesamten Route
+ 
+\end_layout
+
+\begin_layout Itemize
+“Autobahn” zeigt nur die zu fahrenden km und die benötigte Zeit die der
+ Benutzer auf der Autobahn verbringt 
+\end_layout
+
+\begin_layout Itemize
+“Landstraße” zeigt nur die zu fahrenden km und die benötigte Zeit die der
+ Benutzer auf der Landstraße verbringt 
+\end_layout
+
+\begin_layout Itemize
+“Innerorts” zeigt nur die zu fahrenden km und die benötigte Zeit die der
+ Benutzer innerhalb eines Ortes verbringt
+\end_layout
+
+\begin_layout Subparagraph
+Wegbeschreibung
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hier wird die textuelle Ausgabe der Route dargestellt.
+\end_layout
+
+\begin_layout Subsubsection
+Kartenbereich
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/map.PNG
+	lyxscale 80
+	display false
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In diesem Bereich wird die Karte angezeigt.
+ Sie wird mit Hilfe von mapstraction.com dargestellt.
+ Die eine eigene API für die Einbindung von verschieden Karten bereitstellen.
+ Bei Programmstart sieht man ganz Deutschland.
+ Nach einer erfolgreichen Berechnung wird die Karte auf die Route verkleinert,
+ so dass Start- und Zielpunkt zu sehen ist.
+ Start- und Zielpunkt werden zusätzlich mit einem Marker hervorgehoben.
+ Die Strecke wird mit einer roten Linie gekennzeichnet.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
 Glossar
 \end_layout
 
-\begin_layout Standard
-\begin_inset Tabular
-<lyxtabular version="3" rows="10" columns="2">
-<features>
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Wort
+\begin_layout Description
+A Stern (A*): Suchalgorithmus.
+ Er dient in der Informatik der Berechnung eines kürzesten Pfades zwischen
+ zwei Knoten in einem Graphen mit positiven Kantengewichten
 \end_layout
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Beschreibung
+\begin_layout Description
+Autofill: Funktion: Nach Eingabe der ersten Buchstaben in einem Suchfeld,
+ wird in der Datenbank nach gleichen Orten oder Straßen die mit diesen Buchstabe
+n beginnen gesucht.
 \end_layout
 
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Route
+\begin_layout Description
+Bidirektional: Es wird ein möglichst mittlerer Punkt innerhalb der Sart-Ziel
+ Strecke gewählt.
+ Dieser Punkt wird geichzeitig vom Zielpunkt und vom Startpunkt geroutet.
 \end_layout
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-asdkopkp oijadsoij ijasoidn dfnjnoijasoid adsdnoi
+\begin_layout Description
+Branch: Dient zur Entwicklung von Programmen in unterschiedlichen Entwicklungszw
+eigen (engl.
+ Branches) eines Projektes.
 \end_layout
 
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+\begin_layout Description
+Client: Ein Client ist ein Computerprogramm, das Kontakt zu einem anderen
+ Computerprogramm, dem Server, aufnimmt, um dessen Dienstleistung zu nutzen.
 \end_layout
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+\begin_layout Description
+Code & Fix: Vorgehensmodell der Softwareentwicklung, bei der sehr schnell
+ angefangen wird zu programmieren (ohne Gedanken über das Design bzw Programmier
+stil).
+ Nach einer bestimmten Zeit wird getestet und evtl.
+ Verbesserungen vorgenommen
 \end_layout
 
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+\begin_layout Description
+Dijkstra: dient der Berechnung eines kürzesten Pfades zwischen einem Startknoten
+ und einem oder mehreren beliebigen Knoten in einem kantengewichteten Graphen.
 \end_layout
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+\begin_layout Description
+ER- Diagramm: Die grafische Darstellung von Entitätstypen und Beziehungstypen
+ wird Entity-Relationship-Diagramm oder ER-Diagramm genannt.
 \end_layout
 
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+\begin_layout Description
+Framework: Ein Framework ist ein Programmiergerüst, das in der Softwaretechnik,
+ insbesondere im Rahmen der objektorientierten Softwareentwicklung sowie
+ bei komponentenbasierten Entwicklungsansätzen, verwendet wird.
 \end_layout
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+\begin_layout Description
+GitHub: GitHub ist ein Hosting-Dienst für webbasierte Projekte, welche das
+ Git-Versionsverwaltungs-System verwenden.
 \end_layout
 
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+\begin_layout Description
+Graphical User Interface (GUI): Software-Komponente, die dem Benutzer eines
+ Computers die Interaktion mit der Maschine über grafische Symbole erlaubt.
 \end_layout
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+\begin_layout Description
+Google Web Toolkit (GWT): Das Google Web Toolkit ist ein Framework zur Entwicklu
+ng von Webanwendungen.
 \end_layout
 
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+\begin_layout Description
+Javascript: JavaScript ist eine Skriptsprache, die hauptsächlich in Web-Browsern
+ eingesetzt wird.
 \end_layout
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+\begin_layout Description
+Konstruktor: Prozeduren bzw.
+ Methoden, die beim Erzeugen von Objekten und Variablen aufgerufen werden.
 \end_layout
 
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+\begin_layout Description
+Lastenheft: Das Lastenheftbeschreibt dieGesamtheit der Forderungen des Auftragge
+bers an die Lieferungen und Leistungen eines Auftragnehmers
 \end_layout
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+\begin_layout Description
+OpenStreetMap: OpenStreetMap (abgekürzt OSM) ist ein Open-Source-Projekt
+ mit dem Ziel, ein für jeden freiverfügbares weltweites Geodaten-Material,
+ z.B.
+ Karten oder Routing-Dienste, in elektronischer Form zu schaffen.
 \end_layout
 
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+\begin_layout Description
+Popup: Visuelles Element eines Computerprogramms, das in manchen Situationen
+ aufspringt und dabei andere Teile überdeckt.
 \end_layout
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+\begin_layout Description
+Property-Klasse: Klasse in Java, um sehr einfach Werte aus Text Dateien
+ zu lesen.
 \end_layout
 
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+\begin_layout Description
+Repository: Verwaltetes Verzeichnis zur Speicherung und Beschreibung von
+ digitalen Objekten.
+ Bei den verwalteten Objekten kann es sich beispielsweise um Programme (Software
+-Repository) handeln.
 \end_layout
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+\begin_layout Description
+Rendern: Der Begriff Rendern bezeichnet die Erstellung einer Grafik aus
+ einer Skizze oder einem Modell.
 \end_layout
 
-\end_inset
-</cell>
-</row>
-</lyxtabular>
+\begin_layout Description
+Routenplaner: Computerprogramme, mit deren Hilfe ein Weg zwischen einem
+ Start- und einem Zielort gefunden werden kann
+\end_layout
 
-\end_inset
+\begin_layout Description
+RouteToText: Methode um die gefundene Route in schriftlicher Form auszugeben.
+\end_layout
 
+\begin_layout Description
+Routingalgorithmus: Algorithmus.
+ um von einem Startpunkt zu einem Zielpunkt zu gelangen.
+\end_layout
 
+\begin_layout Description
+Scrum: Vorgehensmodell der agilen Softwareentwicklung.
+\end_layout
+
+\begin_layout Description
+Singleton: Das Singleton ist ein in der Softwareentwicklung eingesetztes
+ Entwurfsmuster und gehört zur Kategorie der Erzeugungsmuster.
+ Es verhindert, dass von einer Klasse mehr als ein Objekt erzeugt werden
+ kann.
+\end_layout
+
+\begin_layout Description
+SourceForge: SourceForge ist ein Repository in Form einer Website, welche
+ Programmierern die Möglichkeit bietet, quelloffene Softwareprojekte zu
+ erstellen und zu verwalten.
+\end_layout
+
+\begin_layout Description
+Tag: Geodaten, die mit Informationen versehen wurden um zB.
+ aus Ihnen automatische Karten zu generien.
+ (Bsp: highway=motorway).
+\end_layout
+
+\begin_layout Description
+Unified Modeling Language (UML): Graphische Modellierungssprache zur Spezifikati
+on, Konstruktion und Dokumentation von Teilen von Software und anderen Systemen
+\end_layout
+
+\begin_layout Description
+Vorgehensmodell: dient dazu, die Softwareentwicklung übersichtlicher zu
+ gestalten und in der Komplexität beherrschbar zu machen.
+\end_layout
+
+\begin_layout Description
+Wasserfallmodell: Das Wasserfallmodell ist ein lineares (nicht-iteratives)
+ Vorgehensmodell in der Softwareentwicklung, bei dem der Softwareentwicklungspro
+zess in Phasen organisiert wird.
+ Dabei gehen die Phasenergebnisse wie bei einem Wasserfall immer als bindende
+ Vorgaben für die nächst tiefere Phase ein.
 \end_layout
 
 \begin_layout Section
@@ -1176,11 +2763,16 @@ Testplan
 \end_layout
 
 \begin_layout Itemize
-Meeting Protokolle
+Nachweis des Zeitaufwandes
 \end_layout
 
-\begin_layout Itemize
-Zeitnachweis
+\begin_layout Section
+Quellenangabe
+\end_layout
+
+\begin_layout Standard
+Die Formulierungen des Glossars wurden Teilweise aus Wikipedia (www.wikipedia.de)
+ kopiert.
 \end_layout
 
 \end_body
