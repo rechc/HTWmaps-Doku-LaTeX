@@ -1442,7 +1442,11 @@ In der ersten Version des Datenbanksschemas ging man davon aus, dass zum
  Mit dem Umstieg von Saarland nach Deutschland wurde jedoch schnell klar,
  dass die Performance sehr stark unter dem normalisierten Datenbankentwurf
  leidet.
- Ein neuer Ansatz brachte zwei wichtige Änderungen:
+ 
+\end_layout
+
+\begin_layout Standard
+Ein neuer Ansatz brachte zwei wichtige Änderungen:
 \end_layout
 
 \begin_layout Enumerate
@@ -1901,6 +1905,7 @@ Zum besseren Verständnis des Problems dient folgende Graphik:
 
 \begin_layout Subparagraph
 Selektierung durch Rechteck
+\end_layout
 
 \begin_layout Paragraph
 Selektierung der Knoten und Kanten aus der Datenbank
@@ -1925,7 +1930,6 @@ Anfangs wurden immer alle Kanten und Knoten aus der Datenbank geladen um
 \begin_layout Standard
 \begin_inset Graphics
 	filename Images/selekts/rechteckSelekt1.png
-	display false
 	scale 40
 
 \end_inset
