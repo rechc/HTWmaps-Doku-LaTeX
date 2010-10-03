@@ -1496,7 +1496,29 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\begin_inset Graphics
+	filename Images/db/db-1.png
+	display false
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Aufbau
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/db/db-2.png
+	display false
+	width 90col%
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
