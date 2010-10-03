@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -2194,7 +2194,8 @@ Der Datenbank Connector stellt über die JDBC Schnittstelle eine Verbindung
  logisch erschien immer nur eine Verbindung zum Datenbankserver herstellen
  zu können.
  Dies musste jedoch später verworfen werden, da sich herausstellte, dass
- eine ständig offene Verbindung zum MySQL zu Speicherlecks führte.
+ die Klasse unter GWT die MySQL Verbindung stetig offen hielt, was zu Speicherle
+cks führte.
  Der Connector liest seine Verbindungsdaten mittels der Porberty-Klasse
  aus einer Konfigurationsdatei aus.
 \end_layout
