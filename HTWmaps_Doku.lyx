@@ -2292,7 +2292,8 @@ Der Datenbank Connector stellt über die JDBC Schnittstelle eine Verbindung
  logisch erschien immer nur eine Verbindung zum Datenbankserver herstellen
  zu können.
  Dies musste jedoch später verworfen werden, da sich herausstellte, dass
- eine ständig offene Verbindung zum MySQL zu Speicherlecks führte.
+ dies zu einer ständig offenen Verbindung zum MySQL Server und diese offene
+ Verbindung wiederum zu Speicherlecks führte.
  Der Connector liest seine Verbindungsdaten mittels der Porperty-Klasse
  aus einer Konfigurationsdatei aus.
 \end_layout
