@@ -84,11 +84,11 @@ Vorwort
 \begin_layout Standard
 Im Rahmen des 4.
  Semesters war es Aufgabe, ein Projekt über die Dauer des Semesters anzufertigen.
- Aufgabe des Projektes war die Erstellung eines Routenplaners mit Hilfe
- des Kartenmaterials von OpenStreetMap.
+ Ziel des Projektes war die Erstellung eines Routenplaners mit Hilfe des
+ Kartenmaterials von OpenStreetMap.
  Die zu entwickelnde Software soll das Planen von Routen innerhalb Deutschlands
  ermöglichen.
- Als Projektname wurde der Name „HTWmaps“ gewählt.
+ Von uns wurde der Name HTWmaps gewählt.
  Diese Dokumentation umfasst das Vorgehen im Projekt.
 \end_layout
 
@@ -99,7 +99,7 @@ Projektteam
 \begin_layout Standard
 Das Projektteam, unter der Betreuung von Prof.
  Dr.
- Thomas Kretschmer umfasste 8 Mitglieder.
+ Thomas Kretschmer umfasst 8 Mitglieder.
  Die folgende Liste zeigt die Mitarbeiter, die am Projekt teilgenommen haben:
 \end_layout
 
@@ -145,13 +145,11 @@ Zielsetzung
 \end_layout
 
 \begin_layout Standard
-Ziel des Projektes war die Fertigstellung der Software bis zum 30.
+Ziel des Projektes war die Fertigstellung der Software, sowie eine umfassende
+ Dokumentation dieser, bis zum 30.
  September 2010.
  Das Programm sollte bis dahin den im Lastenheft definierten Funktionsumfang
  besitzen.
- Außerdem sollte eine umfassende Dokumentation des Projektes erstellt werden,
- welche ebenfalls bis zum 30.
- September 2010 vollständig und abgegeben sein sollte.
  
 \end_layout
 
@@ -170,8 +168,8 @@ GoogleMaps, Falk24, ViaMichelin)
  dieser Routenplaner
 \color black
  in HTWmaps einzubauen.
- Die Zielgruppe unterscheidet sich deswegen nicht von anderen Routenplanern.
- Diese sind größtenteils Autofahrer.
+ Die Zielgruppe, größtenteils Autofahrer, unterscheidet sich deswegen nicht
+ von anderen Routenplanern.
 \end_layout
 
 \begin_layout Subsection
@@ -181,6 +179,7 @@ Hinweis auf Glossar
 \begin_layout Standard
 In der Dokumentation „kursiv“ geschriebene Begriffe und wichtige Begriffe,
  die in Grafiken auftreten, werden im Kapitel 5 (Glossar) erklärt.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -195,7 +194,7 @@ Vorgehensmodell Scrum (oder Code & Fix)
 Die Projektgruppe hat sich für das agile Vorgehensmodell Scrum entschieden.
  Scrum beruht auf dem Prinzip, dass die Teammitglieder sich weitgehend selbst
  organisieren.
- Es wird stetig darüber bestimmt, ob Funktionen wichtig sind und implementiert
+ Es wird stetig darüber abgestimmt, ob Funktionen wichtig sind und implementiert
  werden, oder ob es wichtigere Funktionen gibt, auf welche man sich konzentriert.
  Die Projektteilnehmer hielten jede Woche Meetings, in denen neue Erkenntnisse
  berichtet und zusammen weitergearbeitet wurde.
@@ -210,11 +209,11 @@ Die Projektgruppe hat sich für das agile Vorgehensmodell Scrum entschieden.
 Andere Modelle, wie beispielsweise das Wasserfallmodell, erschienen zu unfexibel
  für die Aufgabenstellung.
  Obwohl das Projekt von Anfang bis Ende geplant wurde und das Vorgehen festgeleg
-t wurde, stellte sich häufiger herraus, dass (meist aus Performanz Gründen)
+t wurde, stellte sich häufiger heraus, dass (meist aus Performanz Gründen)
  das Vorgehen verändert werden musste.
- Dies traf größtenteils den Datenbankbereich, wodurch dann auch andere Teile
- überarbeitet werden mussten.
- Dies glich dann dem Vorgehensmodell Code & Fix.
+ Dies traf größtenteils auf den Datenbankbereich zu, wodurch wiederum auch
+ andere Teile überarbeitet werden mussten.
+ Dies glich deshalb dem Vorgehensmodell Code & Fix.
  
 \end_layout
 
@@ -223,9 +222,9 @@ Gruppeneinteilung
 \end_layout
 
 \begin_layout Standard
-Das finden von Modulen und deren Abgrenzung auf abstrakter Ebene funktionierte
+Das Finden von Modulen und deren Abgrenzung auf abstrakter Ebene funktionierte
  auf Anhieb.
- Zu Beginn wurde geklärt welche Aufgaben grob vollzogen werden mussten.
+ Zu Beginn wurde geklärt, welche Aufgaben grob vollzogen werden mussten.
  Hier wurden kleine Arbeitsgruppen gebildet.
  Die Gruppeneinteilung war jedoch keine leichte Aufgabe.
  Problematisch war, dass bis dato keiner der Teilnehmer den Realisierungsaufwand
@@ -403,7 +402,7 @@ Produktumfang
 \end_layout
 
 \begin_layout Standard
-Da es bereits einige Routenplaner gibt konnte sich jeder Projektteilnehmer
+Da es bereits einige Routenplaner gibt, konnte sich jeder Projektteilnehmer
  sehr gut vorstellen, was in dem Projekt verlangt wurde.
  So kam es auch dazu, dass wir unser Programm mit anderen Routenplanern
  verglichen haben.
@@ -453,7 +452,7 @@ Die zu erstellende Software bietet nicht alle Möglichkeiten und Optionen,
 \end_layout
 
 \begin_layout Itemize
-Fußgänger- und Farradfahrerrouten 
+Fußgänger- und Fahrradfahrerrouten 
 \end_layout
 
 \begin_layout Itemize
@@ -461,7 +460,7 @@ Postleitzahlen
 \end_layout
 
 \begin_layout Itemize
-Points of Interesst (POI)
+Points of Interest (POI)
 \end_layout
 
 \begin_layout Itemize
@@ -474,7 +473,7 @@ Programmiersprache
 
 \begin_layout Standard
 Der Code wurde überwiegend in Java geschrieben.
- Für die importierung des Codes in GWT mussten einige Schnittstellen in
+ Für die Importierung des Codes in GWT mussten einige Schnittstellen in
  JavaScript implementiert werden.
  Ansonsten wurde noch HTML und CSS verwendet um die Oberfläche grafisch
  aufzuarbeiten.
@@ -485,13 +484,8 @@ Wie sind die Daten aufbereitet
 \end_layout
 
 \begin_layout Standard
-.osm ist die Dateiendung der Datei, die Open Street Map als Kartenmaterial
- kostenlos anbietet.
- 
-\end_layout
-
-\begin_layout Standard
-Es ist eine XML Datei, die folgende Struktur enthält:
+OpenStreetMap bietet die Daten als xml formatierte Datei zum Download an.
+ Die Datei hat folgende Struktur:
 \end_layout
 
 \begin_layout Standard
@@ -584,8 +578,8 @@ Es ist eine XML Datei, die folgende Struktur enthält:
 \end_layout
 
 \begin_layout Standard
-Mit diesen Informationen kann jede Gegebenheit auf der Erde abgebildet werden.
- Die germany.osm enthält das Kartenmaterial für ganz Deutschland.
+Die von uns benutzte germany.osm Datei, mit Beschränkung auf Deutschland,
+ enthällt alle Knoten, Wege, Beziehungen und Änderungssätze der Datenbank.
  Diese Datei ist gepackt 803MB groß (Stand: 02.09.2010).
 \end_layout
 
@@ -603,27 +597,26 @@ Versionsverwaltung und Projekthosting
 \end_layout
 
 \begin_layout Standard
-Eine Versionsverwaltung war notwendig um mit dem ganzen Projektteam gleichzeitig
- am Code arbeiten zu können.
+Eine Versionsverwaltung war notwendig, um mit dem ganzen Projektteam gleichzeiti
+g am Code arbeiten zu können.
  Außerdem bietet eine Versionsverwaltung die Möglichkeit das Projekt auf
  einen früheren Status zurückzusetzen und somit eventuelle Fehler zu beseitigen.
  Wir kamen sehr schnell auf die Idee, hierfür einen geeigneten Projekthoster
- zu benutzen um uns so einiges an Verwaltungsaufwand zu sparen.
+ zu benutzen, um uns so einiges an Verwaltungsaufwand zu sparen.
 \end_layout
 
 \begin_layout Standard
-In der näheren Auswahl standen bei den Projekthostern GoogleCode, Sourceforge
- und Github, bei den Versionsverwaltungen Apache Subversion und Git.
+In der näheren Auswahl standen bei den Projekthostern Sourceforge und Github,
+ bei den Versionsverwaltungen Apache Subversion und Git.
  Die Seite des Projekthosters Github ist intuitiv und einfach zu bedienen,
  sie bietet deshalb auch nur eine eingeschränkte Auswahl an Funktionen,
  aber dennoch alles was wir für unser Projekt benötigten.
- Sourceforge hat dagegen sehr viele Funktionen und ist aufwendig einzurichten
+ Sourceforge hat dagegen sehr viele Funktionen, ist aufwendig einzurichten
  und zu verwalten.
- GoogleCode bietet nicht die möglichkeit Git-Projekte zu hosten.
- Somit lag unsere Präferenz bei den Projekthostern klar bei Github.
- Github bietet auch noch einen weiteren Vorteil.
- Mit Github ist es möglich das Projekt über HTTP zu managen.
- Bei einem Versuch Git innerhalb der HTW über SSH zu verwenden scheiterten
+ Somit bevorzugten wir bei den Projekthostern klar Github.
+ Github bietet auch noch einen weiteren Vorteil: Mit Github ist es möglich
+ das Projekt über HTTP zu managen.
+ Bei einem Versuch, Git innerhalb der HTW über SSH zu verwenden, scheiterten
  wir an der Firewall der HTW.
 \end_layout
 
@@ -631,7 +624,7 @@ In der näheren Auswahl standen bei den Projekthostern GoogleCode, Sourceforge
 Subversion ist weit verbreitet und wurde auch schon von einigen Projektteilnehme
 rn benutzt.
  Trotzdem entschieden wir uns für Git, da es nicht wie Subversion, einen
- Serverorientierten Ansatz verfolgt, sondern die meisten Aktionen lokal
+ serverorientierten Ansatz verfolgt, sondern die meisten Aktionen lokal
  ausgeführt werden.
  Dies bietet erstens einen Geschwindigkeitsvorteil und zweitens hat jeder
  Projektteilnehmer eine komplette Kopie der gesamten History gespeichert,
@@ -639,18 +632,14 @@ rn benutzt.
 \end_layout
 
 \begin_layout Standard
-Plugins um Git zu bedienen (für unsere Entwicklungsumgebung (IDE)), erschienen
+Plugins, um Git zu bedienen (für unsere Entwicklungsumgebung (IDE)), erschienen
  uns noch zu unausgereift und besaßen noch viele Fehler.
- Deswegen entschieden wir uns Git über die Konsole zu bedienen.
- Hierfür organisierten wir eine interne Schulung und zeigten allen wie die
- Versionierung funktioniert.
-\end_layout
-
-\begin_layout Standard
-Hier wurde nicht nur gezeigt wie man seinen Code hochlädt (push) und runterlädt
- (pull), es wurde auch gezeigt wie man mit Branches arbeitet und zu älteren
- Versionen zurückspringt.
- Dies wurde auch dokumentiert.
+ Deswegen entschieden wir uns, Git über die Konsole zu bedienen.
+ Hierfür organisierten wir eine interne Schulung und zeigten, wie die Versionier
+ung funktioniert.
+ Außerdem wurde ein Wiki angelegt, in dem die besprochenen Funktionen erklärt
+ werden.
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -680,9 +669,9 @@ Server
 \end_layout
 
 \begin_layout Standard
-Da wir uns dafür entschieden haben eine Web-Anwendung zu entwickeln, benötigten
+Da wir uns dafür entschieden haben, eine Web-Anwendung zu entwickeln, benötigten
  wir auch einen Server dafür.
- Zu beginn importierten wir unsere Datenbank in MySQL bei einem kleinen
+ Zu Beginn importierten wir unsere Datenbank in MySQL bei einem kleinen
  Web-Hoster.
  Hier waren die Ressourcen aber sehr begrenzt und dies konnte nur eine Zwischenl
 ösung sein.
@@ -703,9 +692,9 @@ Studwork
  Server eingerichtet.
  Hiermit möchten wir uns auch wieder recht herzlich dafür bedanken.
  Die VM musste während des Projektes auch immer wieder erweitert werden.
- So haben wir um einen zweiten Prozessor gebeten, um mit Threads programmieren
+ So haben wir um einen zweiten Prozessor gebeten, um Threads besser ausnutzen
  zu können.
- Um die Performance zu steigern wurde der RAM auf 2 GB erweitert.
+ Um die Performance zu steigern, wurde der RAM auf 2 GB erweitert.
  Außerdem wurde die Festplatte von 10 GB auf 20 GB erweitert.
  Dies ist bei einer VM mit ein paar Befehlen eingerichtet.
 \end_layout
@@ -742,7 +731,7 @@ Git - Um den aktuellen Stand des Projektes zu laden
 \end_layout
 
 \begin_layout Itemize
-JRE - Um Code lokal ausführen zu können
+JRE - Um Java Programme lokal ausführen zu können
 \end_layout
 
 \begin_layout Standard
@@ -750,7 +739,7 @@ Außer der Installation mussten auch noch einige Konfigurationen gemacht
  werden.
  So wurden auch Start- und Endeskript erstellt.
  Außerdem wurde an den Einstellungen von MySQL und Apache gearbeitet um
- die maximale Performance zu erreichen.
+ eine maximale Performance zu erreichen.
 \end_layout
 
 \begin_layout Subsection
@@ -761,8 +750,7 @@ Unvollständigkeit der Daten
 Die Daten bei Openstreet Maps sind derzeit noch unvollständig.
  So sind manchmal Wege und Straßen nicht verzeichnet, oder besitzen ungültige
  Namen, wie beispielsweise „unbekannt“.
- Auswirkung der Unvollständigkeit auf den Routenplaner haben folge Dinge
- 
+ Die Unvollständigkeit der Daten hat folgende Auswirkungen auf den Routenplaner:
 \end_layout
 
 \begin_layout Itemize
@@ -786,22 +774,25 @@ Manche Orte hab keine Straßennamen
 \end_layout
 
 \begin_layout Itemize
-Orte sind sehr selten klar voneinander getrennt (Keine Grenzen) 
+Orte sind selten klar voneinander getrennt (Keine Grenzen) 
 \end_layout
 
 \begin_layout Itemize
 Viele Orte, vor allem Dörfer sind vom falschen Typ (Hamlet, Village).
- So variiert die Größe eines Dorfes sehr stark, jedoch haben viele Dörfer
- unterschiedlicher Größe im Kartenmaterial die gleiche Beschreibung.
+ So variiert die Größe eines Dorfes stark, jedoch haben viele Dörfer unterschied
+licher Größe im Kartenmaterial die gleiche Beschreibung.
  Ein kleines Dorf muss als „Hamlet“ beschrieben werden, ab ca.
  2km Durchmesser schon „Village“ 
 \end_layout
 
 \begin_layout Itemize
-Es gibt Orte zu denen keine Straße führt.
- Der Algorithmus versagt an dieser Stelle.
- Vor allem sind Straßen problematisch, die keinem Ort zugeordnet wurden.
- Der Benutzer muss in der Lage sein, eine Straße und einen Ort anzugeben,
+Es gibt Orte, zu denen keine Straße führt, hierhin findet der Algorithmus
+ natürlich auch keinen Weg.
+\end_layout
+
+\begin_layout Itemize
+Viele Straßen sind keinem Ort zugeordete.
+ Der Benutzer muss aber in der Lage sein, eine Straße und einen Ort anzugeben,
  um dem Programm mitzuteilen, wohin und von wo er routen will.
  Dieses Problem wurde von uns nur teilweise gelöst.
  Um jeden Ort, abhängig vom Typ, wie Dorf, Stadt, etc., wurde jeweils ein
@@ -819,7 +810,8 @@ Letztlich gibt es über den Datenbestand in der Datenbank folgendes zu sagen:
 \end_layout
 
 \begin_layout Itemize
-Es sind nicht alle Straßen mit einem Kreis erfasst 
+Nicht alle Straßen konnten mit einem Kreis um den Ort erfolgreich einem
+ Ort zugewiesen werden (zu kleiner Radius, Ort ist nicht kreisrund)
 \end_layout
 
 \begin_layout Itemize
@@ -834,7 +826,7 @@ Straßen in Orten, die als solche exakt gekennzeichnet sind (Polygone), sind
 \end_layout
 
 \begin_layout Standard
-Anzahl der Daten, die effektiv der Datenbank entnommen werden können.
+Anzahl der Daten, die effektiv der Datenbank entnommen werden können:
 \end_layout
 
 \begin_layout Standard
@@ -937,9 +929,8 @@ Straßen
 \end_layout
 
 \begin_layout Standard
-Blaue Kreise sind Dörfer.
- Lila sind Unterorte.
- Rot sind exakte Polygone
+Mit blauen Kreisen sind Dörfer, mit lila Kreisen Unterorte und mit roten
+ Umrissen exakte Polygone gekennzeichnet.
 \end_layout
 
 \begin_layout Standard
@@ -958,7 +949,7 @@ Vorwort
 \end_layout
 
 \begin_layout Standard
-Das komplette Lastenheft mit den unterstützten Funktionen & Anforderungen
+Das komplette Lastenheft mit den unterstützten Funktionen und Anforderungen
  finden Sie im Anhang.
  Im nächsten Unterpunkt möchten wir Ihnen aber einen Überblick über die
  Funktionen geben.
@@ -981,9 +972,9 @@ Optionales Auswählen von Zwischenstopps: Falls Zwischenstopps erwünscht
 \begin_layout Description
 Festlegen des Zielpunktes: Der Benutzer wählt einen Zielpunkt aus, indem
  er eine Zieladresse im Programm eingibt.
- Auswahlmöglichkeit kürzeste- und schnellste Route Dem Benutzer soll es
- möglich sein auszuwählen, ob die kürzeste Route oder die schnellste Route
- berechnet werden soll.
+ Auswahlmöglichkeit kürzeste- und schnellste Route.
+ Dem Benutzer soll es möglich sein auszuwählen, ob die kürzeste Route oder
+ die schnellste Route berechnet werden soll.
 \end_layout
 
 \begin_layout Description
@@ -999,13 +990,13 @@ Berechnen der Route: Die Eingabedaten werden verarbeitet und die entsprechende
 
 \begin_layout Description
 Ausgabe der Route: Der Benutzer erhält eine schriftliche Wegbeschreibung
- und die dazugehörige grafische Darstellung der Route in Form einer Karte.
+ und die dazugehörige grafische Darstellung der Route auf einer Karte.
 \end_layout
 
 \begin_layout Description
 Eingabe: Die Eingabe der Startadresse, Zieladresse und der Zwischenstopps
  erfolgt mit Ortsname und Straßenname.
- Hausnummern und Postleitzahl werden nicht Berücksichtigt.
+ Hausnummern und Postleitzahl werden nicht berücksichtigt.
  
 \end_layout
 
@@ -1026,8 +1017,8 @@ Vorwort
 
 \begin_layout Standard
 Der folgende Abschnitt erläutert den Aufbau von HTWmaps.
- Sie geht auf das zu Grunde liegende Konzept, die Implementierung und den
- Aufbau der Datenbank ein.
+ Sie geht auf das zu Grunde liegende Konzept der Implementierung und des
+ Aufbaus der Datenbank ein.
  
 \end_layout
 
@@ -1044,10 +1035,10 @@ Vorwort
 \end_layout
 
 \begin_layout Standard
-Dieser Abschnitt dient dazu um Ihnen einen Überblick über die Paketstruktur
+Dieser Abschnitt dient dazu, Ihnen einen Überblick über die Paketstruktur
  des Projektes zu geben.
- Es handelt sich hier um eine abstrakte Ansicht aller Klassen, welche nur
- die wichtigsten Klassen und darin die wichtigsten Methoden auflisted.
+ Es handelt sich hier um eine abstrakte Ansicht der wichtigsten Klassen
+ und Methoden.
 \end_layout
 
 \begin_layout Paragraph
@@ -1062,22 +1053,24 @@ Aufbau GWT
 \end_layout
 
 \begin_layout Standard
-Beim anlegen eines GWT Projektes wird eine Grundstruktur an Paketen mit
+Beim Anlegen eines GWT Projektes wird eine Grundstruktur an Paketen mit
  angelegt.
  Diese Pakete heißen: 
 \end_layout
 
 \begin_layout Itemize
-Client - Code in diesem Ordner wir als JavaScript auf dem Client ausgeführt
- 
+Client - Der Code in diesem Ordner wird in JavaScript übersetzt und auf
+ dem Client im Browser ausgeführt 
 \end_layout
 
 \begin_layout Itemize
-Shared - Dient als Schnittstelle zwischen Client und 
+Shared - Hier wird Code gelagert der vom Client und vom Server ausgeführt
+ werden kann
 \end_layout
 
 \begin_layout Itemize
-Server Server - Code wird auch dem Serve ausgeführt
+Server - Dieser Java Code wird in der Java Laufzeitumgebung auf dem Server
+ ausgeführt
 \end_layout
 
 \begin_layout Standard
@@ -1106,8 +1099,8 @@ Server Server - Code wird auch dem Serve ausgeführt
 \end_layout
 
 \begin_layout Standard
-In den einzelnen Pakete bedindet sich eine von uns selbst angelegt Paket-Struktu
-r um unseren quellcode zu organisieren.
+In den einzelnen Paketen befindet sich eine von uns selbst angelegte Paket-Struk
+tur, um unseren Quellcode zu organisieren.
 \end_layout
 
 \begin_layout Paragraph
@@ -1156,7 +1149,7 @@ Client Bereich
 \end_layout
 
 \begin_layout Standard
-In dem Paket Server finden Sie folgende Struktur:
+In dem Client Paket finden Sie folgende Struktur:
 \end_layout
 
 \begin_layout Standard
@@ -1189,7 +1182,7 @@ Allgemeiner Programmablauf
 \end_layout
 
 \begin_layout Standard
-Der Benutzer interagiert mit der Software über einen Javaskript-fähigen
+Der Benutzer interagiert mit der Software über einen JavaScript fähigen
  Internetbrowser.
 \end_layout
 
@@ -1437,9 +1430,9 @@ Hardware / Ressourcen: 2x2,8GHz; 2GB Ram; 20GB Festplatte
 \end_layout
 
 \begin_layout Standard
-In der ersten Version des Datenbankschemas ging man davon aus, dass zum
- Rendern der Route alle Daten aus der Quelldatei benötigt würden.
- Dazu gehörten auch die Daten die nichts mit der direkten Routenplanung
+In der ersten Version des Datenbanksschemas ging man davon aus, dass zum
+ Rendern der Route alle Daten aus der Quelldatei benötigt werden würden.
+ Dazu gehörten auch die Daten, die nichts mit der direkten Routenplanung
  zu tun haben, z.B.
  Umrisse von Wäldern, Flüsse, Bundeslandgrenzen, etc.
  Daher wurden in den ersten Versionen alle Daten aus der Quelldatei in die
@@ -1452,7 +1445,7 @@ In den ersten Versionen lag die Priorität des Datenbankentwurfs auf dem
  Layout, bzw.
  auf der Normalisierung der Datenbank.
  Mit Umstieg von Saarland -> Deutschland wurde jedoch schnell klar, dass
- die Performance sehr stark unter dem normalisierten Datenbankentwurf leidet.
+ die Performance stark unter dem normalisierten Datenbankentwurf leidet.
  
 \end_layout
 
@@ -1461,9 +1454,10 @@ Ein neuer Ansatz brachte zwei wichtige Änderungen:
 \end_layout
 
 \begin_layout Enumerate
-das Rendern der Karte wird an eine externe Lösung abgegeben.
- Das heißt das nur noch die zum Routen relevanten Daten in die Datenbank
- gespeichert werden 
+Das Rendern der Karte wird an eine externe Lösung abgegeben.
+ Das heißt, dass nur noch die zum Routen relevanten Daten in die Datenbank
+ gespeichert werden.
+ 
 \end_layout
 
 \begin_layout Enumerate
@@ -1663,7 +1657,7 @@ al, die beide unabhängig voneinander entwickelt wurden.
  Dieses Konzept ist für den Anwendungsfall unserer Software wenig sinnvoll,
  da wir nur den kürzesten Weg zwischen Start- und Endknoten suchen.
  A* erfüllt dieses Kriterium.
- Entscheidender Unterschied zu Dijkstra ist eine ziel orientierte Heuristik.
+ Entscheidender Unterschied zu Dijkstra ist eine zielorientierte Heuristik.
  Diese veranlasst den Algorithmus immer den nächsten Knoten zu analysieren,
  der am nächsten zum aktuellen Knoten und zum Ziel liegt.
  Trotz dieser Erweiterung bleibt der mathematische Korrektheitsbeweis analog
@@ -1900,7 +1894,11 @@ Ohne auf Details einzugehen gibt das folgende Bild einen ausreichenden Eindruck:
 \begin_layout Standard
 Zur Laufzeitoptimierung, verwenden beide Algorithmen den „Fibonacci Heap“.
  Diese Datenstruktur ist prinzipiell eine sehr performante Prioritätsliste.
- Sie wurde nicht vom Projektteam implementiert, sondern im Internet gefunden.
+ Sie wurde nicht vom Projektteam implementiert, es wurde stattdessen eine
+ Implementierung aus dem Buch Introduction to Algorithms von Charles E.
+ Leiserson, Thomas H.
+ Cormen und Ronald L.
+ Rivest benutzt.
  Leider ist es nicht gelungen den bidirektionalen A* deterministisch zu
  implementieren.
  Das Ergebnis hängt vom Thread-Scheduling der JVM ab und liefert manchmal
@@ -1941,17 +1939,117 @@ Zum besseren Verständnis des Problems dient folgende Graphik:
 \end_layout
 
 \begin_layout Paragraph
-Selektierung durch Rechteck
+Selektierung der Knoten und Kanten aus der Datenbank
 \end_layout
 
 \begin_layout Standard
-Die Idee, die Daten aus der Datenbank aus einem Rechteckbereich zu beziehen,
- hat sich im Vergleich zum Parabelselekt als performanter erwiesen.
- Das Rechteck ähnelt auch einer Ellipse und ist im Gegensatz zur Parabel
- immer gleich breit in der Fläche.
- Es gibt ein kleines, inneres Rechteck das alle Straßen empfängt und ein
- sehr großes äußeres, das nur Autobahnen empfängt.
- Hier die Formeln für die jeweiligen Fälle von Start- und Endknoten 
+Anfangs wurden immer alle Kanten und Knoten aus der Datenbank geladen um
+ daraus einen Graphen zu bauen, in dem der Algorithmus den kürzesten Weg
+ suchen kann.
+ In unserer Datenbank befand sich zu dieser Zeit nur das Straßennetz des
+ Saarlandes.
+ Doch auch bei diesen wenigen Daten konnten wir mit einer Selektierung der
+ Knoten und Kanten einen Geschwindigkeitsgewinn erreichen.
+ Unsere erste Idee war es nur Knoten und Kanten zu berücksichtigen die sich
+ in einem zur x-Achse parallelen Rechteck befinden.
+ Ob sich ein Punkt, hier also ein Knoten bzw eine Kante, in einem zur x-Achse
+ Parallelen Rechteck befindet lässt sich mit wenigen einfachen Vergleichen
+ herausfinden.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/selekts/rechteckSelekt1.png
+	display false
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Allerdings können eine ungünstige Position des Start- oder Endpunktes das
+ Rechteck so verschmälern, dass mit den selektierten Kanten und Knoten keine
+ Verbindung mehr zwischen den Beiden Punkten gefunden werden kann.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/selekts/rechteckSelekt2.png
+	display false
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Um diese Probleme zu umgehen hatten wir die Idee eines Parabelselekts.
+ Hierbei werden über den Start und Endpunkt zwei Parabeln gelegt.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/selekts/parabelSelekt1.png
+	display false
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Allerdings entstehen hier sehr ähnliche Probleme.
+ Wie bei der ursprünglichen Rechteckidee werden oft zu wenige Knoten und
+ Kanten selektiert.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/selekts/parabelSelekt2.png
+	display false
+	scale 40
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Images/selekts/parabelSelekt3.png
+	display false
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dieses Problem konnten wir mit einem Rechteck lösen, welches sich mit den
+ Start- und Endpunkten mitdreht und somit immer gleich breit ist.
+ Zur weiteren Performancesteigerung gibt es ein kleines, inneres Rechteck
+ das alle Straßen enthält und ein sehr großes äußeres, welches nur Autobahnen
+ enthält.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/selekts/rechteckSelekt3.png
+	display false
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Die Vergleiche und Formeln zum überprüfen ob ein Punkt im Rechteckt liegt
+ sind nachfolgend aufgeführt:
 \end_layout
 
 \begin_layout Standard
@@ -1990,8 +2088,8 @@ In der Software ist h=30KM.
 \end_layout
 
 \begin_layout Standard
-Punkt ist drin, wenn: punktY < a(punktX) && punktY > b(punktX) && punktY
- > c(punktX) && punktY < d(punktX).
+Punkt ist im Rechteck, wenn: punktY < a(punktX) && punktY > b(punktX) &&
+ punktY > c(punktX) && punktY < d(punktX).
 \end_layout
 
 \begin_layout Standard
@@ -2022,7 +2120,7 @@ Punkt ist drin, wenn: punktY < a(punktX) && punktY > b(punktX) && punktY
 \end_layout
 
 \begin_layout Standard
-Punkt ist drin wenn: PunktY >d(PunktX) && PunktY < c(PunktX) && punktY>
+Punkt ist im Rechteck wenn: PunktY >d(PunktX) && PunktY < c(PunktX) && punktY>
  a(punktX) && punktY<b(punktX)
 \end_layout
 
@@ -2050,8 +2148,8 @@ Punkt ist drin wenn: PunktY >d(PunktX) && PunktY < c(PunktX) && punktY>
 \end_layout
 
 \begin_layout Standard
-Punkt ist drin, wenn: punktY > a(punktX) && punktY<b(punktX)&&punktY<c(punktX)&&
-punktY>d(punktX).
+Punkt ist im Rechteck, wenn: punktY > a(punktX) && punktY<b(punktX)&&punktY<c(pu
+nktX)&&punktY>d(punktX).
  Wenn Sy<Ey&&Sx>Ex
 \end_layout
 
@@ -2079,8 +2177,8 @@ punktY>d(punktX).
 \begin_inset Newline newline
 \end_inset
 
-Punkt ist drin, wenn: PunktY < a(punktX) && punktY > b(punktX) && punktY
- > c(punktX) && punktY < d(punktX)
+Punkt ist im Rechteck, wenn: PunktY < a(punktX) && punktY > b(punktX) &&
+ punktY > c(punktX) && punktY < d(punktX)
 \end_layout
 
 \begin_layout Subsubsection
@@ -2195,7 +2293,7 @@ Der Datenbank Connector stellt über die JDBC Schnittstelle eine Verbindung
  zu können.
  Dies musste jedoch später verworfen werden, da sich herausstellte, dass
  eine ständig offene Verbindung zum MySQL zu Speicherlecks führte.
- Der Connector liest seine Verbindungsdaten mittels der Porberty-Klasse
+ Der Connector liest seine Verbindungsdaten mittels der Porperty-Klasse
  aus einer Konfigurationsdatei aus.
 \end_layout
 
@@ -2256,7 +2354,7 @@ Mit unserem ersten Entwurf haben wir uns entscheiden die GUI in 3 wesentliche
 	filename Images/HtwMaps_bereiche.png
 	lyxscale 60
 	display false
-	scale 60
+	scale 35
 
 \end_inset
 
@@ -2271,7 +2369,7 @@ Mit unserem ersten Entwurf haben wir uns entscheiden die GUI in 3 wesentliche
 \end_layout
 
 \begin_layout Standard
-Der blaue Bereich ist unser Status- und Informationsbereich.
+Der blaue Bereich ist der Status- und Informationsbereich.
  Der Auswahl- und Optionsbereich befindet sich im roten Bereich.
  Der grüne Bereich ist der Kartenbereich.
 \end_layout
@@ -2298,8 +2396,8 @@ eich.
 \end_layout
 
 \begin_layout Standard
-Dazu gibt es noch weitere verschiedene Fehlermeldungen, die dann in roter
- fetter Schrift erscheinen und den Fehler genau deklarieren.
+Dazu gibt es noch weitere verschiedene Fehlermeldungen, die in roter Schrift
+ erscheinen und den Fehler genau deklarieren.
  Beispiele dazu sind:
 \end_layout
 
