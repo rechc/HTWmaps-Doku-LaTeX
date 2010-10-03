@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -447,7 +447,7 @@ Projektabgrenzung
 
 \begin_layout Standard
 Die zu erstellende Software bietet nicht alle Möglichkeiten und Optionen,
- die machbar gewesen wären.
+ die technisch machbar gewesen wären.
  Aufgrund der zeitlichen Beschränkung mussten wir auf folgende Features
  verzichten: 
 \end_layout
@@ -473,9 +473,9 @@ Programmiersprache
 \end_layout
 
 \begin_layout Standard
-Der Code wurde überwiegend mit Java geschrieben.
- Für die importierung des Codes in GWT mussten kleinere Stellen in JavaScript
- geändert werden.
+Der Code wurde überwiegend in Java geschrieben.
+ Für die importierung des Codes in GWT mussten einige Schnittstellen in
+ JavaScript implementiert werden.
  Ansonsten wurde noch HTML und CSS verwendet um die Oberfläche grafisch
  aufzuarbeiten.
 \end_layout
@@ -700,7 +700,7 @@ Studwork
 \begin_inset Quotes erd
 \end_inset
 
- eingerichtet.
+ Server eingerichtet.
  Hiermit möchten wir uns auch wieder recht herzlich dafür bedanken.
  Die VM musste während des Projektes auch immer wieder erweitert werden.
  So haben wir um einen zweiten Prozessor gebeten, um mit Threads programmieren
