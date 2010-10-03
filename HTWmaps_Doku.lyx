@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -1196,8 +1196,6 @@ Der Benutzer interagiert mit der Software über einen Javaskript-fähigen
 \begin_layout Standard
 \begin_inset Graphics
 	filename Images/Ablauf_alg.png
-	lyxscale 70
-	display false
 	scale 40
 
 \end_inset
@@ -1214,9 +1212,18 @@ Vorwort
 \end_layout
 
 \begin_layout Standard
+Zu beginn des Projektes prüften wir verschiedene Möglichkeiten zur Datenbeschaff
+ung und Datenbereitstellung.
+ Die Möglichkeit direkt mit dem Kartenmaterial, welches im XML Format vorliegt,
+ zu arbeiten erwies sich schnell als nicht realisierbar, da das Kartenmaterial
+ ~9,3GiB ist und somit Dateioperationen sehr langsam und eine Auslagerung
+ der Daten im RAM auf Grund der Größe nicht möglich ist.
+ Schnell kristalisierte sich die Verwendung einer Datenbank als beste und
+ komfortabelste Lösung heraus.
+\end_layout
 
-\color red
-Warum SQL und nicht XML?
+\begin_layout Subsubsection
+Zahlen
 \end_layout
 
 \begin_layout Standard
@@ -1384,56 +1391,48 @@ Konzept
 \end_layout
 
 \begin_layout Standard
-
-\color red
-Erst Normalisierung dann wegen Performance doch Redundanz eingebaut
+Die ersten umgesetzten Datenbankstrukturen waren sehr normalisiert und die
+ Daten auf viele einzelne Tabellen verteilt.
+ Bei den enormen Datenmengen von komplett Deutschland war dieser Ansatz
+ allerdings so performancezehrend, daß die Datenbank den Routingprozeß um
+ ein vielfaches verlangsamte.
+ Daher wurde ein neues Schema entwickelt, dieses wies zwar starke Redundanzen
+ auf, war aber auch um ein vielfaches performanter.
+ Da alle Daten nach dem Import nicht mehr verändert werden wurden die Redundanze
+n zu Gunsten der Performance akzeptiert.
 \end_layout
 
 \begin_layout Subsubsection
-Datenbankschema
+Hard- und Software 
 \end_layout
 
-\begin_layout Paragraph
-Technisches: 
-\end_layout
-
-\begin_layout Standard
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
+\begin_layout Itemize
 Datenbanksoftware: MySQL 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Version: 5.1.41 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Betriebssystem: Ubuntu Server Version: 10.04 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Server: stud-i-pr2.htw-saarland.de 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Standort: Virtuelle Maschine auf dem Server der Fachschaft Informatik  
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Hardware / Ressourcen: 2x2,8GHz; 2GB Ram; 20GB Festplatte 
 \end_layout
 
-\begin_layout Standard
-\begin_inset space ~
-\end_inset
-
-
+\begin_layout Subsubsection
+Datenbankschema
 \end_layout
 
 \begin_layout Standard
@@ -1444,20 +1443,13 @@ In der ersten Version des Datenbankschemas ging man davon aus, dass zum
  Umrisse von Wäldern, Flüsse, Bundeslandgrenzen, etc.
  Daher wurden in den ersten Versionen alle Daten aus der Quelldatei in die
  Datenbank übernommen.
- 
-\end_layout
-
-\begin_layout Standard
-In den ersten Versionen lag die Priorität des Datenbankentwurfs auf dem
+ In den ersten Versionen lag die Priorität des Datenbankentwurfs auf dem
  Layout, bzw.
  auf der Normalisierung der Datenbank.
- Mit Umstieg von Saarland -> Deutschland wurde jedoch schnell klar, dass
- die Performance sehr stark unter dem normalisierten Datenbankentwurf leidet.
- 
-\end_layout
-
-\begin_layout Paragraph
-Ein neuer Ansatz brachte zwei wichtige Änderungen:
+ Mit dem Umstieg von Saarland nach Deutschland wurde jedoch schnell klar,
+ dass die Performance sehr stark unter dem normalisierten Datenbankentwurf
+ leidet.
+ Ein neuer Ansatz brachte zwei wichtige Änderungen:
 \end_layout
 
 \begin_layout Enumerate
@@ -1480,7 +1472,7 @@ Die Versionen 0.1 - 0.3 wurden ausschließlich auf Grundlage der Kartendaten
  
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph
 Finales Datenbankschema (1.0)
 \end_layout
 
@@ -1492,16 +1484,40 @@ Ein ER-Diagramm erweist sich hier als wenig sinnvoll, da fast jede Tabelle
  sind aufgrund von Performance nicht erwünscht.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subparagraph
 Übersicht über die einzelnen Tabellen
 \end_layout
 
-\begin_layout Paragraph
-cities 
+\begin_layout Subparagraph
+cities
 \end_layout
 
-\begin_layout Subparagraph
-Beschreibung (in Tabellen Form bringen)
+\begin_layout Standard
+Beschreibung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/cities-1.png
+	width 85col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Aufbau
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/cities-2.png
+	width 85col%
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1511,82 +1527,27 @@ Beschreibung (in Tabellen Form bringen)
 
 \end_layout
 
-\begin_layout Standard
-
-\color red
-Inhalt beinhaltet alle “Stadtzentrum”-Knoten mit ID, Koordinaten und Name
- der Stadt Diese Tabelle dient nur dem Straßen importskrip (Updatestreets.java)
- Quelle alle Knoten aus der osm Datei die als “place” markiert sind.
- Größe 70,268 Einträge Indizes ID: Primärschlüssel
+\begin_layout Subparagraph
+edges_all
 \end_layout
 
 \begin_layout Standard
+Beschreibung
+\end_layout
 
-\color red
+\begin_layout Standard
+<<Screenshot>>
+\end_layout
+
+\begin_layout Standard
 Aufbau
 \end_layout
 
 \begin_layout Standard
-
-\color red
-Feld Typ Null Standard Extra Beschreibung Wird in Folgendem Schritt gefüllt
- ID int(11) nein nein PK ID des nodes 2 lat float nein nein
+<<Screenshot>>
 \end_layout
 
-\begin_layout Standard
-
-\color red
-lat Koordinate 2 lon float nein nein
-\end_layout
-
-\begin_layout Standard
-
-\color red
-lon Koordinate 2 name varchar(255) nein nein
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Name des Nodes 2
-\end_layout
-
-\begin_layout Standard
-
-\color red
-edges_all Beschreibung
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Inhalt beinhaltet alle Kanten eines Ways der als Straße markiert ist mit
- allen Informationen der beiden Knoten (je ID, lat, lon), der ID des Ways,
- Info ob Einbahnstraße ja/nein, Info über Typ der Straße, Länge der Kante
- Quelle ID ist Autoinkrement vom SQL Insert
-\end_layout
-
-\begin_layout Standard
-
-\color red
-node1ID, node2ID, wayID, isOneway, speedID kommen aus der osm Datei
-\end_layout
-
-\begin_layout Standard
-
-\color red
-lat und lon der beiden Knoten kommen via Update SQL aus der Tabelle nodes
-\end_layout
-
-\begin_layout Standard
-
-\color red
-lenght wird beim Insert mit NULL belegt und später durch die Methode CalculateEd
-geLength berechnet Größe ~11,695,294 Einträge Indizes ID: Primärschlüssel
- node1lat: node1lon: node2lat: node2lon: 
-\end_layout
-
-\begin_layout Subsubsection
+\begin_layout Paragraph
 Kantenoptimierung
 \end_layout
 
@@ -1626,11 +1587,11 @@ Dieses Bild veranschaulicht die Beschreibung:
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Paragraph
 Algorithmen
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subparagraph
 Vorwort
 \end_layout
 
@@ -1639,11 +1600,11 @@ In diesem Abschnitt erhalten Sie einen Überblick über die wichtigsten Algorith
 n.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subparagraph
 Routingalgorithmus
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subparagraph
 A*
 \end_layout
 
@@ -1940,7 +1901,7 @@ Zum besseren Verständnis des Problems dient folgende Graphik:
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subparagraph
 Selektierung durch Rechteck
 \end_layout
 
@@ -2083,7 +2044,7 @@ Punkt ist drin, wenn: PunktY < a(punktX) && punktY > b(punktX) && punktY
  > c(punktX) && punktY < d(punktX)
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subparagraph
 Wegbeschreibung
 \end_layout
 
@@ -2181,7 +2142,7 @@ va eine Beschreibung des Weges ausgegeben.
  verändert oder nicht.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subparagraph
 Datenbank Connector
 \end_layout
 
@@ -2199,7 +2160,7 @@ Der Datenbank Connector stellt über die JDBC Schnittstelle eine Verbindung
  aus einer Konfigurationsdatei aus.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subparagraph
 Property-Klasse
 \end_layout
 
@@ -2217,11 +2178,11 @@ Mit Hilfe einer Property-Klasse ist es in Java sehr einfach aus einer einfachen
  geladen wird.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Paragraph
 GUI
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subparagraph
 Vorwort
 \end_layout
 
@@ -2234,7 +2195,7 @@ Compiler besitzt.
  hat diesen Java Code dann nach Javascript übersetzt.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subparagraph
 Konzept
 \end_layout
 
@@ -2276,7 +2237,7 @@ Der blaue Bereich ist unser Status- und Informationsbereich.
  Der grüne Bereich ist der Kartenbereich.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subparagraph
 Status- und Informationsbereich
 \end_layout
 
@@ -2331,7 +2292,7 @@ Am rechten Rand befinden sich dann noch 2 Hyperlinks.
  des Browsers.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subparagraph
 Über
 \end_layout
 
@@ -2367,7 +2328,7 @@ Hier werden allgemeine Informationen zum Projekt bereitgestellt, wie um
  Außerdem stehen alle Namen die an dem Projekt mitgearbeitet haben.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subparagraph
 Berechnungsinformationen
 \end_layout
 
@@ -2403,7 +2364,7 @@ Hier wird nach ein erfolgreichen Berechnung, Informationen zu Berechnung
  gedauert hat.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subparagraph
 Auswahl- und Optionsbereich
 \end_layout
 
@@ -2470,7 +2431,7 @@ Anschließend folgen 3 Hyperlinks.
  kann, oder die Zusammenfassung dargestellt wird.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subparagraph
 Optionen
 \end_layout
 
@@ -2488,7 +2449,7 @@ Hier kann man zu aller erst die Routenart festlegen.
  Hier ist standardmäßig “A*” eingestellt.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subparagraph
 Zusammenfassung
 \end_layout
 
@@ -2539,7 +2500,7 @@ Wegbeschreibung
 Hier wird die textuelle Ausgabe der Route dargestellt.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subparagraph
 Kartenbereich
 \end_layout
 
