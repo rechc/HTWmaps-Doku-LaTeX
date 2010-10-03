@@ -1189,6 +1189,7 @@ Der Benutzer interagiert mit der Software über einen JavaScript fähigen
 \begin_layout Standard
 \begin_inset Graphics
 	filename Images/Ablauf_alg.png
+	display false
 	scale 40
 
 \end_inset
@@ -1495,27 +1496,7 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
-\begin_inset Graphics
-	filename Images/cities-1.png
-	width 85col%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Aufbau
-\end_layout
-
-\begin_layout Standard
-\begin_inset Graphics
-	filename Images/cities-2.png
-	width 85col%
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -1545,7 +1526,7 @@ Aufbau
 <<Screenshot>>
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Kantenoptimierung
 \end_layout
 
@@ -1585,11 +1566,11 @@ Dieses Bild veranschaulicht die Beschreibung:
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsection
 Algorithmen
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Subsubsection
 Vorwort
 \end_layout
 
@@ -1598,11 +1579,11 @@ In diesem Abschnitt erhalten Sie einen Überblick über die wichtigsten Algorith
 n.
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Subsubsection
 Routingalgorithmus
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Subsubsection
 A*
 \end_layout
 
@@ -1691,7 +1672,7 @@ Wenn jede Kante denselben Abstand besitzt, dann kann man die Ausbreitung
  der Algorithmen auf dem Graphen veranschaulichen:
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Subsubsection
 Dijkstra:
 \end_layout
 
@@ -1721,7 +1702,7 @@ Dijkstra:
 
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Subsubsection
 Dijkstra Bidirectional:
 \end_layout
 
@@ -1750,7 +1731,7 @@ Dijkstra Bidirectional:
 
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Subsubsection
 A*:
 \end_layout
 
@@ -1779,7 +1760,7 @@ A*:
 
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Subsubsection
 A* Bidirectional:
 \end_layout
 
@@ -1826,7 +1807,7 @@ Entscheidend, was die Performance betrifft, ist eine optimale Datenstruktur.
  
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Subsubsection
 Ohne auf Details einzugehen gibt das folgende Bild einen ausreichenden Eindruck:
 \end_layout
 
@@ -1873,7 +1854,7 @@ Zur Laufzeitoptimierung, verwenden beide Algorithmen den „Fibonacci Heap“.
  
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Subsubsection
 Zum besseren Verständnis des Problems dient folgende Graphik:
 \end_layout
 
@@ -1903,11 +1884,11 @@ Zum besseren Verständnis des Problems dient folgende Graphik:
 
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Subsubsection
 Selektierung durch Rechteck
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Selektierung der Knoten und Kanten aus der Datenbank
 \end_layout
 
@@ -1930,6 +1911,7 @@ Anfangs wurden immer alle Kanten und Knoten aus der Datenbank geladen um
 \begin_layout Standard
 \begin_inset Graphics
 	filename Images/selekts/rechteckSelekt1.png
+	display false
 	scale 40
 
 \end_inset
@@ -2149,7 +2131,7 @@ Punkt ist im Rechteck, wenn: PunktY < a(punktX) && punktY > b(punktX) &&
  punktY > c(punktX) && punktY < d(punktX)
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 Wegbeschreibung
 \end_layout
 
@@ -2221,7 +2203,7 @@ Die Klasse RouteToText ist außerdem dafür verantwortlich, dass eine Statistik
 
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 buildRouteInfo():
 \end_layout
 
@@ -2247,7 +2229,7 @@ va eine Beschreibung des Weges ausgegeben.
  verändert oder nicht.
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 Datenbank Connector
 \end_layout
 
@@ -2266,7 +2248,7 @@ Der Datenbank Connector stellt über die JDBC Schnittstelle eine Verbindung
  aus einer Konfigurationsdatei aus.
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 Property-Klasse
 \end_layout
 
@@ -2284,11 +2266,11 @@ Mit Hilfe einer Property-Klasse ist es in Java sehr einfach aus einer einfachen
  geladen wird.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 GUI
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 Vorwort
 \end_layout
 
@@ -2301,7 +2283,7 @@ Compiler besitzt.
  hat diesen Java Code dann nach Javascript übersetzt.
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 Konzept
 \end_layout
 
@@ -2343,7 +2325,7 @@ Der blaue Bereich ist der Status- und Informationsbereich.
  Der grüne Bereich ist der Kartenbereich.
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 Status- und Informationsbereich
 \end_layout
 
@@ -2398,7 +2380,7 @@ Am rechten Rand befinden sich dann noch 2 Hyperlinks.
  des Browsers.
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 Über
 \end_layout
 
@@ -2434,7 +2416,7 @@ Hier werden allgemeine Informationen zum Projekt bereitgestellt, wie um
  Außerdem stehen alle Namen die an dem Projekt mitgearbeitet haben.
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 Berechnungsinformationen
 \end_layout
 
@@ -2470,7 +2452,7 @@ Hier wird nach ein erfolgreichen Berechnung, Informationen zu Berechnung
  gedauert hat.
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 Auswahl- und Optionsbereich
 \end_layout
 
@@ -2537,7 +2519,7 @@ Anschließend folgen 3 Hyperlinks.
  kann, oder die Zusammenfassung dargestellt wird.
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 Optionen
 \end_layout
 
@@ -2555,7 +2537,7 @@ Hier kann man zu aller erst die Routenart festlegen.
  Hier ist standardmäßig “A*” eingestellt.
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 Zusammenfassung
 \end_layout
 
@@ -2591,7 +2573,7 @@ Hier wird nach einer erfolgreichen Berechnung Angaben zu der Route gemacht.
  Benutzer innerhalb eines Ortes verbringt
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 Wegbeschreibung
 \end_layout
 
@@ -2606,7 +2588,7 @@ Wegbeschreibung
 Hier wird die textuelle Ausgabe der Route dargestellt.
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 Kartenbereich
 \end_layout
 
