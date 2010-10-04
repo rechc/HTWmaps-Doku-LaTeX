@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -473,8 +473,8 @@ Programmiersprache
 
 \begin_layout Standard
 Der Code wurde überwiegend in Java geschrieben.
- Für die Importierung des Codes in GWT mussten einige Schnittstellen in
- JavaScript implementiert werden.
+ Wegen der Verwendung von GWT mussten einige Schnittstellen in JavaScript
+ implementiert werden.
  Ansonsten wurde noch HTML und CSS verwendet um die Oberfläche grafisch
  aufzuarbeiten.
 \end_layout
@@ -649,9 +649,15 @@ GWT
 \begin_layout Standard
 Das Google Web Toolkit (GWT) ist ein Framework zur Entwicklung von Webanwendunge
 n der Firma Google.
- GWT ist eine freie Software.
- Sie besitzt einen Java-nach-Javascript-Compiler, wodurch Anwendungen teilweise
- lokal im Browser und auf dem Web-Server ablaufen können.
+ GWT ist eine freie Software veröffentlicht unter der Apache-Lizenz.
+ Sie besitzt einen Java-nach-Javascript-Compiler, wodurch Anwendungen komplett
+ mit Java implementiert werden und durch den Compiler in Javascript übersetzt
+ werden.
+ GWT unterestützt auch Remote Procedure Calls (RPC), mit diesen Aufrufen
+ können von einem Client Methoden auf einem Server aufgerufen werden.
+ Mithilfe dieser RPCs konnten wir den Routeplaner so aufbauen, dass die
+ graphische Darstellung auf dem Client ausgeführt wird und die eigendliche
+ Routenberechnung auf dem Server läuft.
 \end_layout
 
 \begin_layout Standard
