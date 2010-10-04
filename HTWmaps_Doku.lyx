@@ -2605,7 +2605,7 @@ Momentaufnahme
 	filename Images/AStar_Bi_Momentaufnahme.png
 	lyxscale 60
 	display false
-	scale 40
+	width 100col%
 
 \end_inset
 
@@ -2993,7 +2993,7 @@ Dieses Problem konnten wir mit einem Rechteck lösen, welches sich mit den
 \begin_inset Graphics
 	filename Images/selekts/rechteckSelektNeu.png
 	display false
-	scale 42
+	width 50col%
 
 \end_inset
 
