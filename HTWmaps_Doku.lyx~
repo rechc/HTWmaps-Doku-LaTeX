@@ -84,15 +84,8 @@ Vorwort
 \begin_layout Standard
 Im Rahmen des 4.
  Semesters war es Aufgabe, ein Projekt über die Dauer des Semesters anzufertigen.
- Ziel des Projektes war die Erstellung eines 
-\shape italic
-Routenplaner
-\shape default
-s mit Hilfe des Kartenmaterials von 
-\shape italic
-OpenStreetMap
-\shape default
-.
+ Ziel des Projektes war die Erstellung eines Routenplaners mit Hilfe des
+ Kartenmaterials von OpenStreetMap.
  Die zu entwickelnde Software soll das Planen von Routen innerhalb Deutschlands
  ermöglichen.
  Von uns wurde der Name HTWmaps gewählt.
@@ -155,11 +148,8 @@ Zielsetzung
 Ziel des Projektes war die Fertigstellung der Software, sowie eine umfassende
  Dokumentation dieser, bis zum 30.
  September 2010.
- Das Programm sollte bis dahin den im 
-\shape italic
-Lastenheft
-\shape default
- definierten Funktionsumfang besitzen.
+ Das Programm sollte bis dahin den im Lastenheft definierten Funktionsumfang
+ besitzen.
  
 \end_layout
 
@@ -168,29 +158,18 @@ Zielgruppe
 \end_layout
 
 \begin_layout Standard
-HTWmaps gleicht im Aufbau anderen Online-
-\shape italic
-Routenplaner
-\shape default
-n (z.B.
+HTWmaps gleicht im Aufbau anderen Online-Routenplanern (z.B.
  
 \color black
 GoogleMaps, Falk24, ViaMichelin)
 \color inherit
 .
  Es wurde versucht, soweit technisch und zeitlich möglich, die besten Funktionen
- dieser 
-\shape italic
-Routenplaner
-\shape default
+ dieser Routenplaner
 \color black
  in HTWmaps einzubauen.
  Die Zielgruppe, größtenteils Autofahrer, unterscheidet sich deswegen nicht
- von anderen 
-\shape italic
-Routenplaner
-\shape default
-n.
+ von anderen Routenplanern.
 \end_layout
 
 \begin_layout Subsection
@@ -212,20 +191,8 @@ Vorgehensmodell Scrum (oder Code & Fix)
 \end_layout
 
 \begin_layout Standard
-Die Projektgruppe hat sich für das agile 
-\shape italic
-Vorgehensmodell
-\shape default
- 
-\shape italic
-Scrum
-\shape default
- entschieden.
- 
-\shape italic
-Scrum
-\shape default
- beruht auf dem Prinzip, dass die Teammitglieder sich weitgehend selbst
+Die Projektgruppe hat sich für das agile Vorgehensmodell Scrum entschieden.
+ Scrum beruht auf dem Prinzip, dass die Teammitglieder sich weitgehend selbst
  organisieren.
  Es wird stetig darüber abgestimmt, ob Funktionen wichtig sind und implementiert
  werden, oder ob es wichtigere Funktionen gibt, auf welche man sich konzentriert.
@@ -239,21 +206,14 @@ Scrum
 \end_layout
 
 \begin_layout Standard
-Andere Modelle, wie beispielsweise das 
-\shape italic
-Wasserfallmodell
-\shape default
-, erschienen zu unfexibel für die Aufgabenstellung.
+Andere Modelle, wie beispielsweise das Wasserfallmodell, erschienen zu unfexibel
+ für die Aufgabenstellung.
  Obwohl das Projekt von Anfang bis Ende geplant wurde und das Vorgehen festgeleg
 t wurde, stellte sich häufiger heraus, dass (meist aus Performanz Gründen)
  das Vorgehen verändert werden musste.
  Dies traf größtenteils auf den Datenbankbereich zu, wodurch wiederum auch
  andere Teile überarbeitet werden mussten.
- Dies glich deshalb dem Vorgehensmodell 
-\shape italic
-Code & Fix
-\shape default
-.
+ Dies glich deshalb dem Vorgehensmodell Code & Fix.
  
 \end_layout
 
@@ -355,8 +315,6 @@ Yassir Klos, Tobias Lana
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\shape italic
 GUI
 \end_layout
 
@@ -444,30 +402,17 @@ Produktumfang
 \end_layout
 
 \begin_layout Standard
-Da es bereits einige 
-\shape italic
-Routenplaner
-\shape default
- gibt, konnte sich jeder Projektteilnehmer sehr gut vorstellen, was in dem
- Projekt verlangt wurde.
- So kam es auch dazu, dass wir unser Programm mit anderen 
-\shape italic
-Routenplaner
-\shape default
-n verglichen haben.
- Da die am meisten genutzen 
-\shape italic
-Routenplaner
-\shape default
- vom Internet aus zu bedienen sind, haben wir uns dies auch als Ziel gesetzt.
+Da es bereits einige Routenplaner gibt, konnte sich jeder Projektteilnehmer
+ sehr gut vorstellen, was in dem Projekt verlangt wurde.
+ So kam es auch dazu, dass wir unser Programm mit anderen Routenplanern
+ verglichen haben.
+ Da die am meisten genutzen Routenplaner vom Internet aus zu bedienen sind,
+ haben wir uns dies auch als Ziel gesetzt.
 \end_layout
 
 \begin_layout Standard
-Die Funktionen wurden im 
-\shape italic
-Lastenheft
-\shape default
- festgehalten und können dort nachgelesen werden.
+Die Funktionen wurden im Lastenheft festgehalten und können dort nachgelesen
+ werden.
 \end_layout
 
 \begin_layout Standard
@@ -528,15 +473,8 @@ Programmiersprache
 
 \begin_layout Standard
 Der Code wurde überwiegend in Java geschrieben.
- Für die Importierung des Codes in 
-\shape italic
-GWT
-\shape default
- mussten einige Schnittstellen in 
-\shape italic
-JavaScript
-\shape default
- implementiert werden.
+ Für die Importierung des Codes in GWT mussten einige Schnittstellen in
+ JavaScript implementiert werden.
  Ansonsten wurde noch HTML und CSS verwendet um die Oberfläche grafisch
  aufzuarbeiten.
 \end_layout
@@ -546,11 +484,7 @@ Wie sind die Daten aufbereitet
 \end_layout
 
 \begin_layout Standard
-
-\shape italic
-OpenStreetMap
-\shape default
- bietet die Daten als xml formatierte Datei zum Download an.
+OpenStreetMap bietet die Daten als xml formatierte Datei zum Download an.
  Die Datei hat folgende Struktur:
 \end_layout
 
@@ -672,41 +606,16 @@ g am Code arbeiten zu können.
 \end_layout
 
 \begin_layout Standard
-In der näheren Auswahl standen bei den Projekthostern 
-\shape italic
-Sourceforge
-\shape default
- und 
-\shape italic
-Github
-\shape default
-, bei den Versionsverwaltungen Apache Subversion und Git.
- Die Seite des Projekthosters 
-\shape italic
-Github
-\shape default
- ist intuitiv und einfach zu bedienen, sie bietet deshalb auch nur eine
- eingeschränkte Auswahl an Funktionen, aber dennoch alles was wir für unser
- Projekt benötigten.
- 
-\shape italic
-Sourceforge
-\shape default
- hat dagegen sehr viele Funktionen, ist aufwendig einzurichten und zu verwalten.
- Somit bevorzugten wir bei den Projekthostern klar 
-\shape italic
-Github
-\shape default
-.
- 
-\shape italic
-Github
-\shape default
- bietet auch noch einen weiteren Vorteil: Mit 
-\shape italic
-Github
-\shape default
- ist es möglich das Projekt über HTTP zu managen.
+In der näheren Auswahl standen bei den Projekthostern Sourceforge und Github,
+ bei den Versionsverwaltungen Apache Subversion und Git.
+ Die Seite des Projekthosters Github ist intuitiv und einfach zu bedienen,
+ sie bietet deshalb auch nur eine eingeschränkte Auswahl an Funktionen,
+ aber dennoch alles was wir für unser Projekt benötigten.
+ Sourceforge hat dagegen sehr viele Funktionen, ist aufwendig einzurichten
+ und zu verwalten.
+ Somit bevorzugten wir bei den Projekthostern klar Github.
+ Github bietet auch noch einen weiteren Vorteil: Mit Github ist es möglich
+ das Projekt über HTTP zu managen.
  Bei einem Versuch, Git innerhalb der HTW über SSH zu verwenden, scheiterten
  wir an der Firewall der HTW.
 \end_layout
@@ -738,54 +647,21 @@ GWT
 \end_layout
 
 \begin_layout Standard
-Das 
-\shape italic
-Google Web Toolkit
-\shape default
- (
-\shape italic
-GWT
-\shape default
-) ist ein 
-\shape italic
-Framework
-\shape default
- zur Entwicklung von Webanwendungen der Firma Google.
- 
-\shape italic
-GWT
-\shape default
- ist eine freie Software.
- Sie besitzt einen Java-nach-
-\shape italic
-Javascript
-\shape default
--Compiler, wodurch Anwendungen teilweise lokal im Browser und auf dem Web-Server
- ablaufen können.
+Das Google Web Toolkit (GWT) ist ein Framework zur Entwicklung von Webanwendunge
+n der Firma Google.
+ GWT ist eine freie Software.
+ Sie besitzt einen Java-nach-Javascript-Compiler, wodurch Anwendungen teilweise
+ lokal im Browser und auf dem Web-Server ablaufen können.
 \end_layout
 
 \begin_layout Standard
-Zu Beginn des Projektes, hatte keiner in unsere Gruppe Erfahrungen mit 
-\shape italic
-GWT
-\shape default
-.
- Bevor wir uns für 
-\shape italic
-GWT
-\shape default
- entschieden haben, hatten wir uns auch über JSP und Servlets informiert.
+Zu Beginn des Projektes, hatte keiner in unsere Gruppe Erfahrungen mit GWT.
+ Bevor wir uns für GWT entschieden haben, hatten wir uns auch über JSP und
+ Servlets informiert.
  Diese Sprachen erschienen uns aber wesentlich komplexer.
- Da 
-\shape italic
-GWT
-\shape default
- ähnlich wie Java Swing funktioniert, konnten wir uns schnell einarbeiten.
- Es wird von Google ein Tutorial angeboten, um das Bedienen von 
-\shape italic
-GWT
-\shape default
- zu erlernen, welches die Verantwortlichen auch durchgearbeitet haben.
+ Da GWT ähnlich wie Java Swing funktioniert, konnten wir uns schnell einarbeiten.
+ Es wird von Google ein Tutorial angeboten, um das Bedienen von GWT zu erlernen,
+ welches die Verantwortlichen auch durchgearbeitet haben.
 \end_layout
 
 \begin_layout Subsubsection
@@ -874,11 +750,7 @@ Unvollständigkeit der Daten
 Die Daten bei Openstreet Maps sind derzeit noch unvollständig.
  So sind manchmal Wege und Straßen nicht verzeichnet, oder besitzen ungültige
  Namen, wie beispielsweise „unbekannt“.
- Die Unvollständigkeit der Daten hat folgende Auswirkungen auf den 
-\shape italic
-Routenplaner
-\shape default
-:
+ Die Unvollständigkeit der Daten hat folgende Auswirkungen auf den Routenplaner:
 \end_layout
 
 \begin_layout Itemize
@@ -1077,11 +949,8 @@ Vorwort
 \end_layout
 
 \begin_layout Standard
-Das komplette 
-\shape italic
-Lastenheft
-\shape default
- mit den unterstützten Funktionen und Anforderungen finden Sie im Anhang.
+Das komplette Lastenheft mit den unterstützten Funktionen und Anforderungen
+ finden Sie im Anhang.
  Im nächsten Unterpunkt möchten wir Ihnen aber einen Überblick über die
  Funktionen geben.
 \end_layout
@@ -1184,36 +1053,19 @@ Aufbau GWT
 \end_layout
 
 \begin_layout Standard
-Beim Anlegen eines 
-\shape italic
-GWT
-\shape default
- Projektes wird eine Grundstruktur an Paketen mit angelegt.
+Beim Anlegen eines GWT Projektes wird eine Grundstruktur an Paketen mit
+ angelegt.
  Diese Pakete heißen: 
 \end_layout
 
 \begin_layout Itemize
-
-\shape italic
-Client
-\shape default
- - Der Code in diesem Ordner wird in 
-\shape italic
-JavaScript
-\shape default
- übersetzt und auf dem 
-\shape italic
-Client
-\shape default
- im Browser ausgeführt 
+Client - Der Code in diesem Ordner wird in JavaScript übersetzt und auf
+ dem Client im Browser ausgeführt 
 \end_layout
 
 \begin_layout Itemize
-Shared - Hier wird Code gelagert der vom 
-\shape italic
-Client
-\shape default
- und vom Server ausgeführt werden kann
+Shared - Hier wird Code gelagert der vom Client und vom Server ausgeführt
+ werden kann
 \end_layout
 
 \begin_layout Itemize
@@ -1297,11 +1149,7 @@ Client Bereich
 \end_layout
 
 \begin_layout Standard
-In dem 
-\shape italic
-Client
-\shape default
- Paket finden Sie folgende Struktur:
+In dem Client Paket finden Sie folgende Struktur:
 \end_layout
 
 \begin_layout Standard
@@ -1334,11 +1182,8 @@ Allgemeiner Programmablauf
 \end_layout
 
 \begin_layout Standard
-Der Benutzer interagiert mit der Software über einen 
-\shape italic
-JavaScript
-\shape default
- fähigen Internetbrowser.
+Der Benutzer interagiert mit der Software über einen JavaScript fähigen
+ Internetbrowser.
 \end_layout
 
 \begin_layout Standard
@@ -1586,11 +1431,7 @@ Datenbankschema
 
 \begin_layout Standard
 In der ersten Version des Datenbanksschemas ging man davon aus, dass zum
- 
-\shape italic
-Rendern
-\shape default
- der Route alle Daten aus der Quelldatei benötigt werden würden.
+ Rendern der Route alle Daten aus der Quelldatei benötigt werden würden.
  Dazu gehörten auch die Daten, die nichts mit der direkten Routenplanung
  zu tun haben, z.B.
  Umrisse von Wäldern, Flüsse, Bundeslandgrenzen, etc.
@@ -1610,11 +1451,7 @@ Ein neuer Ansatz brachte zwei wichtige Änderungen:
 \end_layout
 
 \begin_layout Enumerate
-Das 
-\shape italic
-Rendern
-\shape default
- der Karte wird an eine externe Lösung abgegeben.
+Das Rendern der Karte wird an eine externe Lösung abgegeben.
  Das heißt, dass nur noch die zum Routen relevanten Daten in die Datenbank
  gespeichert werden.
  
@@ -1639,12 +1476,9 @@ Finales Datenbankschema (1.0)
 \end_layout
 
 \begin_layout Standard
-Ein 
-\shape italic
-ER-Diagramm
-\shape default
- erweist sich hier als wenig sinnvoll, da fast jede Tabelle mit jeder anderen
- aufgrund von Redundanz in Verbindung gebracht werden kann.
+Ein ER-Diagramm erweist sich hier als wenig sinnvoll, da fast jede Tabelle
+ mit jeder anderen aufgrund von Redundanz in Verbindung gebracht werden
+ kann.
  Ausserdem sind JOINS und andere SQL Anfragen, die tabellenübergreifend
  sind aufgrund von Performance nicht erwünscht.
 \end_layout
@@ -1776,86 +1610,30 @@ A*
 \end_layout
 
 \begin_layout Standard
-Der 
-\shape italic
-Routenplaner
-\shape default
- läuft mit 2 auswählbaren Suchalgorithmen, 
-\shape italic
-A*
-\shape default
- und 
-\shape italic
-A*
-\shape default
- Bidirectional, die beide unabhängig voneinander entwickelt wurden.
+Der Routenplaner läuft mit 2 auswählbaren Suchalgorithmen, A* und A* Bidirection
+al, die beide unabhängig voneinander entwickelt wurden.
  Beide Algorithmen können in allen Bereichen, wo es darum geht von einem
  bekannten Anfangspunkt einen Weg zu einem bekannten Endpunkt zu finden,
  ihre Anwendung finden.
- Der 
-\shape italic
-A*
-\shape default
- Algorithmus entstand aus der Idee vom 
-\shape italic
-Dijkstra
-\shape default
- Suchalgorithmus und hat diesen erweitert.
- 
-\shape italic
-Dijkstra
-\shape default
- ist auf das Suchen des kürzesten Weges von jedem Knoten aus zum Startknoten
- konzipiert.
+ Der A* Algorithmus entstand aus der Idee vom Dijkstra Suchalgorithmus und
+ hat diesen erweitert.
+ Dijkstra ist auf das Suchen des kürzesten Weges von jedem Knoten aus zum
+ Startknoten konzipiert.
  Dies hat den Vorteil, dass man nicht von Vornherein wissen muss, wo sich
  das Ende befindet.
  Beispielsweise Routen durch ein Netzwerk.
  Dieses Konzept ist für den Anwendungsfall unserer Software wenig sinnvoll,
  da wir nur den kürzesten Weg zwischen Start- und Endknoten suchen.
- 
-\shape italic
-A*
-\shape default
- erfüllt dieses Kriterium.
- Entscheidender Unterschied zu 
-\shape italic
-Dijkstra
-\shape default
- ist eine zielorientierte Heuristik.
+ A* erfüllt dieses Kriterium.
+ Entscheidender Unterschied zu Dijkstra ist eine zielorientierte Heuristik.
  Diese veranlasst den Algorithmus immer den nächsten Knoten zu analysieren,
  der am nächsten zum aktuellen Knoten und zum Ziel liegt.
  Trotz dieser Erweiterung bleibt der mathematische Korrektheitsbeweis analog
- zum 
-\shape italic
-Dijkstra
-\shape default
-.
- Ein Weg 
-\shape italic
-A*
-\shape default
- zu optimieren ist ein sogenanntes „
-\shape italic
-Bidirektional
-\shape default
-es Verfahren“.
- Der 
-\shape italic
-bidirektional
-\shape default
-e 
-\shape italic
-A*
-\shape default
- entspricht dem klassischen 
-\shape italic
-A*
-\shape default
-, bis auf die Tatsache, dass hier der klassische 
-\shape italic
-A*
-\shape default
- gleichzeitig von Start nach Ende, sowie von Ende nach Start sucht.
+ zum Dijkstra.
+ Ein Weg A* zu optimieren ist ein sogenanntes „Bidirektionales Verfahren“.
+ Der bidirektionale A* entspricht dem klassischen A*, bis auf die Tatsache,
+ dass hier der klassische A* gleichzeitig von Start nach Ende, sowie von
+ Ende nach Start sucht.
  Dort, wo sich die beiden Verfahren zum ersten Mal treffen, ist die Schnittstell
 e zum gefundenen Weg.
  Dieses Verfahren beschleunigt die Suche und ist von der Theorie her korrekt.
@@ -2041,11 +1819,8 @@ A* Bidirectional:
 \end_layout
 
 \begin_layout Standard
-Das 
-\shape italic
-bidirektional
-\shape default
-e Verfahren ist immer performanter, da weniger Knoten besucht werden.
+Das bidirektionale Verfahren ist immer performanter, da weniger Knoten besucht
+ werden.
  
 \end_layout
 
@@ -2092,22 +1867,12 @@ Zur Laufzeitoptimierung, verwenden beide Algorithmen den „Fibonacci Heap“.
  Leiserson, Thomas H.
  Cormen und Ronald L.
  Rivest benutzt.
- Leider ist es nicht gelungen den 
-\shape italic
-bidirektional
-\shape default
-en 
-\shape italic
-A*
-\shape default
- deterministisch zu implementieren.
+ Leider ist es nicht gelungen den bidirektionalen A* deterministisch zu
+ implementieren.
  Das Ergebnis hängt vom Thread-Scheduling der JVM ab und liefert manchmal
  unterschiedliche Ergebnisse bei unveränderter Eingabe.
- Allerdings ist der „Fehler“ nie schwerwiegend, da sich 
-\shape italic
-A*
-\shape default
- zielorientiert auf dem Graphen ausbreitet.
+ Allerdings ist der „Fehler“ nie schwerwiegend, da sich A* zielorientiert
+ auf dem Graphen ausbreitet.
  
 \end_layout
 
@@ -2394,16 +2159,8 @@ Wegbeschreibung
 
 \begin_layout Standard
 Um die gefundene Route auch in schriftlicher Form auszugeben, wurde die
- Klasse 
-\shape italic
-RouteToText
-\shape default
- erstellt.
- Der 
-\shape italic
-Konstruktor
-\shape default
- der Klasse erwartet zwei Listen.
+ Klasse RouteToText erstellt.
+ Der Konstruktor der Klasse erwartet zwei Listen.
  Dies sind erstens eine Liste mit allen besuchten Knoten (Nodes) und zweitens
  eine Liste mit den besuchten Kanten (Edges).
  Mithilfe der Informationen aus den Listen werden über eine SQL-Abfrage
@@ -2425,23 +2182,16 @@ Konstruktor
 raßenbezeichnung gruppiert werden.
  Die gruppierten Informationen werden dann in einem Objekt gespeichert.
  Sobald alle Daten zu einer gefunden Route gesammelt wurden, gibt es eine
- Methode in der Klasse 
-\shape italic
-RouteToText
-\shape default
-, welche aus diesen Daten eine schriftliche Routenbeschreibung generiert.
+ Methode in der Klasse RouteToText, welche aus diesen Daten eine schriftliche
+ Routenbeschreibung generiert.
  Dies geschieht durch verschachtelte IF-THEN Abfragen, welche je nach Eigenschaf
 t des Streckenabschnittobjektes einen Text zur Routenbeschreibung hinzufügt
  (eine genauere Beschreibung finden Sie im nächsten Paragraphen).
 \end_layout
 
 \begin_layout Standard
-Die Klasse 
-\shape italic
-RouteToText
-\shape default
- ist außerdem dafür verantwortlich, dass eine Statistik über die gefundene
- Strecke erstellt wird.
+Die Klasse RouteToText ist außerdem dafür verantwortlich, dass eine Statistik
+ über die gefundene Strecke erstellt wird.
  Ein Edge-Objekt besitzt die Attribute distance (beinhaltet Länge der Kante)
  und highwayType (zeigt durch eine ID wie schnell auf dieser Kante gefahren
  werden darf).
@@ -2510,12 +2260,9 @@ Der Datenbank Connector stellt über die JDBC Schnittstelle eine Verbindung
  zum MySQL-Server her.
  Dazu ist es notwenig einen JDBC-Treiber, in diesem Fall einen speziellen
  Java-MySQL-Connector in das Projekt einzubinden.
- Ursprünglich war der Datenbank Connector als 
-\shape italic
-Singleton
-\shape default
- realisiert, da es logisch erschien immer nur eine Verbindung zum Datenbankserve
-r herstellen zu können.
+ Ursprünglich war der Datenbank Connector als Singleton realisiert, da es
+ logisch erschien immer nur eine Verbindung zum Datenbankserver herstellen
+ zu können.
  Dies musste jedoch später verworfen werden, da sich herausstellte, dass
  dies zu einer ständig offenen Verbindung zum MySQL Server und diese offene
  Verbindung wiederum zu Speicherlecks führte.
@@ -2528,29 +2275,16 @@ Property-Klasse
 \end_layout
 
 \begin_layout Standard
-Mit Hilfe einer 
-\shape italic
-Property-Klasse
-\shape default
- ist es in Java sehr einfach aus einer einfachen Text-Datei Werte auszulesen.
+Mit Hilfe einer Property-Klasse ist es in Java sehr einfach aus einer einfachen
+ Text-Datei Werte auszulesen.
  Hier geht man in der Text-Datei ähnlich vor wie bei der Variablen-Zuweisung.
  Diese Werte können dann über das Property-Objekt in Java verwendet werden.
- Die 
-\shape italic
-Property-Klasse
-\shape default
- wurde bei uns durch ein 
-\shape italic
-Singleton
-\shape default
- Muster implementiert, da wir nur ein Property-File haben und mehrere Klassen
- das selbe Objekt verwenden können.
+ Die Property-Klasse wurde bei uns durch ein Singleton Muster implementiert,
+ da wir nur ein Property-File haben und mehrere Klassen das selbe Objekt
+ verwenden können.
  In der Property-Datei wurden die Zugangsdaten zum SQL-Server abgelegt.
  Ein Eintrag in der Git-Ignore Datei hat dann dafür gesorgt, dass die Datei
- mit den SQL Zugangsdaten nicht ins Internet auf unser öffentliches 
-\shape italic
-Repository
-\shape default
+ mit den SQL Zugangsdaten nicht ins Internet auf unser öffentliches Repository
  geladen wird.
 \end_layout
 
@@ -2563,34 +2297,12 @@ Vorwort
 \end_layout
 
 \begin_layout Standard
-Um unsere 
-\shape italic
-GUI
-\shape default
- zu gestalten haben wir uns für das 
-\shape italic
-Google Web Toolkit
-\shape default
- entschieden.
- Der wichtigste Punkt für diese Software war, dass sie ein Java-nach-
-\shape italic
-Javascript
-\shape default
--Compiler besitzt.
- Da keiner von uns Erfahrung mit 
-\shape italic
-Javascript
-\shape default
- hat.
- So konnten wir die Oberfläche in Java entwickeln und das 
-\shape italic
-Google Web Toolkit
-\shape default
- hat diesen Java Code dann nach 
-\shape italic
-Javascript
-\shape default
- übersetzt.
+Um unsere GUI zu gestalten haben wir uns für das Google Web Toolkit entschieden.
+ Der wichtigste Punkt für diese Software war, dass sie ein Java-nach-Javascript-
+Compiler besitzt.
+ Da keiner von uns Erfahrung mit Javascript hat.
+ So konnten wir die Oberfläche in Java entwickeln und das Google Web Toolkit
+ hat diesen Java Code dann nach Javascript übersetzt.
 \end_layout
 
 \begin_layout Paragraph
@@ -2598,11 +2310,8 @@ Konzept
 \end_layout
 
 \begin_layout Standard
-Mit unserem ersten Entwurf haben wir uns entscheiden die 
-\shape italic
-GUI
-\shape default
- in 3 wesentliche Teile zu unterteilen.
+Mit unserem ersten Entwurf haben wir uns entscheiden die GUI in 3 wesentliche
+ Teile zu unterteilen.
  Diese sind die Folgenden:
 \end_layout
 
@@ -2689,11 +2398,8 @@ Dazu gibt es noch weitere verschiedene Fehlermeldungen, die in roter Schrift
 \begin_layout Standard
 Am rechten Rand befinden sich dann noch 2 Hyperlinks.
  Zum einen “Über” und “Berechnungsinformationen”.
- Bei beiden Hyperlinks öffnet sich nach dem drücken ein 
-\shape italic
-Popup
-\shape default
- in der Mitte des Browsers.
+ Bei beiden Hyperlinks öffnet sich nach dem drücken ein Popup in der Mitte
+ des Browsers.
 \end_layout
 
 \begin_layout Paragraph
@@ -2798,34 +2504,19 @@ Auswahl- und Optionsbereich
 \end_layout
 
 \begin_layout Standard
-Im oberen Bereich kann der 
-\shape italic
-Client
-\shape default
- seine Start- und Zieldaten eingeben.
- Die Ort- und Straßenfeldern besitzen eine 
-\shape italic
-Autofill
-\shape default
-- Funktionen.
+Im oberen Bereich kann der Client seine Start- und Zieldaten eingeben.
+ Die Ort- und Straßenfeldern besitzen eine Autofill- Funktionen.
  Diese sucht nach Eingabe der ersten Buchstaben in der Datenbank nach gleichen
  Orten oder Straßen die mit diesen Buchstaben beginnen.
- So dass ein Auswahlbox erscheint, in der der 
-\shape italic
-Client
-\shape default
- dann den Ort oder Straße nur noch auswählen muss.
+ So dass ein Auswahlbox erscheint, in der der Client dann den Ort oder Straße
+ nur noch auswählen muss.
  
 \end_layout
 
 \begin_layout Standard
 Neben jedem Ort- und Straßenfeld befindet sich ein Button mit einem “+”
  Zeichen.
- Mit diesem Button kann der 
-\shape italic
-Client
-\shape default
- ein neues Zwischenziel hinzufügen.
+ Mit diesem Button kann der Client ein neues Zwischenziel hinzufügen.
  Diese wird dann ein Zeile darunter eingefügt.
  Es ist möglich, so viele Zwischenziele wie man will, hinzuzufügen.
  Wenn mehr als 2 Orts- und Straßenfelder vorhanden sind, erscheint dazu
@@ -2864,20 +2555,8 @@ Hier kann man zu aller erst die Routenart festlegen.
  benötigt, dann genau auf seine Fahrverhalten abgestimmt.
  Im folgenden kann er noch zwischen den zwei implementierten Algorithmen
  wählen.
- Zum einen “
-\shape italic
-A*
-\shape default
-” oder “
-\shape italic
-A*
-\shape default
- Bideriktional”.
- Hier ist standardmäßig “
-\shape italic
-A*
-\shape default
-” eingestellt.
+ Zum einen “A*” oder “A* Bideriktional”.
+ Hier ist standardmäßig “A*” eingestellt.
 \end_layout
 
 \begin_layout Paragraph
@@ -3013,12 +2692,9 @@ Client: Ein Client ist ein Computerprogramm, das Kontakt zu einem anderen
 \end_layout
 
 \begin_layout Description
-Code & Fix: 
-\shape italic
-Vorgehensmodell
-\shape default
- der Softwareentwicklung, bei der sehr schnell angefangen wird zu programmieren
- (ohne Gedanken über das Design bzw Programmierstil).
+Code & Fix: Vorgehensmodell der Softwareentwicklung, bei der sehr schnell
+ angefangen wird zu programmieren (ohne Gedanken über das Design bzw Programmier
+stil).
  Nach einer bestimmten Zeit wird getestet und evtl.
  Verbesserungen vorgenommen
 \end_layout
@@ -3113,11 +2789,7 @@ Routingalgorithmus: Algorithmus.
 \end_layout
 
 \begin_layout Description
-Scrum: 
-\shape italic
-Vorgehensmodell
-\shape default
- der agilen Softwareentwicklung.
+Scrum: Vorgehensmodell der agilen Softwareentwicklung.
 \end_layout
 
 \begin_layout Description
@@ -3151,12 +2823,8 @@ Vorgehensmodell: dient dazu, die Softwareentwicklung übersichtlicher zu
 
 \begin_layout Description
 Wasserfallmodell: Das Wasserfallmodell ist ein lineares (nicht-iteratives)
- 
-\shape italic
-Vorgehensmodell
-\shape default
- in der Softwareentwicklung, bei dem der Softwareentwicklungsprozess in
- Phasen organisiert wird.
+ Vorgehensmodell in der Softwareentwicklung, bei dem der Softwareentwicklungspro
+zess in Phasen organisiert wird.
  Dabei gehen die Phasenergebnisse wie bei einem Wasserfall immer als bindende
  Vorgaben für die nächst tiefere Phase ein.
 \end_layout
