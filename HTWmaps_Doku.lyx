@@ -1676,6 +1676,13 @@ cities
 \end_layout
 
 \begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Beschreibung
 \end_layout
 
@@ -1683,7 +1690,7 @@ Beschreibung
 \begin_inset Graphics
 	filename Images/db/db-1.png
 	display false
-	width 90col%
+	width 100col%
 
 \end_inset
 
@@ -1698,7 +1705,23 @@ Aufbau
 \begin_inset Graphics
 	filename Images/db/db-2.png
 	display false
-	width 90col%
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
 
 \end_inset
 
@@ -1717,11 +1740,41 @@ edges_all
 \end_layout
 
 \begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Beschreibung
 \end_layout
 
 \begin_layout Standard
-<<Screenshot>>
+\begin_inset Graphics
+	filename Images/db/db-3.png
+	display false
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1729,7 +1782,322 @@ Aufbau
 \end_layout
 
 \begin_layout Standard
-<<Screenshot>>
+\begin_inset Graphics
+	filename Images/db/db-4.png
+	display false
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+edges_borders
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Beschreibung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/tobiaslana/Dropbox/HTWmaps-Doku-LaTeX/Images/db/db-5.png
+	display false
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Aufbau
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/tobiaslana/Dropbox/HTWmaps-Doku-LaTeX/Images/db/db-6.png
+	display false
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+edges_opt
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Beschreibung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/tobiaslana/Dropbox/HTWmaps-Doku-LaTeX/Images/db/db-7.png
+	display false
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Aufbau
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/tobiaslana/Dropbox/HTWmaps-Doku-LaTeX/Images/db/db-8.png
+	display false
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+nodes
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Beschreibung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/tobiaslana/Dropbox/HTWmaps-Doku-LaTeX/Images/db/db-9.png
+	display false
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Aufbau
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/tobiaslana/Dropbox/HTWmaps-Doku-LaTeX/Images/db/db-10.png
+	display false
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+nodes_opt
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Beschreibung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/tobiaslana/Dropbox/HTWmaps-Doku-LaTeX/Images/db/db-11.png
+	display false
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Aufbau
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/tobiaslana/Dropbox/HTWmaps-Doku-LaTeX/Images/db/db-12.png
+	display false
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+ways
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Beschreibung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/tobiaslana/Dropbox/HTWmaps-Doku-LaTeX/Images/db/db-13.png
+	display false
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Aufbau
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/tobiaslana/Dropbox/HTWmaps-Doku-LaTeX/Images/db/db-14.png
+	display false
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3306,19 +3674,6 @@ Quellenangabe
 \begin_layout Standard
 Die Formulierungen des Glossars wurden Teilweise aus Wikipedia (www.wikipedia.de)
  kopiert.
-\end_layout
-
-\begin_layout Section
-DoKu ToDo
-\end_layout
-
-\begin_layout Itemize
-DB Screenshots 4.4.5
-\end_layout
-
-\begin_layout Itemize
-Unterabschnitte unter 4.5.
- Algos
 \end_layout
 
 \end_body
