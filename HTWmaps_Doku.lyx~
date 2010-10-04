@@ -1743,9 +1743,12 @@ Im Rahmen der Performanceoptimierung der Wegsuche wurde eine Kantenoptimierung
  Dieser Graph unterscheidet sich vom ursprünglichen Graphen, den man aus
  der OSM Datei entnehmen kann, um die Anzahl der Knoten und Kanten.
  Die Anzahl wurde erheblich reduziert.
- Es gibt im OSM Kartenmaterial viele Knoten, die für die Wegsuche keinen
- brauchbaren Wert haben, auch wenn sie auf der Straße liegen, die eine Ergebniss
-traße ist.
+ Es gibt im 
+\shape italic
+OSM
+\shape default
+ Kartenmaterial viele Knoten, die für die Wegsuche keinen brauchbaren Wert
+ haben, auch wenn sie auf der Straße liegen, die eine Ergebnisstraße ist.
  
 \end_layout
 
