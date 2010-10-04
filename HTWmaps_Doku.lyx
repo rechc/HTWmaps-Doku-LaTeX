@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -1148,6 +1148,28 @@ Eingabe: Die Eingabe der Startadresse, Zieladresse und der Zwischenstopps
  erfolgt mit Ortsname und Straßenname.
  Hausnummern und Postleitzahl werden nicht berücksichtigt.
  
+\end_layout
+
+\begin_layout Subsection
+Produktleistung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+/LL 10/ Das Berechnen der Route muss unter 3 Sekunden liegen.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Im Lastenheft formulierten wir das Ziel eine Route unter 3 Sekunden zu berechnen.
+ Um dieses Ziel zu erreichen wurde sehr viel Zeit investiert.
+ Leider war es uns nicht möglich diese Vorgabe immer einzuhalten.
+ Es ist uns aber gelungen eine nah daranliegendes Ergebnis zu erreichen.
 \end_layout
 
 \begin_layout Standard
@@ -3463,7 +3485,11 @@ Glossar
 \end_layout
 
 \begin_layout Description
-A Stern (A*): Suchalgorithmus.
+A 
+\series bold
+Stern (A*):
+\series default
+ Suchalgorithmus.
  Er dient in der Informatik der Berechnung eines kürzesten Pfades zwischen
  zwei Knoten in einem Graphen mit positiven Kantengewichten
 \end_layout
@@ -3497,7 +3523,11 @@ Client: Ein Client ist ein Computerprogramm, das Kontakt zu einem anderen
 \end_layout
 
 \begin_layout Description
-Code & Fix: 
+Code 
+\series bold
+& Fix:
+\series default
+ 
 \shape italic
 Vorgehensmodell
 \shape default
@@ -3513,7 +3543,7 @@ Dijkstra: dient der Berechnung eines kürzesten Pfades zwischen einem Startknote
 \end_layout
 
 \begin_layout Description
-ER- Diagramm: Die grafische Darstellung von Entitätstypen und Beziehungstypen
+ER-Diagramm: Die grafische Darstellung von Entitätstypen und Beziehungstypen
  wird Entity-Relationship-Diagramm oder ER-Diagramm genannt.
 \end_layout
 
@@ -3529,13 +3559,20 @@ GitHub: GitHub ist ein Hosting-Dienst für webbasierte Projekte, welche das
 \end_layout
 
 \begin_layout Description
-Graphical User Interface (GUI): Software-Komponente, die dem Benutzer eines
- Computers die Interaktion mit der Maschine über grafische Symbole erlaubt.
+Graphical 
+\series bold
+User Interface (GUI):
+\series default
+ Software-Komponente, die dem Benutzer eines Computers die Interaktion mit
+ der Maschine über grafische Symbole erlaubt.
 \end_layout
 
 \begin_layout Description
-Google Web Toolkit (GWT): Das Google Web Toolkit ist ein Framework zur Entwicklu
-ng von Webanwendungen.
+Google
+\series bold
+ Web Toolkit (GWT):
+\series default
+ Das Google Web Toolkit ist ein Framework zur Entwicklung von Webanwendungen.
 \end_layout
 
 \begin_layout Description
@@ -3632,8 +3669,12 @@ Tag: Geodaten, die mit Informationen versehen wurden um zB.
 \end_layout
 
 \begin_layout Description
-Unified Modeling Language (UML): Graphische Modellierungssprache zur Spezifikati
-on, Konstruktion und Dokumentation von Teilen von Software und anderen Systemen
+Unified 
+\series bold
+Modeling Language (UML):
+\series default
+ Graphische Modellierungssprache zur Spezifikation, Konstruktion und Dokumentati
+on von Teilen von Software und anderen Systemen
 \end_layout
 
 \begin_layout Description
@@ -3667,7 +3708,7 @@ Als Fazit ist zu sagen, dass wir das Projekt als erfolgreich abgeschlossen
 
 \begin_layout Standard
 Leider konnten wir die von uns festgelegte Zeit von 3 Sekunden, die wir
- im Lasten angegeben hatten, nicht einhalten.
+ im Lastenheft angegeben hatten, nicht einhalten.
  Der Grund hierfür ist, dass wir uns schon zu Beginn an Werten großer Unternehme
 n wie z.B.
  Google Maps gerichtet haben.
