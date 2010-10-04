@@ -229,9 +229,10 @@ Scrum
  organisieren.
  Es wird stetig darüber abgestimmt, ob Funktionen wichtig sind und implementiert
  werden, oder ob es wichtigere Funktionen gibt, auf welche man sich konzentriert.
- Die Projektteilnehmer hielten jede Woche Meetings ab, in denen über neue Erkenntnisse
- berichtet und zusammen weitergearbeitet wurde.
- Hierdurch konnte der noch zu erbringende Arbeitsaufwand grob abgeschätzt werden.
+ Die Projektteilnehmer hielten jede Woche Meetings ab, in denen über neue
+ Erkenntnisse berichtet und zusammen weitergearbeitet wurde.
+ Hierdurch konnte der noch zu erbringende Arbeitsaufwand grob abgeschätzt
+ werden.
  Weiterhin haben sich die Projektteilnehmer auch außerhalb der regelmäßigen
  Meetings getroffen, um zusammen aktuelle Schwierigkeiten zu besprechen
  und zu bewältigen.
@@ -244,8 +245,8 @@ Andere Modelle, wie beispielsweise das
 Wasserfallmodell
 \shape default
 , erschienen zu unflexibel für die Aufgabenstellung.
- Obwohl das Projekt von Anfang bis Ende geplant wurde und das Vorgehen festgelegt
- wurde, stellte sich häufiger heraus, dass (meist aus Performance Gründen)
+ Obwohl das Projekt von Anfang bis Ende geplant wurde und das Vorgehen festgeleg
+t wurde, stellte sich häufiger heraus, dass (meist aus Performance Gründen)
  das Vorgehen verändert werden musste.
  Dies traf größtenteils auf den Datenbankbereich zu, wodurch wiederum auch
  andere Teile überarbeitet werden mussten.
@@ -629,7 +630,7 @@ OpenStreetMap
 \begin_layout Standard
 \begin_inset Graphics
 	filename Images/OSM.png
-	scale 60
+	width 100col%
 
 \end_inset
 
@@ -1067,7 +1068,7 @@ Straßen
 	filename Images/unvollst_Daten.png
 	lyxscale 60
 	display false
-	scale 60
+	width 100col%
 
 \end_inset
 
@@ -1561,8 +1562,8 @@ Konzept
 Die ersten umgesetzten Datenbankstrukturen waren sehr normalisiert und die
  Daten auf viele einzelne Tabellen verteilt.
  Bei den enormen Datenmengen von komplett Deutschland war dieser Ansatz
- allerdings so Performance zehrend, dass die Datenbank den Routingprozeß um
- ein vielfaches verlangsamte.
+ allerdings so Performance zehrend, dass die Datenbank den Routingprozeß
+ um ein vielfaches verlangsamte.
  Daher wurde ein neues Schema entwickelt, dieses wies zwar starke Redundanzen
  auf, war aber auch um ein vielfaches performanter.
  Da alle Daten nach dem Import nicht mehr verändert werden wurden die Redundanze
@@ -3336,7 +3337,7 @@ Kartenbereich
 	filename Images/map.PNG
 	lyxscale 80
 	display false
-	scale 40
+	width 100col%
 
 \end_inset
 
@@ -3374,8 +3375,8 @@ Qualitätsmanagement
 
 \begin_layout Standard
 Um die Qualität unserer Software sicher zu stellen bzw.
- zu erhalten, haben wir uns schon recht früh entschieden unser Programm
- zu testen.
+ zu erhalten, haben wir uns schon recht früh dazu entschieden unser Programm
+ kontinuierlich zu testen.
  
 \end_layout
 
@@ -3384,13 +3385,14 @@ Um die Qualität unserer Software sicher zu stellen bzw.
 \end_inset
 
 Da ein Mitglied unseres Teams in der Entwicklung und Qualitätsmanagement
- bei einer saarbrücker Firma tätig ist, wurde er als Qualitätsverantwortlichen
- ausgewählt.
+ bei einer saarbrücker Firma tätig ist, wurde er als Qualitätsverantwortlicher
+ für HTWMaps ausgewählt.
  Neben dem Testen des Programms, umfasste sein Tätigkeitsbereich auch das
- Erstellen eines Testplans, das dazu diente, die Übersicht zu erhalten,
- welche Funkionalitäten schon getestet wurden.
+ Erstellen eines Testplans.
+ Mit Hilfe eines solchen Testplans hat man zu jeder Zeit einen genauen Überblick
+ welche Funkionalitäten der aktuellen Version schon getestet wurden.
  Jede Version wurde mit Hilfe des Testplans getestet.
- Dieser wurde dynamisch an den neu hinzugekommenen Features angepasst.
+ Dieser wurde dynamisch an die neu hinzugekommenen Features angepasst.
  Er ist als Anhang in dieser Dokumentation zu finden.
  
 \end_layout
@@ -3415,7 +3417,7 @@ Bug
 \shape italic
 Issue-Tracker
 \shape default
- des Projekthosters automatisch eine Email dem Verantwortlichen sendet.
+ des Projekthosters automatisch eine Email an den Verantwortlichen sendet.
  Dadurch wird gewährleistet, dass der 
 \shape italic
 Bug
