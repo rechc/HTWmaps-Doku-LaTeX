@@ -567,6 +567,49 @@ OpenStreetMap
 \end_layout
 
 \begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
 <tag/>
 \end_layout
 
@@ -586,6 +629,45 @@ OpenStreetMap
 \end_layout
 
 \begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
 <ref Knoten/> 
 \end_layout
 
@@ -609,10 +691,88 @@ OpenStreetMap
 \end_layout
 
 \begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
 <ref weg/> 
 \end_layout
 
 \begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
 <tag/> 
 \end_layout
 
@@ -1110,37 +1270,59 @@ Beschreibung der Funktionen
 \end_layout
 
 \begin_layout Description
-Festlegen des Startpunktes: Der Benutzer wählt seinen Startpunkt aus, indem
- er eine Startadresse im Programm eingibt.
+Festlegen 
+\series bold
+des Startpunktes:
+\series default
+ Der Benutzer wählt seinen Startpunkt aus, indem er eine Startadresse im
+ Programm eingibt.
 \end_layout
 
 \begin_layout Description
-Optionales Auswählen von Zwischenstopps: Falls Zwischenstopps erwünscht
- sind, kann der Benutzer diese im Programm eingeben.
+Optionales 
+\series bold
+Auswählen von Zwischenstopps
+\series default
+: Falls Zwischenstopps erwünscht sind, kann der Benutzer diese im Programm
+ eingeben.
 \end_layout
 
 \begin_layout Description
-Festlegen des Zielpunktes: Der Benutzer wählt einen Zielpunkt aus, indem
- er eine Zieladresse im Programm eingibt.
+Festlegen 
+\series bold
+des Zielpunktes:
+\series default
+ Der Benutzer wählt einen Zielpunkt aus, indem er eine Zieladresse im Programm
+ eingibt.
  Auswahlmöglichkeit kürzeste- und schnellste Route.
  Dem Benutzer soll es möglich sein auszuwählen, ob die kürzeste Route oder
  die schnellste Route berechnet werden soll.
 \end_layout
 
 \begin_layout Description
-Eingeben der Durchschnittsgeschwindigkeit: Die zur Berechnung notwendigen
- Durchschnittsgeschwindigkeiten können vom Benutzer für die verschiendenen
- Verkehrswege angepasst werden.
+Eingeben 
+\series bold
+der Durchschnittsgeschwindigkeit:
+\series default
+ Die zur Berechnung notwendigen Durchschnittsgeschwindigkeiten können vom
+ Benutzer für die verschiendenen Verkehrswege angepasst werden.
 \end_layout
 
 \begin_layout Description
-Berechnen der Route: Die Eingabedaten werden verarbeitet und die entsprechende
- Route wird berechnet.
+Berechnen 
+\series bold
+der Route
+\series default
+: Die Eingabedaten werden verarbeitet und die entsprechende Route wird berechnet.
 \end_layout
 
 \begin_layout Description
-Ausgabe der Route: Der Benutzer erhält eine schriftliche Wegbeschreibung
- und die dazugehörige grafische Darstellung der Route auf einer Karte.
+Ausgabe 
+\series bold
+der Route:
+\series default
+ Der Benutzer erhält eine schriftliche Wegbeschreibung und die dazugehörige
+ grafische Darstellung der Route auf einer Karte.
 \end_layout
 
 \begin_layout Description
@@ -1169,7 +1351,12 @@ Produktleistung
 Im Lastenheft formulierten wir das Ziel eine Route unter 3 Sekunden zu berechnen.
  Um dieses Ziel zu erreichen wurde sehr viel Zeit investiert.
  Leider war es uns nicht möglich diese Vorgabe immer einzuhalten.
- Es ist uns aber gelungen eine nah daranliegendes Ergebnis zu erreichen.
+ Es ist uns aber gelungen eine nahe dranliegendes Ergebnis zu erreichen.
+ Als das Lastenheft erstellt wurde, hatten wir noch wenig Erfahrung was
+ auf uns zukommt.
+ Wir haben uns hier wohl zu sehr an die Routenberechnungszeiten von großen
+ Unternehmen wie z.B.
+ Google Maps gerichtet.
 \end_layout
 
 \begin_layout Standard
@@ -1710,6 +1897,13 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Graphics
 	filename Images/db/db-1.png
 	display false
@@ -1722,6 +1916,13 @@ Beschreibung
 
 \begin_layout Standard
 Aufbau
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1774,6 +1975,13 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Graphics
 	filename Images/db/db-3.png
 	display false
@@ -1802,6 +2010,13 @@ newpage
 
 \begin_layout Standard
 Aufbau
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1854,6 +2069,13 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Graphics
 	filename Images/db/db-5.png
 	display false
@@ -1866,6 +2088,13 @@ Beschreibung
 
 \begin_layout Standard
 Aufbau
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1911,6 +2140,13 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Graphics
 	filename Images/db/db-7.png
 	display false
@@ -1922,7 +2158,21 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Aufbau
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1968,6 +2218,13 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Graphics
 	filename Images/db/db-9.png
 	display false
@@ -1979,7 +2236,21 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Aufbau
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2025,6 +2296,13 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Graphics
 	filename Images/db/db-11.png
 	display false
@@ -2036,7 +2314,21 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Aufbau
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2082,6 +2374,13 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Graphics
 	filename Images/db/db-13.png
 	display false
@@ -2093,7 +2392,21 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Aufbau
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3452,9 +3765,6 @@ Da ein Mitglied unseres Teams in der Entwicklung und Qualitätsmanagement
 \end_layout
 
 \begin_layout Standard
-\begin_inset space ~
-\end_inset
-
 Die Fehler bzw.
  
 \shape italic
@@ -3478,6 +3788,35 @@ Bug
 \shape default
 verantwortliche so schnell wie möglich mit der Beseitigung des Fehlers beginnen
  kann.
+\end_layout
+
+\begin_layout Section
+Fazit
+\end_layout
+
+\begin_layout Standard
+Als Fazit ist zu sagen, dass wir das Projekt als erfolgreich abgeschlossen
+ betrachten.
+ Es war uns in der gegeben Zeit möglich alle Funktionen aus dem Lastenheft
+ in das Programm zu implementieren.
+ 
+\end_layout
+
+\begin_layout Standard
+Leider konnten wir die von uns festgelegte Zeit von 3 Sekunden für das berechnen
+ einer Route, die wir im Lastenheft angegeben hatten, nicht immer einhalten.
+ Der Grund hierfür ist, dass wir uns schon zu Beginn an Werten großer Unternehme
+n wie z.B.
+ Google Maps gerichtet haben.
+ Zu dieser Zeit war uns jedoch nicht bewusst, wie wir diese Zeitwerte realisiere
+n würden.
+ Da wir aber sehr viel Zeit für die Perfomance investierten, haben wir es
+ doch noch geschafft, uns den 3 Sekunden anzunähern.
+\end_layout
+
+\begin_layout Standard
+Im Abschlussgespräch stellte sich heraus, dass allen Teilnehmern das Arbeiten
+ am Projekt spaß gemacht und jeder sehr viel gelernt hat.
 \end_layout
 
 \begin_layout Section
@@ -3692,38 +4031,6 @@ Vorgehensmodell
  Phasen organisiert wird.
  Dabei gehen die Phasenergebnisse wie bei einem Wasserfall immer als bindende
  Vorgaben für die nächst tiefere Phase ein.
-\end_layout
-
-\begin_layout Section
-Fazit
-\end_layout
-
-\begin_layout Standard
-Als Fazit ist zu sagen, dass wir das Projekt als erfolgreich abgeschlossen
- betrachten.
- Es war uns in der gegeben Zeit möglich alle Funktionen aus dem Lastenheft
- in das Programm zu implementieren.
- 
-\end_layout
-
-\begin_layout Standard
-Leider konnten wir die von uns festgelegte Zeit von 3 Sekunden, die wir
- im Lastenheft angegeben hatten, nicht einhalten.
- Der Grund hierfür ist, dass wir uns schon zu Beginn an Werten großer Unternehme
-n wie z.B.
- Google Maps gerichtet haben.
- Zu dieser Zeit war uns jedoch nicht bewusst, wie wir diese Zeitwerte realisiere
-n würden.
-\end_layout
-
-\begin_layout Standard
-Da wir aber sehr viel Zeit für die Perfomance investierten, haben wir es
- doch noch geschafft, uns den 3 Sekunden anzunähern.
-\end_layout
-
-\begin_layout Standard
-Im Abschlussgespräch stellte sich heraus, dass allen Teilnehmern das Arbeiten
- am Projekt Spaß gemacht und jeder etwas dabei gelernt hat.
 \end_layout
 
 \begin_layout Section
