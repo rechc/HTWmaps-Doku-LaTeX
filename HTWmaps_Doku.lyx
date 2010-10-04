@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -1832,7 +1832,7 @@ Beschreibung
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename /Users/tobiaslana/Dropbox/HTWmaps-Doku-LaTeX/Images/db/db-5.png
+	filename Images/db/db-5.png
 	display false
 	width 100col%
 
@@ -1847,7 +1847,7 @@ Aufbau
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename /Users/tobiaslana/Dropbox/HTWmaps-Doku-LaTeX/Images/db/db-6.png
+	filename Images/db/db-6.png
 	display false
 	width 100col%
 
@@ -1889,7 +1889,7 @@ Beschreibung
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename /Users/tobiaslana/Dropbox/HTWmaps-Doku-LaTeX/Images/db/db-7.png
+	filename Images/db/db-7.png
 	display false
 	width 100col%
 
@@ -1904,7 +1904,7 @@ Aufbau
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename /Users/tobiaslana/Dropbox/HTWmaps-Doku-LaTeX/Images/db/db-8.png
+	filename Images/db/db-8.png
 	display false
 	width 100col%
 
@@ -1946,7 +1946,7 @@ Beschreibung
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename /Users/tobiaslana/Dropbox/HTWmaps-Doku-LaTeX/Images/db/db-9.png
+	filename Images/db/db-9.png
 	display false
 	width 100col%
 
@@ -1961,7 +1961,7 @@ Aufbau
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename /Users/tobiaslana/Dropbox/HTWmaps-Doku-LaTeX/Images/db/db-10.png
+	filename Images/db/db-10.png
 	display false
 	width 100col%
 
@@ -2003,7 +2003,7 @@ Beschreibung
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename /Users/tobiaslana/Dropbox/HTWmaps-Doku-LaTeX/Images/db/db-11.png
+	filename Images/db/db-11.png
 	display false
 	width 100col%
 
@@ -2018,7 +2018,7 @@ Aufbau
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename /Users/tobiaslana/Dropbox/HTWmaps-Doku-LaTeX/Images/db/db-12.png
+	filename Images/db/db-12.png
 	display false
 	width 100col%
 
@@ -2060,7 +2060,7 @@ Beschreibung
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename /Users/tobiaslana/Dropbox/HTWmaps-Doku-LaTeX/Images/db/db-13.png
+	filename Images/db/db-13.png
 	display false
 	width 100col%
 
@@ -2075,7 +2075,7 @@ Aufbau
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename /Users/tobiaslana/Dropbox/HTWmaps-Doku-LaTeX/Images/db/db-14.png
+	filename Images/db/db-14.png
 	display false
 	width 100col%
 
@@ -2158,10 +2158,6 @@ n.
 
 \begin_layout Subsubsection
 Routingalgorithmus
-\end_layout
-
-\begin_layout Subsubsection
-A*
 \end_layout
 
 \begin_layout Standard
@@ -2305,15 +2301,15 @@ Wenn jede Kante denselben Abstand besitzt, dann kann man die Ausbreitung
  der Algorithmen auf dem Graphen veranschaulichen:
 \end_layout
 
-\begin_layout Subsubsection
-Dijkstra:
-\end_layout
-
 \begin_layout Standard
 \begin_inset space ~
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Dijkstra:
 \end_layout
 
 \begin_layout Standard
@@ -2335,15 +2331,19 @@ Dijkstra:
 
 \end_layout
 
-\begin_layout Subsubsection
-Dijkstra Bidirectional:
-\end_layout
-
 \begin_layout Standard
 \begin_inset space ~
 \end_inset
 
 
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dijkstra Bidirectional:
 \end_layout
 
 \begin_layout Standard
@@ -2364,15 +2364,15 @@ Dijkstra Bidirectional:
 
 \end_layout
 
-\begin_layout Subsubsection
-A*:
-\end_layout
-
 \begin_layout Standard
 \begin_inset space ~
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+A*:
 \end_layout
 
 \begin_layout Standard
@@ -2393,15 +2393,15 @@ A*:
 
 \end_layout
 
-\begin_layout Subsubsection
-A* Bidirectional:
-\end_layout
-
 \begin_layout Standard
 \begin_inset space ~
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+A* Bidirectional:
 \end_layout
 
 \begin_layout Standard
@@ -2430,6 +2430,13 @@ A* Bidirectional:
 \end_layout
 
 \begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Das 
 \shape italic
 bidirektional
@@ -2439,12 +2446,77 @@ e Verfahren ist immer performanter, da weniger Knoten besucht werden.
 \end_layout
 
 \begin_layout Standard
-Entscheidend, was die Performance betrifft, ist eine optimale Datenstruktur.
+Leider ist es nicht gelungen den 
+\shape italic
+bidirektional
+\shape default
+en 
+\shape italic
+A*
+\shape default
+ deterministisch zu implementieren.
+ Das Ergebnis hängt vom Thread-Scheduling der JVM ab und liefert manchmal
+ unterschiedliche Ergebnisse bei unveränderter Eingabe.
+ Allerdings ist der „Fehler“ nie schwerwiegend, da sich 
+\shape italic
+A*
+\shape default
+ zielorientiert auf dem Graphen ausbreitet.
  
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Zum besseren Verständnis des Problems dient folgende Graphik:
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Images/thread1_thread2.png
+	lyxscale 60
+	display false
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
-Ohne auf Details einzugehen gibt das folgende Bild einen ausreichenden Eindruck:
+Fibonacci Heap
+\end_layout
+
+\begin_layout Standard
+Entscheidend, was die Performance betrifft, ist eine optimale Datenstruktur.
+ Ohne auf Details einzugehen gibt das folgende Bild einen ausreichenden
+ Eindruck:
 \end_layout
 
 \begin_layout Standard
@@ -2481,57 +2553,6 @@ Zur Laufzeitoptimierung, verwenden beide Algorithmen den „Fibonacci Heap“.
  Leiserson, Thomas H.
  Cormen und Ronald L.
  Rivest benutzt.
- Leider ist es nicht gelungen den 
-\shape italic
-bidirektional
-\shape default
-en 
-\shape italic
-A*
-\shape default
- deterministisch zu implementieren.
- Das Ergebnis hängt vom Thread-Scheduling der JVM ab und liefert manchmal
- unterschiedliche Ergebnisse bei unveränderter Eingabe.
- Allerdings ist der „Fehler“ nie schwerwiegend, da sich 
-\shape italic
-A*
-\shape default
- zielorientiert auf dem Graphen ausbreitet.
- 
-\end_layout
-
-\begin_layout Subsubsection
-Zum besseren Verständnis des Problems dient folgende Graphik:
-\end_layout
-
-\begin_layout Standard
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Graphics
-	filename Images/thread1_thread2.png
-	lyxscale 60
-	display false
-	scale 60
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-Selektierung durch Rechteck
 \end_layout
 
 \begin_layout Subsubsection
@@ -2634,9 +2655,9 @@ Dieses Problem konnten wir mit einem Rechteck lösen, welches sich mit den
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename Images/selekts/rechteckSelekt3.png
+	filename Images/selekts/rechteckSelektNeu.png
 	display false
-	scale 40
+	scale 42
 
 \end_inset
 
@@ -2777,7 +2798,7 @@ Punkt ist im Rechteck, wenn: PunktY < a(punktX) && punktY > b(punktX) &&
  punktY > c(punktX) && punktY < d(punktX)
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsection
 Wegbeschreibung
 \end_layout
 
@@ -2864,7 +2885,7 @@ RouteToText
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection*
 buildRouteInfo():
 \end_layout
 
@@ -2890,64 +2911,11 @@ va eine Beschreibung des Weges ausgegeben.
  verändert oder nicht.
 \end_layout
 
-\begin_layout Paragraph
-Datenbank Connector
-\end_layout
-
-\begin_layout Standard
-Der Datenbank Connector stellt über die JDBC Schnittstelle eine Verbindung
- zum MySQL-Server her.
- Dazu ist es notwenig einen JDBC-Treiber, in diesem Fall einen speziellen
- Java-MySQL-Connector in das Projekt einzubinden.
- Ursprünglich war der Datenbank Connector als 
-\shape italic
-Singleton
-\shape default
- realisiert, da es logisch erschien immer nur eine Verbindung zum Datenbankserve
-r herstellen zu können.
- Dies musste jedoch später verworfen werden, da sich herausstellte, dass
- dies zu einer ständig offenen Verbindung zum MySQL Server und diese offene
- Verbindung wiederum zu Speicherlecks führte.
- Der Connector liest seine Verbindungsdaten mittels der Porperty-Klasse
- aus einer Konfigurationsdatei aus.
-\end_layout
-
-\begin_layout Paragraph
-Property-Klasse
-\end_layout
-
-\begin_layout Standard
-Mit Hilfe einer 
-\shape italic
-Property-Klasse
-\shape default
- ist es in Java sehr einfach aus einer einfachen Text-Datei Werte auszulesen.
- Hier geht man in der Text-Datei ähnlich vor wie bei der Variablen-Zuweisung.
- Diese Werte können dann über das Property-Objekt in Java verwendet werden.
- Die 
-\shape italic
-Property-Klasse
-\shape default
- wurde bei uns durch ein 
-\shape italic
-Singleton
-\shape default
- Muster implementiert, da wir nur ein Property-File haben und mehrere Klassen
- das selbe Objekt verwenden können.
- In der Property-Datei wurden die Zugangsdaten zum SQL-Server abgelegt.
- Ein Eintrag in der Git-Ignore Datei hat dann dafür gesorgt, dass die Datei
- mit den SQL Zugangsdaten nicht ins Internet auf unser öffentliches 
-\shape italic
-Repository
-\shape default
- geladen wird.
-\end_layout
-
-\begin_layout Subsubsection
+\begin_layout Subsection
 GUI
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Vorwort
 \end_layout
 
@@ -2982,7 +2950,7 @@ Javascript
  übersetzt.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Konzept
 \end_layout
 
@@ -3027,7 +2995,7 @@ Der blaue Bereich ist der Status- und Informationsbereich.
  Der grüne Bereich ist der Kartenbereich.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Status- und Informationsbereich
 \end_layout
 
@@ -3085,7 +3053,7 @@ Popup
  in der Mitte des Browsers.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Über
 \end_layout
 
@@ -3121,7 +3089,7 @@ Hier werden allgemeine Informationen zum Projekt bereitgestellt, wie um
  Außerdem stehen alle Namen die an dem Projekt mitgearbeitet haben.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Berechnungsinformationen
 \end_layout
 
@@ -3157,7 +3125,14 @@ Hier wird nach ein erfolgreichen Berechnung, Informationen zu Berechnung
  gedauert hat.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
 Auswahl- und Optionsbereich
 \end_layout
 
@@ -3239,7 +3214,7 @@ Anschließend folgen 3 Hyperlinks.
  kann, oder die Zusammenfassung dargestellt wird.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Optionen
 \end_layout
 
@@ -3269,7 +3244,7 @@ A*
 ” eingestellt.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Zusammenfassung
 \end_layout
 
@@ -3305,7 +3280,7 @@ Hier wird nach einer erfolgreichen Berechnung Angaben zu der Route gemacht.
  Benutzer innerhalb eines Ortes verbringt
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Wegbeschreibung
 \end_layout
 
@@ -3320,7 +3295,7 @@ Wegbeschreibung
 Hier wird die textuelle Ausgabe der Route dargestellt.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Kartenbereich
 \end_layout
 
@@ -3359,6 +3334,63 @@ In diesem Bereich wird die Karte angezeigt.
  so dass Start- und Zielpunkt zu sehen ist.
  Start- und Zielpunkt werden zusätzlich mit einem Marker hervorgehoben.
  Die Strecke wird mit einer roten Linie gekennzeichnet.
+\end_layout
+
+\begin_layout Subsection
+Sonstige Klassen
+\end_layout
+
+\begin_layout Subsubsection
+Datenbank Connector
+\end_layout
+
+\begin_layout Standard
+Der Datenbank Connector stellt über die JDBC Schnittstelle eine Verbindung
+ zum MySQL-Server her.
+ Dazu ist es notwenig einen JDBC-Treiber, in diesem Fall einen speziellen
+ Java-MySQL-Connector in das Projekt einzubinden.
+ Ursprünglich war der Datenbank Connector als 
+\shape italic
+Singleton
+\shape default
+ realisiert, da es logisch erschien immer nur eine Verbindung zum Datenbankserve
+r herstellen zu können.
+ Dies musste jedoch später verworfen werden, da sich herausstellte, dass
+ dies zu einer ständig offenen Verbindung zum MySQL Server und diese offene
+ Verbindung wiederum zu Speicherlecks führte.
+ Der Connector liest seine Verbindungsdaten mittels der Porperty-Klasse
+ aus einer Konfigurationsdatei aus.
+\end_layout
+
+\begin_layout Subsubsection
+Property-Klasse
+\end_layout
+
+\begin_layout Standard
+Mit Hilfe einer 
+\shape italic
+Property-Klasse
+\shape default
+ ist es in Java sehr einfach aus einer einfachen Text-Datei Werte auszulesen.
+ Hier geht man in der Text-Datei ähnlich vor wie bei der Variablen-Zuweisung.
+ Diese Werte können dann über das Property-Objekt in Java verwendet werden.
+ Die 
+\shape italic
+Property-Klasse
+\shape default
+ wurde bei uns durch ein 
+\shape italic
+Singleton
+\shape default
+ Muster implementiert, da wir nur ein Property-File haben und mehrere Klassen
+ das selbe Objekt verwenden können.
+ In der Property-Datei wurden die Zugangsdaten zum SQL-Server abgelegt.
+ Ein Eintrag in der Git-Ignore Datei hat dann dafür gesorgt, dass die Datei
+ mit den SQL Zugangsdaten nicht ins Internet auf unser öffentliches 
+\shape italic
+Repository
+\shape default
+ geladen wird.
 \end_layout
 
 \begin_layout Standard
