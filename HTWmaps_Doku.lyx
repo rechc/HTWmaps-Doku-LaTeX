@@ -1915,17 +1915,17 @@ Selektierung der Knoten und Kanten aus der Datenbank
 \end_layout
 
 \begin_layout Standard
-Anfangs wurden immer alle Kanten und Knoten aus der Datenbank geladen um
+Anfangs wurden immer alle Kanten und Knoten aus der Datenbank geladen, um
  daraus einen Graphen zu bauen, in dem der Algorithmus den kürzesten Weg
  suchen kann.
  In unserer Datenbank befand sich zu dieser Zeit nur das Straßennetz des
  Saarlandes.
  Doch auch bei diesen wenigen Daten konnten wir mit einer Selektierung der
  Knoten und Kanten einen Geschwindigkeitsgewinn erreichen.
- Unsere erste Idee war es nur Knoten und Kanten zu berücksichtigen die sich
- in einem zur x-Achse parallelen Rechteck befinden.
+ Unsere erste Idee war es nur Knoten und Kanten zu berücksichtigen, die
+ sich in einem zur x-Achse parallelen Rechteck befinden.
  Ob sich ein Punkt, hier also ein Knoten bzw eine Kante, in einem zur x-Achse
- Parallelen Rechteck befindet lässt sich mit wenigen einfachen Vergleichen
+ Parallelen Rechteck befindet, lässt sich mit wenigen einfachen Vergleichen
  herausfinden.
  
 \end_layout
@@ -1959,8 +1959,8 @@ Allerdings können eine ungünstige Position des Start- oder Endpunktes das
 \end_layout
 
 \begin_layout Standard
-Um diese Probleme zu umgehen hatten wir die Idee eines Parabelselekts.
- Hierbei werden über den Start und Endpunkt zwei Parabeln gelegt.
+Um diese Probleme zu umgehen, hatten wir die Idee eines Parabelselekts.
+ Hierbei werden über den Start- und Endpunkt zwei Parabeln gelegt.
 \end_layout
 
 \begin_layout Standard
@@ -1976,7 +1976,7 @@ Um diese Probleme zu umgehen hatten wir die Idee eines Parabelselekts.
 
 \begin_layout Standard
 Allerdings entstehen hier sehr ähnliche Probleme.
- Wie bei der ursprünglichen Rechteckidee werden oft zu wenige Knoten und
+ Wie bei der ursprünglichen Rechteckidee, werden oft zu wenige Knoten und
  Kanten selektiert.
 \end_layout
 
@@ -2020,19 +2020,19 @@ Dieses Problem konnten wir mit einem Rechteck lösen, welches sich mit den
 \end_layout
 
 \begin_layout Standard
-Die Vergleiche und Formeln zum überprüfen ob ein Punkt im Rechteckt liegt
+Die Vergleiche und Formeln zum überprüfen, ob ein Punkt im Rechteckt liegt
  sind nachfolgend aufgeführt:
 \end_layout
 
 \begin_layout Standard
-Legende: S=Start E=Ende und deren koordinaten y=Latitude x=Longitude h=Breite.
+Legende: S=Start E=Ende und dessen Koordinaten y=Latitude x=Longitude h=Breite.
  
 \end_layout
 
 \begin_layout Standard
 In der Software ist h=30KM.
  Dh das innere Rechteck ist 30 Km breit.
- Das Autobahnrechteck ist 240 Km breit.
+ Das Autobahnrechteck ist 240 km breit.
  Wenn Sy < Ey && Sx < Ex
 \end_layout
 
