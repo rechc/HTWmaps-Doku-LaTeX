@@ -528,7 +528,7 @@ Programmiersprache
 
 \begin_layout Standard
 Der Code wurde überwiegend in Java geschrieben.
- Für die Importierung des Codes in 
+ Wegen der Verwendung von 
 \shape italic
 GWT
 \shape default
@@ -738,15 +738,7 @@ GWT
 \end_layout
 
 \begin_layout Standard
-Das 
-\shape italic
-Google Web Toolkit
-\shape default
- (
-\shape italic
-GWT
-\shape default
-) ist ein 
+Das Google Web Toolkit (GWT) ist ein 
 \shape italic
 Framework
 \shape default
@@ -755,13 +747,39 @@ Framework
 \shape italic
 GWT
 \shape default
- ist eine freie Software.
+ ist eine freie Software veröffentlicht unter der Apache-Lizenz.
  Sie besitzt einen Java-nach-
 \shape italic
 Javascript
 \shape default
--Compiler, wodurch Anwendungen teilweise lokal im Browser und auf dem Web-Server
- ablaufen können.
+-Compiler, wodurch Anwendungen komplett mit 
+\shape italic
+Java
+\shape default
+ implementiert werden und durch den Compiler in 
+\shape italic
+Javascript
+\shape default
+ übersetzt werden.
+ 
+\shape italic
+GWT
+\shape default
+ unterestützt auch Remote Procedure Calls (RPC), mit diesen Aufrufen können
+ von einem 
+\shape italic
+Client
+\shape default
+ Methoden auf einem Server aufgerufen werden.
+ Mithilfe dieser RPCs konnten wir den 
+\shape italic
+Routeplaner
+\shape default
+ so aufbauen, dass die graphische Darstellung auf dem 
+\shape italic
+Client
+\shape default
+ ausgeführt wird und die eigendliche Routenberechnung auf dem Server läuft.
 \end_layout
 
 \begin_layout Standard
@@ -2980,6 +2998,62 @@ In diesem Bereich wird die Karte angezeigt.
 \end_layout
 
 \begin_layout Section
+Qualität Management
+\end_layout
+
+\begin_layout Standard
+Um die Qualität unserer Software sicher zu stellen bzw.
+ zu erhalten, haben wir uns schon recht früh entschieden unser Programm
+ zu testen.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+Da ein Mitglied unseres Teams in der Entwicklung und Qualitätsmanagement
+ bei einer saarbrücker Firma tätig ist, wurde er als Qualitätsverantwortlichen
+ ausgewählt.
+ Neben dem Testen des Programms, umfasste sein Tätigkeitsbereich auch das
+ Erstellen eines Testplans, das dazu diente, die Übersicht zu erhalten,
+ welche Funkionalitäten schon getestet wurden.
+ Jede Version wurde mit Hilfe des Testplans getestet.
+ Dieser wurde dynamisch an den neu hinzugekommenen Features angepasst.
+ Er ist als Anhang in dieser Dokumentation zu finden.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+Die Fehler bzw.
+ 
+\shape italic
+Bug
+\shape default
+s, die während der Testphase entdeckt wurden, haben wir auf der Webseite
+ unseres Projekthosters Github.com eingetragen.
+ Wir haben diese Vorgehensweise ausgewählt, da bei jedem neu eingetragenen
+ 
+\shape italic
+Bug
+\shape default
+, der 
+\shape italic
+Issue-Tracker
+\shape default
+ des Projekthosters automatisch eine Email dem Verantwortlichen sendet.
+ Dadurch wird gewährleistet, dass der 
+\shape italic
+Bug
+\shape default
+verantwortliche so schnell wie möglich mit der Beseitigung des Fehlers beginnen
+ kann.
+\end_layout
+
+\begin_layout Section
 Glossar
 \end_layout
 
@@ -3005,6 +3079,11 @@ Bidirektional: Es wird ein möglichst mittlerer Punkt innerhalb der Sart-Ziel
 Branch: Dient zur Entwicklung von Programmen in unterschiedlichen Entwicklungszw
 eigen (engl.
  Branches) eines Projektes.
+\end_layout
+
+\begin_layout Description
+Bug: Programm- oder Softwarefehler, das allgemeinen ein Fehlverhalten von
+ Computerprogrammen bezeichnet.
 \end_layout
 
 \begin_layout Description
@@ -3052,6 +3131,14 @@ Graphical User Interface (GUI): Software-Komponente, die dem Benutzer eines
 \begin_layout Description
 Google Web Toolkit (GWT): Das Google Web Toolkit ist ein Framework zur Entwicklu
 ng von Webanwendungen.
+\end_layout
+
+\begin_layout Description
+Issue-Tracker: ist eine Art von Software, um Empfang, Bestätigung, Klassifizieru
+ng und Bearbeitung von Kundenanfragen (Tickets bzw.
+ Fälle) zu handhaben.
+ Als Anfragen werden eingehende Kundenanrufe, E-Mails, Faxe und ähnliches
+ betrachtet.
 \end_layout
 
 \begin_layout Description
@@ -3174,12 +3261,23 @@ Als Fazit ist zu sagen, dass wir das Projekt als erfolgreich abgeschlossen
 \end_layout
 
 \begin_layout Standard
-Leider konnten wir die von uns festgelegte Zeit von 3 Sekunden.................
+Leider konnten wir die von uns festgelegte Zeit von 3 Sekunden, die wir
+ im Lasten angegeben hatten, nicht einhalten.
+ Der Grund hierfür ist, dass wir uns schon zu Beginn an Werten großer Unternehme
+n wie z.B.
+ Google Maps gerichtet haben.
+ Zu dieser Zeit war uns jedoch nicht bewusst, wie wir diese Zeitwerte realisiere
+n würden.
 \end_layout
 
 \begin_layout Standard
-Im Abschlussgespräch stellte sich heraus, dass allen Teilnehmern des Projektes
- das Arbeiten am Projekt Spaß gemacht und jeder etwas dabei gelernt hat.
+Da wir aber sehr viel Zeit für die Perfomance investierten, haben wir es
+ doch noch geschafft, uns den 3 Sekunden anzunähern.
+\end_layout
+
+\begin_layout Standard
+Im Abschlussgespräch stellte sich heraus, dass allen Teilnehmern das Arbeiten
+ am Projekt Spaß gemacht und jeder etwas dabei gelernt hat.
 \end_layout
 
 \begin_layout Section
