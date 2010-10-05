@@ -43,9 +43,18 @@
 \begin_body
 
 \begin_layout Standard
+\noindent
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -487,6 +496,14 @@ Die Funktionen wurden im
 Lastenheft
 \shape default
  festgehalten und können dort nachgelesen werden.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Newpage newpage
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1081,6 +1098,14 @@ Mit blauen Kreisen sind Dörfer, mit lila Kreisen Unterorte und mit roten
  Umrissen exakte Polygone gekennzeichnet.
 \end_layout
 
+\begin_layout Standard
+\noindent
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 \noindent
 Lastenheft
@@ -1109,32 +1134,32 @@ Beschreibung der Funktionen
 
 \begin_layout Description
 \noindent
+
+\series medium
 Festlegen 
-\series bold
-des Startpunktes:
 \series default
- Der Benutzer wählt seinen Startpunkt aus, indem er eine Startadresse im
- Programm eingibt.
+des Startpunktes: Der Benutzer wählt seinen Startpunkt aus, indem er eine
+ Startadresse im Programm eingibt.
 \end_layout
 
 \begin_layout Description
 \noindent
+
+\series medium
 Optionales 
-\series bold
-Auswählen von Zwischenstopps
 \series default
-: Falls Zwischenstopps erwünscht sind, kann der Benutzer diese im Programm
- eingeben.
+Auswählen von Zwischenstopps: Falls Zwischenstopps erwünscht sind, kann
+ der Benutzer diese im Programm eingeben.
 \end_layout
 
 \begin_layout Description
 \noindent
+
+\series medium
 Festlegen 
-\series bold
-des Zielpunktes:
 \series default
- Der Benutzer wählt einen Zielpunkt aus, indem er eine Zieladresse im Programm
- eingibt.
+des Zielpunktes: Der Benutzer wählt einen Zielpunkt aus, indem er eine Zieladres
+se im Programm eingibt.
  Auswahlmöglichkeit sind kürzeste- und schnellste Route.
  Dem Benutzer soll es möglich sein auszuwählen, ob die kürzeste Route oder
  die schnellste Route berechnet werden soll.
@@ -1142,37 +1167,43 @@ des Zielpunktes:
 
 \begin_layout Description
 \noindent
+
+\series medium
 Eingeben 
-\series bold
-der Durchschnittsgeschwindigkeit:
 \series default
- Die zur Berechnung notwendigen Durchschnittsgeschwindigkeiten können vom
- Benutzer für die verschiendenen Verkehrswege angepasst werden.
+der Durchschnittsgeschwindigkeit: Die zur Berechnung notwendigen Durchschnittsge
+schwindigkeiten können vom Benutzer für die verschiendenen Verkehrswege
+ angepasst werden.
 \end_layout
 
 \begin_layout Description
 \noindent
+
+\series medium
 Berechnen 
-\series bold
-der Route
 \series default
-: Die Eingabedaten werden verarbeitet und die entsprechende Route wird berechnet.
+der Route: Die Eingabedaten werden verarbeitet und die entsprechende Route
+ wird berechnet.
 \end_layout
 
 \begin_layout Description
 \noindent
+
+\series medium
 Ausgabe 
-\series bold
-der Route:
 \series default
- Der Benutzer erhält eine schriftliche Wegbeschreibung und die dazugehörige
- grafische Darstellung der Route auf einer Karte.
+der Route: Der Benutzer erhält eine schriftliche Wegbeschreibung und die
+ dazugehörige grafische Darstellung der Route auf einer Karte.
 \end_layout
 
 \begin_layout Description
 \noindent
-Eingabe: Die Eingabe der Startadresse, Zieladresse und der Zwischenstopps
- erfolgt mit Ortsname und Straßenname.
+
+\series medium
+Eingabe: 
+\series default
+Die Eingabe der Startadresse, Zieladresse und der Zwischenstopps erfolgt
+ mit Ortsname und Straßenname.
  Hausnummern und Postleitzahl werden nicht berücksichtigt.
  
 \end_layout
@@ -1205,6 +1236,14 @@ Im Lastenheft formulierten wir das Ziel eine Route unter 3 Sekunden zu berechnen
  Wir haben uns hier wohl zu sehr an die Routenberechnungszeiten von großen
  Unternehmen wie z.B.
  Google Maps gerichtet.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Newpage newpage
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1337,6 +1376,14 @@ In den einzelnen Paketen befindet sich eine von uns selbst angelegte Paket-Struk
 tur, um unseren Quellcode zu organisieren.
 \end_layout
 
+\begin_layout Standard
+\noindent
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
 \begin_layout Paragraph
 \noindent
 Server Bereich
@@ -1413,6 +1460,14 @@ Client
 	display false
 	scale 60
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -1748,6 +1803,7 @@ Die ersten Versionen wurden ausschließlich auf Grundlage der Kartendaten
 \end_layout
 
 \begin_layout Paragraph
+\noindent
 Entwicklung des Datenbankschemas
 \end_layout
 
@@ -1917,10 +1973,30 @@ Finales Datenbankschema (1.0)
 
 \end_layout
 
-\begin_layout Paragraph
-\paragraph_spacing single
+\begin_layout Standard
 \noindent
-Übersicht über die einzelnen Tabellen
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+\noindent
+Übersicht Datenbankschema
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Im folgenden eine Übersicht über die einzelnen Tabellen:
 \end_layout
 
 \begin_layout Paragraph
@@ -1994,6 +2070,13 @@ Aufbau
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
 \begin_layout Paragraph
 \noindent
 edges_all
@@ -2010,14 +2093,6 @@ edges_all
 \begin_layout Standard
 \noindent
 Beschreibung
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset space ~
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2040,16 +2115,15 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
-\noindent
-Aufbau
+\begin_inset Newpage newpage
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 \noindent
-\begin_inset space ~
-\end_inset
-
-
+Aufbau
 \end_layout
 
 \begin_layout Standard
@@ -2067,6 +2141,13 @@ Aufbau
 \begin_layout Standard
 \noindent
 \begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -2138,6 +2219,13 @@ Aufbau
 \begin_layout Standard
 \noindent
 \begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -2222,6 +2310,13 @@ Aufbau
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
 \begin_layout Paragraph
 \noindent
 nodes
@@ -2301,6 +2396,13 @@ Aufbau
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
 \begin_layout Paragraph
 \noindent
 nodes_opt
@@ -2375,6 +2477,13 @@ Aufbau
 \begin_layout Standard
 \noindent
 \begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -2878,7 +2987,7 @@ Zum besseren Verständnis des Problems dient folgende Graphik:
 
 \begin_layout Standard
 \noindent
-\begin_inset space ~
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -3543,10 +3652,10 @@ Berechnungsinformationen
 
 \begin_layout Standard
 \noindent
-\begin_inset space ~
-\end_inset
-
-
+Hier werden nach einer erfolgreichen Berechnung, Informationen zur Routenplanung
+ dargestellt.
+ Unter anderem wie viele Knoten der Algorithmus zu Berechnung aus der Datenbank
+ selektiert oder wie lange die Berechnung insgesamt gedauert hat.
 \end_layout
 
 \begin_layout Standard
@@ -3554,27 +3663,11 @@ Berechnungsinformationen
 \begin_inset Graphics
 	filename Images/berechnungsinfos.PNG
 	display false
-	scale 70
+	scale 60
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-Hier werden nach einer erfolgreichen Berechnung, Informationen zur Routenplanung
- dargestellt.
- Unter anderem wie viele Knoten der Algorithmus zu Berechnung aus der Datenbank
- selektiert oder wie lange die Berechnung insgesamt gedauert hat.
 \end_layout
 
 \begin_layout Subsubsection
@@ -3584,27 +3677,11 @@ Auswahl- und Optionsbereich
 
 \begin_layout Standard
 \noindent
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
 \begin_inset Graphics
 	filename Images/Optionsbereich.PNG
 	display false
 	scale 70
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset space ~
 \end_inset
 
 
@@ -3864,6 +3941,14 @@ Repository
  geladen wird.
 \end_layout
 
+\begin_layout Standard
+\noindent
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 \noindent
 Qualitätsmanagement
@@ -3949,7 +4034,11 @@ n würden.
 \noindent
 Im Abschlussgespräch stellte sich heraus, dass allen Teilnehmern das Arbeiten
  am Projekt spaß gemacht und jeder sehr viel gelernt hat.
-\begin_inset Newpage pagebreak
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -3962,55 +4051,74 @@ Glossar
 
 \begin_layout Description
 \noindent
+
+\series medium
 A 
-\series bold
-Stern (A*):
 \series default
- Suchalgorithmus.
+Stern (A*): Suchalgorithmus.
  Er dient in der Informatik der Berechnung eines kürzesten Pfades zwischen
  zwei Knoten in einem Graphen mit positiven Kantengewichten
 \end_layout
 
 \begin_layout Description
 \noindent
-Autofill: Funktion: Nach Eingabe der ersten Buchstaben in einem Suchfeld,
- wird in der Datenbank nach gleichen Orten oder Straßen die mit diesen Buchstabe
-n beginnen gesucht.
+
+\series medium
+Autofill: 
+\series default
+Funktion: Nach Eingabe der ersten Buchstaben in einem Suchfeld, wird in
+ der Datenbank nach gleichen Orten oder Straßen die mit diesen Buchstaben
+ beginnen gesucht.
 \end_layout
 
 \begin_layout Description
 \noindent
-Bidirektional: Es wird ein möglichst mittlerer Punkt innerhalb der Sart-Ziel
- Strecke gewählt.
+
+\series medium
+Bidirektional: 
+\series default
+Es wird ein möglichst mittlerer Punkt innerhalb der Sart-Ziel Strecke gewählt.
  Dieser Punkt wird geichzeitig vom Zielpunkt und vom Startpunkt geroutet.
 \end_layout
 
 \begin_layout Description
 \noindent
-Branch: Dient zur Entwicklung von Programmen in unterschiedlichen Entwicklungszw
-eigen (engl.
+
+\series medium
+Branch: 
+\series default
+Dient zur Entwicklung von Programmen in unterschiedlichen Entwicklungszweigen
+ (engl.
  Branches) eines Projektes.
 \end_layout
 
 \begin_layout Description
 \noindent
-Bug: Programm- oder Softwarefehler, das allgemeinen ein Fehlverhalten von
- Computerprogrammen bezeichnet.
-\end_layout
 
-\begin_layout Description
-\noindent
-Client: Ein Client ist ein Computerprogramm, das Kontakt zu einem anderen
- Computerprogramm, dem Server, aufnimmt, um dessen Dienstleistung zu nutzen.
-\end_layout
-
-\begin_layout Description
-\noindent
-Code 
-\series bold
-& Fix:
+\series medium
+Bug: 
 \series default
- 
+Programm- oder Softwarefehler, das allgemeinen ein Fehlverhalten von Computerpro
+grammen bezeichnet.
+\end_layout
+
+\begin_layout Description
+\noindent
+
+\series medium
+Client: 
+\series default
+Ein Client ist ein Computerprogramm, das Kontakt zu einem anderen Computerprogra
+mm, dem Server, aufnimmt, um dessen Dienstleistung zu nutzen.
+\end_layout
+
+\begin_layout Description
+\noindent
+
+\series medium
+Code 
+\series default
+& Fix: 
 \shape italic
 Vorgehensmodell
 \shape default
@@ -4022,52 +4130,73 @@ Vorgehensmodell
 
 \begin_layout Description
 \noindent
-Dijkstra: dient der Berechnung eines kürzesten Pfades zwischen einem Startknoten
- und einem oder mehreren beliebigen Knoten in einem kantengewichteten Graphen.
+
+\series medium
+Dijkstra: 
+\series default
+dient der Berechnung eines kürzesten Pfades zwischen einem Startknoten und
+ einem oder mehreren beliebigen Knoten in einem kantengewichteten Graphen.
 \end_layout
 
 \begin_layout Description
 \noindent
-ER-Diagramm: Die grafische Darstellung von Entitätstypen und Beziehungstypen
- wird Entity-Relationship-Diagramm oder ER-Diagramm genannt.
+
+\series medium
+ER-Diagramm: 
+\series default
+Die grafische Darstellung von Entitätstypen und Beziehungstypen wird Entity-Rela
+tionship-Diagramm oder ER-Diagramm genannt.
 \end_layout
 
 \begin_layout Description
 \noindent
-Framework: Ein Framework ist ein Programmiergerüst, das in der Softwaretechnik,
- insbesondere im Rahmen der objektorientierten Softwareentwicklung sowie
- bei komponentenbasierten Entwicklungsansätzen, verwendet wird.
+
+\series medium
+Framework: 
+\series default
+Ein Framework ist ein Programmiergerüst, das in der Softwaretechnik, insbesonder
+e im Rahmen der objektorientierten Softwareentwicklung sowie bei komponentenbasi
+erten Entwicklungsansätzen, verwendet wird.
 \end_layout
 
 \begin_layout Description
 \noindent
-GitHub: GitHub ist ein Hosting-Dienst für webbasierte Projekte, welche das
- Git-Versionsverwaltungs-System verwenden.
+
+\series medium
+GitHub: 
+\series default
+GitHub ist ein Hosting-Dienst für webbasierte Projekte, welche das Git-Versionsv
+erwaltungs-System verwenden.
 \end_layout
 
 \begin_layout Description
 \noindent
+
+\series medium
 Graphical 
-\series bold
-User Interface (GUI):
 \series default
- Software-Komponente, die dem Benutzer eines Computers die Interaktion mit
- der Maschine über grafische Symbole erlaubt.
+User Interface (GUI): Software-Komponente, die dem Benutzer eines Computers
+ die Interaktion mit der Maschine über grafische Symbole erlaubt.
 \end_layout
 
 \begin_layout Description
 \noindent
-Google
-\series bold
- Web Toolkit (GWT):
+
+\series medium
+Google 
 \series default
- Das Google Web Toolkit ist ein Framework zur Entwicklung von Webanwendungen.
+Web Toolkit (GWT): Das Google Web Toolkit ist ein Framework zur Entwicklung
+ von Webanwendungen.
 \end_layout
 
 \begin_layout Description
 \noindent
-Issue-Tracker: ist eine Art von Software, um Empfang, Bestätigung, Klassifizieru
-ng und Bearbeitung von Kundenanfragen (Tickets bzw.
+
+\series medium
+Issue-Tracker: 
+\series default
+ist eine Art von Software, um Empfang, Bestätigung, Klassifizierung und
+ Bearbeitung von Kundenanfragen (Tickets bzw.
  Fälle) zu handhaben.
  Als Anfragen werden eingehende Kundenanrufe, E-Mails, Faxe und ähnliches
  betrachtet.
@@ -4075,76 +4204,120 @@ ng und Bearbeitung von Kundenanfragen (Tickets bzw.
 
 \begin_layout Description
 \noindent
-Javascript: JavaScript ist eine Skriptsprache, die hauptsächlich in Web-Browsern
- eingesetzt wird.
+
+\series medium
+JavaScript: 
+\series default
+JavaScript ist eine Skriptsprache, die hauptsächlich in Web-Browsern eingesetzt
+ wird.
 \end_layout
 
 \begin_layout Description
 \noindent
-Konstruktor: Prozeduren bzw.
+
+\series medium
+Konstruktor: 
+\series default
+Prozeduren bzw.
  Methoden, die beim Erzeugen von Objekten und Variablen aufgerufen werden.
 \end_layout
 
 \begin_layout Description
 \noindent
-Lastenheft: Das Lastenheftbeschreibt dieGesamtheit der Forderungen des Auftragge
-bers an die Lieferungen und Leistungen eines Auftragnehmers
+
+\series medium
+Lastenheft: 
+\series default
+Das Lastenheftbeschreibt dieGesamtheit der Forderungen des Auftraggebers
+ an die Lieferungen und Leistungen eines Auftragnehmers
 \end_layout
 
 \begin_layout Description
 \noindent
-OpenStreetMap: OpenStreetMap (abgekürzt OSM) ist ein Open-Source-Projekt
- mit dem Ziel, ein für jeden freiverfügbares weltweites Geodaten-Material,
- z.B.
+
+\series medium
+OpenStreetMap: 
+\series default
+OpenStreetMap (abgekürzt OSM) ist ein Open-Source-Projekt mit dem Ziel,
+ ein für jeden freiverfügbares weltweites Geodaten-Material, z.B.
  Karten oder Routing-Dienste, in elektronischer Form zu schaffen.
 \end_layout
 
 \begin_layout Description
 \noindent
-Popup: Visuelles Element eines Computerprogramms, das in manchen Situationen
- aufspringt und dabei andere Teile überdeckt.
+
+\series medium
+Popup: 
+\series default
+Visuelles Element eines Computerprogramms, das in manchen Situationen aufspringt
+ und dabei andere Teile überdeckt.
 \end_layout
 
 \begin_layout Description
 \noindent
-Property-Klasse: Klasse in Java, um sehr einfach Werte aus Text Dateien
- zu lesen.
+
+\series medium
+Property-Klasse: 
+\series default
+Klasse in Java, um sehr einfach Werte aus Text Dateien zu lesen.
 \end_layout
 
 \begin_layout Description
 \noindent
-Repository: Verwaltetes Verzeichnis zur Speicherung und Beschreibung von
- digitalen Objekten.
+
+\series medium
+Repository: 
+\series default
+Verwaltetes Verzeichnis zur Speicherung und Beschreibung von digitalen Objekten.
  Bei den verwalteten Objekten kann es sich beispielsweise um Programme (Software
 -Repository) handeln.
 \end_layout
 
 \begin_layout Description
 \noindent
-Rendern: Der Begriff Rendern bezeichnet die Erstellung einer Grafik aus
- einer Skizze oder einem Modell.
+
+\series medium
+Rendern: 
+\series default
+Der Begriff Rendern bezeichnet die Erstellung einer Grafik aus einer Skizze
+ oder einem Modell.
 \end_layout
 
 \begin_layout Description
 \noindent
-Routenplaner: Computerprogramme, mit deren Hilfe ein Weg zwischen einem
- Start- und einem Zielort gefunden werden kann
+
+\series medium
+Routenplaner: 
+\series default
+Computerprogramme, mit deren Hilfe ein Weg zwischen einem Start- und einem
+ Zielort gefunden werden kann
 \end_layout
 
 \begin_layout Description
 \noindent
-RouteToText: Methode um die gefundene Route in schriftlicher Form auszugeben.
+
+\series medium
+RouteToText: 
+\series default
+Methode um die gefundene Route in schriftlicher Form auszugeben.
 \end_layout
 
 \begin_layout Description
 \noindent
-Routingalgorithmus: Algorithmus.
+
+\series medium
+Routingalgorithmus: 
+\series default
+Algorithmus.
  um von einem Startpunkt zu einem Zielpunkt zu gelangen.
 \end_layout
 
 \begin_layout Description
 \noindent
+
+\series medium
 Scrum: 
+\series default
 \shape italic
 Vorgehensmodell
 \shape default
@@ -4153,46 +4326,65 @@ Vorgehensmodell
 
 \begin_layout Description
 \noindent
-Singleton: Das Singleton ist ein in der Softwareentwicklung eingesetztes
- Entwurfsmuster und gehört zur Kategorie der Erzeugungsmuster.
+
+\series medium
+Singleton: 
+\series default
+Das Singleton ist ein in der Softwareentwicklung eingesetztes Entwurfsmuster
+ und gehört zur Kategorie der Erzeugungsmuster.
  Es verhindert, dass von einer Klasse mehr als ein Objekt erzeugt werden
  kann.
 \end_layout
 
 \begin_layout Description
 \noindent
-SourceForge: SourceForge ist ein Repository in Form einer Website, welche
- Programmierern die Möglichkeit bietet, quelloffene Softwareprojekte zu
- erstellen und zu verwalten.
+
+\series medium
+SourceForge: 
+\series default
+SourceForge ist ein Repository in Form einer Website, welche Programmierern
+ die Möglichkeit bietet, quelloffene Softwareprojekte zu erstellen und zu
+ verwalten.
 \end_layout
 
 \begin_layout Description
 \noindent
-Tag: Geodaten, die mit Informationen versehen wurden um zB.
+
+\series medium
+Tag: 
+\series default
+Geodaten, die mit Informationen versehen wurden um zB.
  aus Ihnen automatische Karten zu generien.
  (Bsp: highway=motorway).
 \end_layout
 
 \begin_layout Description
 \noindent
+
+\series medium
 Unified 
-\series bold
-Modeling Language (UML):
 \series default
- Graphische Modellierungssprache zur Spezifikation, Konstruktion und Dokumentati
-on von Teilen von Software und anderen Systemen
+Modeling Language (UML): Graphische Modellierungssprache zur Spezifikation,
+ Konstruktion und Dokumentation von Teilen von Software und anderen Systemen
 \end_layout
 
 \begin_layout Description
 \noindent
-Vorgehensmodell: dient dazu, die Softwareentwicklung übersichtlicher zu
- gestalten und in der Komplexität beherrschbar zu machen.
+
+\series medium
+Vorgehensmodell: 
+\series default
+dient dazu, die Softwareentwicklung übersichtlicher zu gestalten und in
+ der Komplexität beherrschbar zu machen.
 \end_layout
 
 \begin_layout Description
 \noindent
-Wasserfallmodell: Das Wasserfallmodell ist ein lineares (nicht-iteratives)
- 
+
+\series medium
+Wasserfallmodell: 
+\series default
+Das Wasserfallmodell ist ein lineares (nicht-iteratives) 
 \shape italic
 Vorgehensmodell
 \shape default
