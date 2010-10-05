@@ -4,7 +4,7 @@
 \begin_header
 \textclass article
 \use_default_options true
-\language english
+\language ngerman
 \inputencoding auto
 \font_roman default
 \font_sans helvet
@@ -19,7 +19,7 @@
 \paperfontsize default
 \spacing single
 \use_hyperref false
-\papersize default
+\papersize a4paper
 \use_geometry false
 \use_amsmath 1
 \use_esint 1
@@ -32,7 +32,7 @@
 \defskip medskip
 \quotes_language english
 \papercolumns 1
-\papersides 1
+\papersides 2
 \paperpagestyle default
 \tracking_changes false
 \output_changes false
@@ -492,14 +492,6 @@ Die Funktionen wurden im
 Lastenheft
 \shape default
  festgehalten und können dort nachgelesen werden.
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset Newpage pagebreak
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section
@@ -1094,14 +1086,6 @@ Mit blauen Kreisen sind Dörfer, mit lila Kreisen Unterorte und mit roten
  Umrissen exakte Polygone gekennzeichnet.
 \end_layout
 
-\begin_layout Standard
-\noindent
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 \noindent
 Lastenheft
@@ -1226,14 +1210,6 @@ Im Lastenheft formulierten wir das Ziel eine Route unter 3 Sekunden zu berechnen
  Wir haben uns hier wohl zu sehr an die Routenberechnungszeiten von großen
  Unternehmen wie z.B.
  Google Maps gerichtet.
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset Newpage pagebreak
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section
@@ -1442,14 +1418,6 @@ Client
 	display false
 	scale 60
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -1798,14 +1766,6 @@ Entwicklung des Datenbankschemas
 
 \begin_layout Standard
 \noindent
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
 \begin_inset Graphics
 	filename Images/db/ERDiagramm_0.1.png
 	display false
@@ -1832,7 +1792,7 @@ Version 0.1
 \begin_layout Standard
 \noindent
 \begin_inset Graphics
-	filename /Users/tobiaslana/Dropbox/HTWmaps-Doku-LaTeX/Images/db/ERDiagramm_0.2.png
+	filename Images/db/ERDiagramm_0.2.png
 	display false
 	width 65col%
 
@@ -1857,7 +1817,7 @@ Version 0.2
 \begin_layout Standard
 \noindent
 \begin_inset Graphics
-	filename /Users/tobiaslana/Dropbox/HTWmaps-Doku-LaTeX/Images/db/ERDiagramm_0.3.png
+	filename Images/db/ERDiagramm_0.3.png
 	display false
 	width 65col%
 
@@ -2033,23 +1993,6 @@ Aufbau
 
 \begin_layout Standard
 \noindent
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-newpage
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2095,17 +2038,7 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
-\noindent
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-newpage
-\end_layout
-
+\begin_inset space ~
 \end_inset
 
 
@@ -2130,23 +2063,6 @@ Aufbau
 	filename Images/db/db-4.png
 	display false
 	width 100col%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-newpage
-\end_layout
 
 \end_inset
 
@@ -2226,16 +2142,7 @@ Aufbau
 
 \begin_layout Standard
 \noindent
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-newpage
-\end_layout
-
+\begin_inset space ~
 \end_inset
 
 
@@ -2314,16 +2221,7 @@ Aufbau
 
 \begin_layout Standard
 \noindent
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-newpage
-\end_layout
-
+\begin_inset space ~
 \end_inset
 
 
@@ -2402,16 +2300,7 @@ Aufbau
 
 \begin_layout Standard
 \noindent
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-newpage
-\end_layout
-
+\begin_inset space ~
 \end_inset
 
 
@@ -2490,16 +2379,7 @@ Aufbau
 
 \begin_layout Standard
 \noindent
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-newpage
-\end_layout
-
+\begin_inset space ~
 \end_inset
 
 
@@ -2578,16 +2458,7 @@ Aufbau
 
 \begin_layout Standard
 \noindent
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-newpage
-\end_layout
-
+\begin_inset space ~
 \end_inset
 
 
@@ -2844,10 +2715,6 @@ Dijkstra:
 \end_inset
 
 
-\begin_inset Newpage newpage
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2990,14 +2857,6 @@ A*
 
 \begin_layout Standard
 \noindent
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
 Zum besseren Verständnis des Problems dient folgende Graphik:
 \end_layout
 
@@ -3025,14 +2884,6 @@ Zum besseren Verständnis des Problems dient folgende Graphik:
 \begin_layout Standard
 \noindent
 \begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset Newpage newpage
 \end_inset
 
 
@@ -3731,14 +3582,6 @@ Hier werden nach einer erfolgreichen Berechnung, Informationen zur Routenplanung
  selektiert oder wie lange die Berechnung insgesamt gedauert hat.
 \end_layout
 
-\begin_layout Standard
-\noindent
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsubsection
 \noindent
 Auswahl- und Optionsbereich
@@ -4026,14 +3869,6 @@ Repository
  geladen wird.
 \end_layout
 
-\begin_layout Standard
-\noindent
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 \noindent
 Qualitätsmanagement
@@ -4119,6 +3954,10 @@ n würden.
 \noindent
 Im Abschlussgespräch stellte sich heraus, dass allen Teilnehmern das Arbeiten
  am Projekt spaß gemacht und jeder sehr viel gelernt hat.
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
