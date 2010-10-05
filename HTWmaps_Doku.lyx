@@ -43,10 +43,12 @@
 \begin_body
 
 \begin_layout Title
+\noindent
 HTWmaps Dokumentation
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -54,6 +56,7 @@ HTWmaps Dokumentation
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
 
@@ -63,6 +66,7 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Newpage newpage
 \end_inset
 
@@ -70,18 +74,22 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Section
+\noindent
 Projektübersicht
 \end_layout
 
 \begin_layout Subsection
+\noindent
 Einleitung
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Vorwort
 \end_layout
 
 \begin_layout Standard
+\noindent
 Im Rahmen des 4.
  Semesters war es Aufgabe, ein Projekt über die Dauer des Semesters anzufertigen.
  Ziel des Projektes war die Erstellung eines 
@@ -100,10 +108,12 @@ OpenStreetMap
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Projektteam
 \end_layout
 
 \begin_layout Standard
+\noindent
 Das Projektteam, unter der Betreuung von Prof.
  Dr.
  Thomas Kretschmer umfasst 8 Mitglieder.
@@ -111,47 +121,58 @@ Das Projektteam, unter der Betreuung von Prof.
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Altmeyer, Thomas 
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Bartsch, Tim 
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Klos, Yassir 
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Lana, Tobias 
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Rech, Christian 
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Schneider, Lucian 
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Tartakowski, Stanislaw 
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Gökkaya, Volkan
 \end_layout
 
 \begin_layout Standard
+\noindent
 Das Projekt wurde von Christian Rech geleitet.
  
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Zielsetzung
 \end_layout
 
 \begin_layout Standard
+\noindent
 Ziel des Projektes war die Fertigstellung der Software, sowie eine umfassende
  Dokumentation dieser, bis zum 30.
  September 2010.
@@ -164,10 +185,12 @@ Lastenheft
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Zielgruppe
 \end_layout
 
 \begin_layout Standard
+\noindent
 HTWmaps gleicht im Aufbau anderen Online-
 \shape italic
 Routenplaner
@@ -194,24 +217,29 @@ n.
 \end_layout
 
 \begin_layout Subsection
+\noindent
 Hinweis auf Glossar
 \end_layout
 
 \begin_layout Standard
+\noindent
 In der Dokumentation „kursiv“ geschriebene Begriffe und wichtige Begriffe
  die in Grafiken auftreten werden im Kapitel -Glossar- erklärt.
  
 \end_layout
 
 \begin_layout Subsection
+\noindent
 Vorgehenweise
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Vorgehensmodell Scrum (oder Code & Fix)
 \end_layout
 
 \begin_layout Standard
+\noindent
 Die Projektgruppe hat sich für das agile 
 \shape italic
 Vorgehensmodell
@@ -240,6 +268,7 @@ Scrum
 \end_layout
 
 \begin_layout Standard
+\noindent
 Andere Modelle, wie beispielsweise das 
 \shape italic
 Wasserfallmodell
@@ -259,10 +288,12 @@ Code & Fix
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Gruppeneinteilung
 \end_layout
 
 \begin_layout Standard
+\noindent
 Das Finden von Modulen und deren Abgrenzung auf abstrakter Ebene funktionierte
  auf Anhieb.
  Zu Beginn wurde geklärt, welche Aufgaben grob vollzogen werden mussten.
@@ -279,6 +310,7 @@ Das Finden von Modulen und deren Abgrenzung auf abstrakter Ebene funktionierte
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -286,6 +318,7 @@ Das Finden von Modulen und deren Abgrenzung auf abstrakter Ebene funktionierte
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="2">
 <features>
@@ -421,6 +454,7 @@ Christian Rech, Lucian Schneider
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -428,6 +462,7 @@ Christian Rech, Lucian Schneider
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -435,16 +470,19 @@ Christian Rech, Lucian Schneider
 \end_layout
 
 \begin_layout Standard
+\noindent
 Die Tabelle zeigt nur Tätigkeit die sich über einen längeren Zeitraum erstreckte
 n.
  Jedes Teammitglied hat sich auch um andere Aufgaben gekümmert.
 \end_layout
 
 \begin_layout Subsection
+\noindent
 Produktumfang
 \end_layout
 
 \begin_layout Standard
+\noindent
 Da es bereits einige 
 \shape italic
 Routenplaner
@@ -464,6 +502,7 @@ Routenplaner
 \end_layout
 
 \begin_layout Standard
+\noindent
 Die Funktionen wurden im 
 \shape italic
 Lastenheft
@@ -472,6 +511,7 @@ Lastenheft
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -479,14 +519,17 @@ Lastenheft
 \end_layout
 
 \begin_layout Section
+\noindent
 Allgemeines
 \end_layout
 
 \begin_layout Subsection
+\noindent
 Vorwort
 \end_layout
 
 \begin_layout Standard
+\noindent
 Sie erreichen die Web-Anwendung unter folgender URL: 
 \color blue
 www.HTWmaps.de
@@ -497,10 +540,12 @@ www.HTWmaps.de
 \end_layout
 
 \begin_layout Subsection
+\noindent
 Projektabgrenzung
 \end_layout
 
 \begin_layout Standard
+\noindent
 Die zu erstellende Software bietet nicht alle Möglichkeiten und Optionen,
  die technisch machbar gewesen wären.
  Aufgrund der zeitlichen Beschränkung mussten wir auf folgende Features
@@ -508,26 +553,32 @@ Die zu erstellende Software bietet nicht alle Möglichkeiten und Optionen,
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Fußgänger- und Fahrradfahrerrouten 
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Postleitzahlen 
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Points of Interest (POI)
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Drucken der Routen
 \end_layout
 
 \begin_layout Subsection
+\noindent
 Programmiersprache 
 \end_layout
 
 \begin_layout Standard
+\noindent
 Der Code wurde überwiegend in Java geschrieben.
  Wegen der Verwendung von 
 \shape italic
@@ -543,10 +594,12 @@ JavaScript
 \end_layout
 
 \begin_layout Subsection
+\noindent
 Wie sind die Daten aufbereitet
 \end_layout
 
 \begin_layout Standard
+\noindent
 
 \shape italic
 OpenStreetMap
@@ -556,6 +609,7 @@ OpenStreetMap
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -563,233 +617,9 @@ OpenStreetMap
 \end_layout
 
 \begin_layout Standard
-<knoten> 
-\end_layout
-
-\begin_layout Standard
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-<tag/>
-\end_layout
-
-\begin_layout Standard
-</knoten> 
-\end_layout
-
-\begin_layout Standard
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-<weg> 
-\end_layout
-
-\begin_layout Standard
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-<ref Knoten/> 
-\end_layout
-
-\begin_layout Standard
-<tag/> 
-\end_layout
-
-\begin_layout Standard
-</weg> 
-\end_layout
-
-\begin_layout Standard
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-<Beziehungen> 
-\end_layout
-
-\begin_layout Standard
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-<ref weg/> 
-\end_layout
-
-\begin_layout Standard
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-<tag/> 
-\end_layout
-
-\begin_layout Standard
-</ Beziehungen > 
-\end_layout
-
-\begin_layout Standard
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
+\noindent
 \begin_inset Graphics
-	filename Images/OSM.png
+	filename Images/xmlstruktur.png
 	width 100col%
 
 \end_inset
@@ -798,6 +628,7 @@ OpenStreetMap
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -805,25 +636,24 @@ OpenStreetMap
 \end_layout
 
 \begin_layout Standard
+\noindent
 Die von uns benutzte germany.osm Datei, mit Beschränkung auf Deutschland,
  enthällt alle Knoten, Wege, Beziehungen und Änderungssätze der Datenbank.
  Diese Datei ist gepackt 803MB groß (Stand: 02.09.2010).
 \end_layout
 
-\begin_layout Standard
-< Beziehungen > spielen im Rahmen unserer Software keine Rolle.
- 
-\end_layout
-
 \begin_layout Subsection
+\noindent
 Vorbereitende Tätigkeiten
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Versionsverwaltung und Projekthosting
 \end_layout
 
 \begin_layout Standard
+\noindent
 Eine Versionsverwaltung war notwendig, um mit dem ganzen Projektteam gleichzeiti
 g am Code arbeiten zu können.
  Außerdem bietet eine Versionsverwaltung die Möglichkeit das Projekt auf
@@ -833,6 +663,7 @@ g am Code arbeiten zu können.
 \end_layout
 
 \begin_layout Standard
+\noindent
 In der näheren Auswahl standen bei den Projekthostern 
 \shape italic
 Sourceforge
@@ -873,6 +704,7 @@ Github
 \end_layout
 
 \begin_layout Standard
+\noindent
 Subversion ist weit verbreitet und wurde auch schon von einigen Projektteilnehme
 rn benutzt.
  Trotzdem entschieden wir uns für Git, da es nicht wie Subversion, einen
@@ -884,6 +716,7 @@ rn benutzt.
 \end_layout
 
 \begin_layout Standard
+\noindent
 Plugins, um Git zu bedienen (für unsere Entwicklungsumgebung (IDE)), erschienen
  uns noch zu unausgereift und besaßen noch viele Fehler.
  Deswegen entschieden wir uns, Git über die Konsole zu bedienen.
@@ -895,10 +728,12 @@ ung funktioniert.
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 GWT
 \end_layout
 
 \begin_layout Standard
+\noindent
 Das Google Web Toolkit (GWT) ist ein 
 \shape italic
 Framework
@@ -944,6 +779,7 @@ Client
 \end_layout
 
 \begin_layout Standard
+\noindent
 Zu Beginn des Projektes, hatte keiner in unsere Gruppe Erfahrungen mit 
 \shape italic
 GWT
@@ -968,10 +804,12 @@ GWT
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Server
 \end_layout
 
 \begin_layout Standard
+\noindent
 Da wir uns dafür entschieden haben, eine Web-Anwendung zu entwickeln, benötigten
  wir auch einen Server dafür.
  Zu Beginn importierten wir unsere Datenbank in MySQL bei einem kleinen
@@ -1003,6 +841,7 @@ Studwork
 \end_layout
 
 \begin_layout Standard
+\noindent
 Als der Server stand, musste dieser auch noch eingerichtet werden.
  Wir entschieden uns dafür Ubuntu Server als Betriebssystem zu installieren.
  Als nächstes mussten noch einige für das Projekt benötigte Dienste (Deamons)
@@ -1010,34 +849,42 @@ Als der Server stand, musste dieser auch noch eingerichtet werden.
 \end_layout
 
 \begin_layout Standard
+\noindent
 Diese waren:
 \end_layout
 
 \begin_layout Itemize
-SSH - Um eine Verbindung zur VM herzustellen
+\noindent
+SSH - sichere Verbindung zur VM
 \end_layout
 
 \begin_layout Itemize
-MySQL - Um die Datenbank darauf laufen zu lassen
+\noindent
+MySQL - als Datenbankserver
 \end_layout
 
 \begin_layout Itemize
-PHPmyAdmin - Um den MySQL Server zu konfigurieren
+\noindent
+PHPmyAdmin - Konfiguration MySQL Server
 \end_layout
 
 \begin_layout Itemize
-Apache - Um die Web-Anwendungen darauf laufen zu lassen
+\noindent
+Apache - als Webserver
 \end_layout
 
 \begin_layout Itemize
-Git - Um den aktuellen Stand des Projektes zu laden
+\noindent
+Git - Versionsverwaltung des Projektes
 \end_layout
 
 \begin_layout Itemize
-JRE - Um Java Programme lokal ausführen zu können
+\noindent
+JRE - Java Programme lokal ausführen
 \end_layout
 
 \begin_layout Standard
+\noindent
 Außer der Installation mussten auch noch einige Konfigurationen gemacht
  werden.
  So wurden auch Start- und Endeskript erstellt.
@@ -1046,10 +893,12 @@ Außer der Installation mussten auch noch einige Konfigurationen gemacht
 \end_layout
 
 \begin_layout Subsection
+\noindent
 Unvollständigkeit der Daten
 \end_layout
 
 \begin_layout Standard
+\noindent
 Die Daten bei Openstreet Maps sind derzeit noch unvollständig.
  So sind manchmal Wege und Straßen nicht verzeichnet, oder besitzen ungültige
  Namen, wie beispielsweise „unbekannt“.
@@ -1061,30 +910,37 @@ Routenplaner
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Viele Straßen sind nicht verzeichnet, oder besitzen ungültige Namen 
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Postleitzahlen und Hausnummern sind fast nirgendwo erfasst 
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Straßen sind fast nie mit einem Ort gekennzeichnet in dem sie liegen
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Häufige Rechtschreibfehler der Orte/Straßen 
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Manche Orte hab keine Straßennamen 
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Orte sind selten klar voneinander getrennt (Keine Grenzen) 
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Viele Orte, vor allem Dörfer sind vom falschen Typ (Hamlet, Village).
  So variiert die Größe eines Dorfes stark, jedoch haben viele Dörfer unterschied
 licher Größe im Kartenmaterial die gleiche Beschreibung.
@@ -1093,11 +949,13 @@ licher Größe im Kartenmaterial die gleiche Beschreibung.
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Es gibt Orte, zu denen keine Straße führt, hierhin findet der Algorithmus
  natürlich auch keinen Weg.
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Viele Straßen sind keinem Ort zugeordete.
  Der Benutzer muss aber in der Lage sein, eine Straße und einen Ort anzugeben,
  um dem Programm mitzuteilen, wohin und von wo er routen will.
@@ -1112,31 +970,37 @@ Viele Straßen sind keinem Ort zugeordete.
 \end_layout
 
 \begin_layout Standard
+\noindent
 Letztlich gibt es über den Datenbestand in der Datenbank folgendes zu sagen:
  
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Nicht alle Straßen konnten mit einem Kreis um den Ort erfolgreich einem
  Ort zugewiesen werden (zu kleiner Radius, Ort ist nicht kreisrund)
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Es gibt „Übergriffe“ der Kreise auf benachbarte Orte, sodass dann Straßen
  zum falschen Ort zugeteilt werden 
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Straßen in Orten, die als solche exakt gekennzeichnet sind (Polygone), sind
  alle vermerkt.
  
 \end_layout
 
 \begin_layout Standard
+\noindent
 Anzahl der Daten, die effektiv der Datenbank entnommen werden können:
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -1144,6 +1008,7 @@ Anzahl der Daten, die effektiv der Datenbank entnommen werden können:
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="2">
 <features>
@@ -1217,6 +1082,7 @@ Straßen
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -1224,6 +1090,7 @@ Straßen
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/unvollst_Daten.png
 	lyxscale 60
@@ -1236,11 +1103,13 @@ Straßen
 \end_layout
 
 \begin_layout Standard
+\noindent
 Mit blauen Kreisen sind Dörfer, mit lila Kreisen Unterorte und mit roten
  Umrissen exakte Polygone gekennzeichnet.
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -1248,14 +1117,17 @@ Mit blauen Kreisen sind Dörfer, mit lila Kreisen Unterorte und mit roten
 \end_layout
 
 \begin_layout Section
+\noindent
 Lastenheft
 \end_layout
 
 \begin_layout Subsection
+\noindent
 Vorwort
 \end_layout
 
 \begin_layout Standard
+\noindent
 Das komplette 
 \shape italic
 Lastenheft
@@ -1266,10 +1138,12 @@ Lastenheft
 \end_layout
 
 \begin_layout Subsection
+\noindent
 Beschreibung der Funktionen
 \end_layout
 
 \begin_layout Description
+\noindent
 Festlegen 
 \series bold
 des Startpunktes:
@@ -1279,6 +1153,7 @@ des Startpunktes:
 \end_layout
 
 \begin_layout Description
+\noindent
 Optionales 
 \series bold
 Auswählen von Zwischenstopps
@@ -1288,6 +1163,7 @@ Auswählen von Zwischenstopps
 \end_layout
 
 \begin_layout Description
+\noindent
 Festlegen 
 \series bold
 des Zielpunktes:
@@ -1300,6 +1176,7 @@ des Zielpunktes:
 \end_layout
 
 \begin_layout Description
+\noindent
 Eingeben 
 \series bold
 der Durchschnittsgeschwindigkeit:
@@ -1309,6 +1186,7 @@ der Durchschnittsgeschwindigkeit:
 \end_layout
 
 \begin_layout Description
+\noindent
 Berechnen 
 \series bold
 der Route
@@ -1317,6 +1195,7 @@ der Route
 \end_layout
 
 \begin_layout Description
+\noindent
 Ausgabe 
 \series bold
 der Route:
@@ -1326,6 +1205,7 @@ der Route:
 \end_layout
 
 \begin_layout Description
+\noindent
 Eingabe: Die Eingabe der Startadresse, Zieladresse und der Zwischenstopps
  erfolgt mit Ortsname und Straßenname.
  Hausnummern und Postleitzahl werden nicht berücksichtigt.
@@ -1333,10 +1213,12 @@ Eingabe: Die Eingabe der Startadresse, Zieladresse und der Zwischenstopps
 \end_layout
 
 \begin_layout Subsection
+\noindent
 Produktleistung
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Quotes eld
 \end_inset
 
@@ -1348,6 +1230,7 @@ Produktleistung
 \end_layout
 
 \begin_layout Standard
+\noindent
 Im Lastenheft formulierten wir das Ziel eine Route unter 3 Sekunden zu berechnen.
  Um dieses Ziel zu erreichen wurde sehr viel Zeit investiert.
  Leider war es uns nicht möglich diese Vorgabe immer einzuhalten.
@@ -1360,6 +1243,7 @@ Im Lastenheft formulierten wir das Ziel eine Route unter 3 Sekunden zu berechnen
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -1367,14 +1251,17 @@ Im Lastenheft formulierten wir das Ziel eine Route unter 3 Sekunden zu berechnen
 \end_layout
 
 \begin_layout Section
+\noindent
 Technische Dokumentation
 \end_layout
 
 \begin_layout Subsection
+\noindent
 Vorwort
 \end_layout
 
 \begin_layout Standard
+\noindent
 Der folgende Abschnitt erläutert den Aufbau von HTWmaps.
  Sie geht auf das zu Grunde liegende Konzept der Implementierung und des
  Aufbaus der Datenbank ein.
@@ -1382,18 +1269,22 @@ Der folgende Abschnitt erläutert den Aufbau von HTWmaps.
 \end_layout
 
 \begin_layout Subsection
+\noindent
 Gesamtes UML
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Klassen und Pakete
 \end_layout
 
 \begin_layout Paragraph
+\noindent
 Vorwort
 \end_layout
 
 \begin_layout Standard
+\noindent
 Dieser Abschnitt dient dazu, Ihnen einen Überblick über die Paketstruktur
  des Projektes zu geben.
  Es handelt sich hier um eine abstrakte Ansicht der wichtigsten Klassen
@@ -1401,10 +1292,12 @@ Dieser Abschnitt dient dazu, Ihnen einen Überblick über die Paketstruktur
 \end_layout
 
 \begin_layout Paragraph
+\noindent
 Aufbau GWT
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -1412,6 +1305,7 @@ Aufbau GWT
 \end_layout
 
 \begin_layout Standard
+\noindent
 Beim Anlegen eines 
 \shape italic
 GWT
@@ -1421,6 +1315,7 @@ GWT
 \end_layout
 
 \begin_layout Itemize
+\noindent
 
 \shape italic
 Client
@@ -1437,6 +1332,7 @@ Client
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Shared - Hier wird Code gelagert der vom 
 \shape italic
 Client
@@ -1445,11 +1341,13 @@ Client
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Server - Dieser Java Code wird in der Java Laufzeitumgebung auf dem Server
  ausgeführt
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -1457,6 +1355,7 @@ Server - Dieser Java Code wird in der Java Laufzeitumgebung auf dem Server
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/htwmaps_pakete.png
 	display false
@@ -1468,6 +1367,7 @@ Server - Dieser Java Code wird in der Java Laufzeitumgebung auf dem Server
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -1475,15 +1375,18 @@ Server - Dieser Java Code wird in der Java Laufzeitumgebung auf dem Server
 \end_layout
 
 \begin_layout Standard
+\noindent
 In den einzelnen Paketen befindet sich eine von uns selbst angelegte Paket-Struk
 tur, um unseren Quellcode zu organisieren.
 \end_layout
 
 \begin_layout Paragraph
+\noindent
 Server Bereich
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -1491,10 +1394,12 @@ Server Bereich
 \end_layout
 
 \begin_layout Standard
+\noindent
 In dem Paket Server finden Sie folgende Struktur:
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -1502,6 +1407,7 @@ In dem Paket Server finden Sie folgende Struktur:
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/htwmaps.server.png
 	lyxscale 60
@@ -1514,10 +1420,12 @@ In dem Paket Server finden Sie folgende Struktur:
 \end_layout
 
 \begin_layout Paragraph
+\noindent
 Client Bereich
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -1525,6 +1433,7 @@ Client Bereich
 \end_layout
 
 \begin_layout Standard
+\noindent
 In dem 
 \shape italic
 Client
@@ -1533,6 +1442,7 @@ Client
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -1540,6 +1450,7 @@ Client
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/htwmaps.client.png
 	display false
@@ -1551,6 +1462,7 @@ Client
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -1558,10 +1470,12 @@ Client
 \end_layout
 
 \begin_layout Subsection
+\noindent
 Allgemeiner Programmablauf
 \end_layout
 
 \begin_layout Standard
+\noindent
 Der Benutzer interagiert mit der Software über einen 
 \shape italic
 JavaScript
@@ -1570,6 +1484,7 @@ JavaScript
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/Ablauf_alg.png
 	display false
@@ -1581,14 +1496,17 @@ JavaScript
 \end_layout
 
 \begin_layout Subsection
+\noindent
 Datenbank
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Vorwort
 \end_layout
 
 \begin_layout Standard
+\noindent
 Zu beginn des Projektes prüften wir verschiedene Möglichkeiten zur Datenbeschaff
 ung und Datenbereitstellung.
  Die Möglichkeit direkt mit dem Kartenmaterial, welches im XML Format vorliegt,
@@ -1600,10 +1518,12 @@ ung und Datenbereitstellung.
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Zahlen
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -1611,6 +1531,7 @@ Zahlen
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="2">
 <features>
@@ -1764,10 +1685,12 @@ Für Algorithmus optimierte Knoten
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Konzept
 \end_layout
 
 \begin_layout Standard
+\noindent
 Die ersten umgesetzten Datenbankstrukturen waren sehr normalisiert und die
  Daten auf viele einzelne Tabellen verteilt.
  Bei den enormen Datenmengen von komplett Deutschland war dieser Ansatz
@@ -1780,39 +1703,48 @@ n zu Gunsten der Performance akzeptiert.
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Hard- und Software 
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Datenbanksoftware: MySQL 
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Version: 5.1.41 
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Betriebssystem: Ubuntu Server Version: 10.04 
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Server: stud-i-pr2.htw-saarland.de 
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Standort: Virtuelle Maschine auf dem Server der Fachschaft Informatik  
  
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Hardware / Ressourcen: 2x2,8GHz; 2GB Ram; 20GB Festplatte 
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Datenbankschema
 \end_layout
 
 \begin_layout Standard
+\noindent
 In der ersten Version des Datenbanksschemas ging man davon aus, dass zum
  
 \shape italic
@@ -1834,10 +1766,12 @@ Rendern
 \end_layout
 
 \begin_layout Standard
+\noindent
 Ein neuer Ansatz brachte zwei wichtige Änderungen:
 \end_layout
 
 \begin_layout Enumerate
+\noindent
 Das 
 \shape italic
 Rendern
@@ -1849,6 +1783,7 @@ Rendern
 \end_layout
 
 \begin_layout Enumerate
+\noindent
 Performance hat höhere Priorität als Normalisierung.
  Als Folge wurden Redundanzen in Kauf genommen, da dadurch viel Zeit, durch
  entfallene JOINS, eingespart werden konnte.
@@ -1856,6 +1791,7 @@ Performance hat höhere Priorität als Normalisierung.
 \end_layout
 
 \begin_layout Standard
+\noindent
 Die Versionen 0.1 - 0.3 wurden ausschließlich auf Grundlage der Kartendaten
  des Saarlandes entwickelt und gefüllt.
  Erst ab Version 0.4 wurde ganz Deutschland berücksichtigt.
@@ -1863,10 +1799,12 @@ Die Versionen 0.1 - 0.3 wurden ausschließlich auf Grundlage der Kartendaten
 \end_layout
 
 \begin_layout Paragraph
+\noindent
 Finales Datenbankschema (1.0)
 \end_layout
 
 \begin_layout Standard
+\noindent
 Ein 
 \shape italic
 ER-Diagramm
@@ -1877,15 +1815,19 @@ ER-Diagramm
  sind aufgrund von Performance nicht erwünscht.
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
+\paragraph_spacing single
+\noindent
 Übersicht über die einzelnen Tabellen
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
+\noindent
 cities
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -1893,10 +1835,12 @@ cities
 \end_layout
 
 \begin_layout Standard
+\noindent
 Beschreibung
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -1904,6 +1848,7 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/db/db-1.png
 	display false
@@ -1915,10 +1860,12 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\noindent
 Aufbau
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -1926,6 +1873,7 @@ Aufbau
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/db/db-2.png
 	display false
@@ -1937,6 +1885,7 @@ Aufbau
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset ERT
 status open
 
@@ -1953,17 +1902,20 @@ newpage
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
 
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
+\noindent
 edges_all
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -1971,10 +1923,12 @@ edges_all
 \end_layout
 
 \begin_layout Standard
+\noindent
 Beschreibung
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -1982,6 +1936,7 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/db/db-3.png
 	display false
@@ -1993,6 +1948,7 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset ERT
 status open
 
@@ -2009,10 +1965,12 @@ newpage
 \end_layout
 
 \begin_layout Standard
+\noindent
 Aufbau
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2020,6 +1978,7 @@ Aufbau
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/db/db-4.png
 	display false
@@ -2031,6 +1990,7 @@ Aufbau
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset ERT
 status open
 
@@ -2047,17 +2007,20 @@ newpage
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
 
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
+\noindent
 edges_borders
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2065,10 +2028,12 @@ edges_borders
 \end_layout
 
 \begin_layout Standard
+\noindent
 Beschreibung
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2076,6 +2041,7 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/db/db-5.png
 	display false
@@ -2087,10 +2053,12 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\noindent
 Aufbau
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2098,6 +2066,7 @@ Aufbau
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/db/db-6.png
 	display false
@@ -2109,6 +2078,7 @@ Aufbau
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset ERT
 status open
 
@@ -2124,11 +2094,13 @@ newpage
 
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
+\noindent
 edges_opt
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2136,10 +2108,12 @@ edges_opt
 \end_layout
 
 \begin_layout Standard
+\noindent
 Beschreibung
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2147,6 +2121,7 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/db/db-7.png
 	display false
@@ -2158,6 +2133,7 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2165,10 +2141,12 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\noindent
 Aufbau
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2176,6 +2154,7 @@ Aufbau
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/db/db-8.png
 	display false
@@ -2187,6 +2166,7 @@ Aufbau
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset ERT
 status open
 
@@ -2202,11 +2182,13 @@ newpage
 
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
+\noindent
 nodes
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2214,10 +2196,12 @@ nodes
 \end_layout
 
 \begin_layout Standard
+\noindent
 Beschreibung
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2225,6 +2209,7 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/db/db-9.png
 	display false
@@ -2236,6 +2221,7 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2243,10 +2229,12 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\noindent
 Aufbau
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2254,6 +2242,7 @@ Aufbau
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/db/db-10.png
 	display false
@@ -2265,6 +2254,7 @@ Aufbau
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset ERT
 status open
 
@@ -2280,11 +2270,13 @@ newpage
 
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
+\noindent
 nodes_opt
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2292,10 +2284,12 @@ nodes_opt
 \end_layout
 
 \begin_layout Standard
+\noindent
 Beschreibung
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2303,6 +2297,7 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/db/db-11.png
 	display false
@@ -2314,6 +2309,7 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2321,10 +2317,12 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\noindent
 Aufbau
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2332,6 +2330,7 @@ Aufbau
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/db/db-12.png
 	display false
@@ -2343,6 +2342,7 @@ Aufbau
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset ERT
 status open
 
@@ -2358,11 +2358,13 @@ newpage
 
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
+\noindent
 ways
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2370,10 +2372,12 @@ ways
 \end_layout
 
 \begin_layout Standard
+\noindent
 Beschreibung
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2381,6 +2385,7 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/db/db-13.png
 	display false
@@ -2392,6 +2397,7 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2399,10 +2405,12 @@ Beschreibung
 \end_layout
 
 \begin_layout Standard
+\noindent
 Aufbau
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2410,6 +2418,7 @@ Aufbau
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/db/db-14.png
 	display false
@@ -2421,6 +2430,7 @@ Aufbau
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset ERT
 status open
 
@@ -2437,10 +2447,12 @@ newpage
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Kantenoptimierung
 \end_layout
 
 \begin_layout Standard
+\noindent
 Im Rahmen der Performanceoptimierung der Wegsuche wurde eine Kantenoptimierung
  realisiert.
  Hierbei handelt es sich um einen optimierten (schlankeren) Graphen.
@@ -2457,10 +2469,12 @@ OSM
 \end_layout
 
 \begin_layout Standard
+\noindent
 Dieses Bild veranschaulicht die Beschreibung:
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2468,6 +2482,7 @@ Dieses Bild veranschaulicht die Beschreibung:
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/kantenoptimierung.png
 	lyxscale 60
@@ -2480,23 +2495,28 @@ Dieses Bild veranschaulicht die Beschreibung:
 \end_layout
 
 \begin_layout Subsection
+\noindent
 Algorithmen
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Vorwort
 \end_layout
 
 \begin_layout Standard
+\noindent
 In diesem Abschnitt erhalten Sie einen Überblick über die wichtigsten Algorithme
 n.
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Routingalgorithmus
 \end_layout
 
 \begin_layout Standard
+\noindent
 Der 
 \shape italic
 Routenplaner
@@ -2583,6 +2603,7 @@ e zum gefundenen Weg.
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2594,6 +2615,7 @@ Momentaufnahme
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2601,6 +2623,7 @@ Momentaufnahme
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/AStar_Bi_Momentaufnahme.png
 	lyxscale 60
@@ -2613,6 +2636,7 @@ Momentaufnahme
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2620,12 +2644,14 @@ Momentaufnahme
 \end_layout
 
 \begin_layout Standard
+\noindent
 Die rosa Punkte zeigen jeden Knoten der vom Algorithmus derzeit besucht
  wurde.
  
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2633,11 +2659,13 @@ Die rosa Punkte zeigen jeden Knoten der vom Algorithmus derzeit besucht
 \end_layout
 
 \begin_layout Standard
+\noindent
 Wenn jede Kante denselben Abstand besitzt, dann kann man die Ausbreitung
  der Algorithmen auf dem Graphen veranschaulichen:
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2645,10 +2673,12 @@ Wenn jede Kante denselben Abstand besitzt, dann kann man die Ausbreitung
 \end_layout
 
 \begin_layout Standard
+\noindent
 Dijkstra:
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2656,6 +2686,7 @@ Dijkstra:
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/dijkstra_kreis.png
 	lyxscale 60
@@ -2668,6 +2699,7 @@ Dijkstra:
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2679,10 +2711,12 @@ Dijkstra:
 \end_layout
 
 \begin_layout Standard
+\noindent
 Dijkstra Bidirectional:
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2690,6 +2724,7 @@ Dijkstra Bidirectional:
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/dijkstra_2kreis.png
 	display false
@@ -2701,6 +2736,7 @@ Dijkstra Bidirectional:
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2708,10 +2744,12 @@ Dijkstra Bidirectional:
 \end_layout
 
 \begin_layout Standard
+\noindent
 A*:
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2719,6 +2757,7 @@ A*:
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/aSTar.png
 	display false
@@ -2730,6 +2769,7 @@ A*:
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2737,10 +2777,12 @@ A*:
 \end_layout
 
 \begin_layout Standard
+\noindent
 A* Bidirectional:
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2748,6 +2790,7 @@ A* Bidirectional:
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/astarBi.png
 	display false
@@ -2759,6 +2802,7 @@ A* Bidirectional:
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2766,6 +2810,7 @@ A* Bidirectional:
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2773,6 +2818,7 @@ A* Bidirectional:
 \end_layout
 
 \begin_layout Standard
+\noindent
 Das 
 \shape italic
 bidirektional
@@ -2782,6 +2828,7 @@ e Verfahren ist immer performanter, da weniger Knoten besucht werden.
 \end_layout
 
 \begin_layout Standard
+\noindent
 Leider ist es nicht gelungen den 
 \shape italic
 bidirektional
@@ -2802,6 +2849,7 @@ A*
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Newpage newpage
 \end_inset
 
@@ -2809,10 +2857,12 @@ A*
 \end_layout
 
 \begin_layout Standard
+\noindent
 Zum besseren Verständnis des Problems dient folgende Graphik:
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2820,6 +2870,7 @@ Zum besseren Verständnis des Problems dient folgende Graphik:
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/thread1_thread2.png
 	lyxscale 60
@@ -2832,6 +2883,7 @@ Zum besseren Verständnis des Problems dient folgende Graphik:
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2839,6 +2891,7 @@ Zum besseren Verständnis des Problems dient folgende Graphik:
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Newpage newpage
 \end_inset
 
@@ -2846,16 +2899,19 @@ Zum besseren Verständnis des Problems dient folgende Graphik:
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Fibonacci Heap
 \end_layout
 
 \begin_layout Standard
+\noindent
 Entscheidend, was die Performance betrifft, ist eine optimale Datenstruktur.
  Ohne auf Details einzugehen gibt das folgende Bild einen ausreichenden
  Eindruck:
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2863,6 +2919,7 @@ Entscheidend, was die Performance betrifft, ist eine optimale Datenstruktur.
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/Fibonacci_Heap.png
 	lyxscale 60
@@ -2875,6 +2932,7 @@ Entscheidend, was die Performance betrifft, ist eine optimale Datenstruktur.
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -2882,6 +2940,7 @@ Entscheidend, was die Performance betrifft, ist eine optimale Datenstruktur.
 \end_layout
 
 \begin_layout Standard
+\noindent
 Zur Laufzeitoptimierung, verwenden beide Algorithmen den „Fibonacci Heap“.
  Diese Datenstruktur ist prinzipiell eine sehr performante Prioritätsliste.
  Sie wurde nicht vom Projektteam implementiert, es wurde stattdessen eine
@@ -2892,10 +2951,12 @@ Zur Laufzeitoptimierung, verwenden beide Algorithmen den „Fibonacci Heap“.
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Selektierung der Knoten und Kanten aus der Datenbank
 \end_layout
 
 \begin_layout Standard
+\noindent
 Anfangs wurden immer alle Kanten und Knoten aus der Datenbank geladen, um
  daraus einen Graphen zu bauen, in dem der Algorithmus den kürzesten Weg
  suchen kann.
@@ -2912,6 +2973,7 @@ Anfangs wurden immer alle Kanten und Knoten aus der Datenbank geladen, um
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/selekts/rechteckSelekt1.png
 	display false
@@ -2923,12 +2985,14 @@ Anfangs wurden immer alle Kanten und Knoten aus der Datenbank geladen, um
 \end_layout
 
 \begin_layout Standard
+\noindent
 Allerdings können eine ungünstige Position des Start- oder Endpunktes das
  Rechteck so verschmälern, dass mit den selektierten Kanten und Knoten keine
  Verbindung mehr zwischen den Beiden Punkten gefunden werden kann.
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/selekts/rechteckSelekt2.png
 	display false
@@ -2940,11 +3004,13 @@ Allerdings können eine ungünstige Position des Start- oder Endpunktes das
 \end_layout
 
 \begin_layout Standard
+\noindent
 Um diese Probleme zu umgehen, hatten wir die Idee eines Parabelselekts.
  Hierbei werden über den Start- und Endpunkt zwei Parabeln gelegt.
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/selekts/parabelSelekt1.png
 	display false
@@ -2956,12 +3022,14 @@ Um diese Probleme zu umgehen, hatten wir die Idee eines Parabelselekts.
 \end_layout
 
 \begin_layout Standard
+\noindent
 Allerdings entstehen hier sehr ähnliche Probleme.
  Wie bei der ursprünglichen Rechteckidee, werden oft zu wenige Knoten und
  Kanten selektiert.
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/selekts/parabelSelekt2.png
 	display false
@@ -2981,6 +3049,7 @@ Allerdings entstehen hier sehr ähnliche Probleme.
 \end_layout
 
 \begin_layout Standard
+\noindent
 Dieses Problem konnten wir mit einem Rechteck lösen, welches sich mit den
  Start- und Endpunkten mitdreht und somit immer gleich breit ist.
  Zur weiteren Performancesteigerung gibt es ein kleines, inneres Rechteck
@@ -2990,6 +3059,7 @@ Dieses Problem konnten wir mit einem Rechteck lösen, welches sich mit den
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/selekts/rechteckSelektNeu.png
 	display false
@@ -3001,16 +3071,19 @@ Dieses Problem konnten wir mit einem Rechteck lösen, welches sich mit den
 \end_layout
 
 \begin_layout Standard
+\noindent
 Die Vergleiche und Formeln zum überprüfen, ob ein Punkt im Rechteckt liegt
  sind nachfolgend aufgeführt:
 \end_layout
 
 \begin_layout Standard
+\noindent
 Legende: S=Start E=Ende und dessen Koordinaten y=Latitude x=Longitude h=Breite.
  
 \end_layout
 
 \begin_layout Standard
+\noindent
 In der Software ist h=30KM.
  Dh das innere Rechteck ist 30 Km breit.
  Das Autobahnrechteck ist 240 km breit.
@@ -3018,6 +3091,7 @@ In der Software ist h=30KM.
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -3025,6 +3099,7 @@ In der Software ist h=30KM.
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/rechteck_formel_1.png
 
@@ -3034,6 +3109,7 @@ In der Software ist h=30KM.
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -3041,15 +3117,18 @@ In der Software ist h=30KM.
 \end_layout
 
 \begin_layout Standard
+\noindent
 Punkt ist im Rechteck, wenn: punktY < a(punktX) && punktY > b(punktX) &&
  punktY > c(punktX) && punktY < d(punktX).
 \end_layout
 
 \begin_layout Standard
+\noindent
 (2) Wenn Sy>Ey && Sx < Ex
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -3057,6 +3136,7 @@ Punkt ist im Rechteck, wenn: punktY < a(punktX) && punktY > b(punktX) &&
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/rechteck_formel_2.png
 
@@ -3066,6 +3146,7 @@ Punkt ist im Rechteck, wenn: punktY < a(punktX) && punktY > b(punktX) &&
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -3073,11 +3154,13 @@ Punkt ist im Rechteck, wenn: punktY < a(punktX) && punktY > b(punktX) &&
 \end_layout
 
 \begin_layout Standard
+\noindent
 Punkt ist im Rechteck wenn: PunktY >d(PunktX) && PunktY < c(PunktX) && punktY>
  a(punktX) && punktY<b(punktX)
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -3085,6 +3168,7 @@ Punkt ist im Rechteck wenn: PunktY >d(PunktX) && PunktY < c(PunktX) && punktY>
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/rechteck_formel_3.png
 
@@ -3094,6 +3178,7 @@ Punkt ist im Rechteck wenn: PunktY >d(PunktX) && PunktY < c(PunktX) && punktY>
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -3101,12 +3186,14 @@ Punkt ist im Rechteck wenn: PunktY >d(PunktX) && PunktY < c(PunktX) && punktY>
 \end_layout
 
 \begin_layout Standard
+\noindent
 Punkt ist im Rechteck, wenn: punktY > a(punktX) && punktY<b(punktX)&&punktY<c(pu
 nktX)&&punktY>d(punktX).
  Wenn Sy<Ey&&Sx>Ex
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -3114,6 +3201,7 @@ nktX)&&punktY>d(punktX).
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/rechteck_formel_4.png
 
@@ -3123,6 +3211,7 @@ nktX)&&punktY>d(punktX).
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -3135,10 +3224,12 @@ Punkt ist im Rechteck, wenn: PunktY < a(punktX) && punktY > b(punktX) &&
 \end_layout
 
 \begin_layout Subsection
+\noindent
 Wegbeschreibung
 \end_layout
 
 \begin_layout Standard
+\noindent
 Um die gefundene Route auch in schriftlicher Form auszugeben, wurde die
  Klasse 
 \shape italic
@@ -3182,6 +3273,7 @@ t des Streckenabschnittobjektes einen Text zur Routenbeschreibung hinzufügt
 \end_layout
 
 \begin_layout Standard
+\noindent
 Die Klasse 
 \shape italic
 RouteToText
@@ -3197,6 +3289,7 @@ RouteToText
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -3204,6 +3297,7 @@ RouteToText
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/RTT.png
 	display false
@@ -3215,6 +3309,7 @@ RouteToText
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -3222,10 +3317,12 @@ RouteToText
 \end_layout
 
 \begin_layout Subsubsection*
+\noindent
 buildRouteInfo():
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -3233,6 +3330,7 @@ buildRouteInfo():
 \end_layout
 
 \begin_layout Standard
+\noindent
 In dieser Methode wird durch Verwendung einiger Methoden der Klasse RoutToText.ja
 va eine Beschreibung des Weges ausgegeben.
  Dabei ist es wichtig zu beachten, in welchem Straßentyp (zB.
@@ -3248,14 +3346,17 @@ va eine Beschreibung des Weges ausgegeben.
 \end_layout
 
 \begin_layout Subsection
+\noindent
 GUI
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Vorwort
 \end_layout
 
 \begin_layout Standard
+\noindent
 Um unsere 
 \shape italic
 GUI
@@ -3287,10 +3388,12 @@ Javascript
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Konzept
 \end_layout
 
 \begin_layout Standard
+\noindent
 Mit unserem ersten Entwurf haben wir uns entscheiden die 
 \shape italic
 GUI
@@ -3300,6 +3403,7 @@ GUI
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -3307,6 +3411,7 @@ GUI
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/HtwMaps_bereiche.png
 	lyxscale 60
@@ -3319,6 +3424,7 @@ GUI
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -3326,16 +3432,19 @@ GUI
 \end_layout
 
 \begin_layout Standard
+\noindent
 Der blaue Bereich ist der Status- und Informationsbereich.
  Der Auswahl- und Optionsbereich befindet sich im roten Bereich.
  Der grüne Bereich ist der Kartenbereich.
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Status- und Informationsbereich
 \end_layout
 
 \begin_layout Standard
+\noindent
 Im Status und Informationsbereich befindet sich neben unserem Logo der Statusber
 eich.
  Dieser informiert den Benutzer, welchen Zustand das Programm gerade hat.
@@ -3344,21 +3453,25 @@ eich.
 \end_layout
 
 \begin_layout Itemize
+\noindent
 “Berechne Route” dieser Zustand wird angezeigt sobald der Benutzer auf den
  “Route berechnen” Button drückt 
 \end_layout
 
 \begin_layout Itemize
+\noindent
 “Ihre Route wurde berechnet.”, wenn eine Route gefunden wird
 \end_layout
 
 \begin_layout Standard
+\noindent
 Dazu gibt es noch weitere verschiedene Fehlermeldungen, die in roter Schrift
  erscheinen und den Fehler genau deklarieren.
  Beispiele dazu sind:
 \end_layout
 
 \begin_layout Itemize
+\noindent
 “Leeres Ortsfeld: 1” diese Fehlermeldung sagt aus, dass das Ortsfeld in
  der 1.
  Zeile keinen Text enthält.
@@ -3366,6 +3479,7 @@ Dazu gibt es noch weitere verschiedene Fehlermeldungen, die in roter Schrift
 \end_layout
 
 \begin_layout Itemize
+\noindent
 “Leeres Straßenfeld: 1” diese Fehlermeldung sagt aus, dass das Straßenfeld
  in der 1.
  Zeile keinen Text enthält.
@@ -3373,6 +3487,7 @@ Dazu gibt es noch weitere verschiedene Fehlermeldungen, die in roter Schrift
 \end_layout
 
 \begin_layout Itemize
+\noindent
 “Falsche Angaben in Zeile: 2” bedeutet, dass keine sinnvollen Angaben in
  einem der beiden Feldern vorhanden ist.
  Diese trifft zu wenn zum Beispiel Zahlen eingegeben hat oder die Straße
@@ -3380,6 +3495,7 @@ Dazu gibt es noch weitere verschiedene Fehlermeldungen, die in roter Schrift
 \end_layout
 
 \begin_layout Standard
+\noindent
 Am rechten Rand befinden sich dann noch 2 Hyperlinks.
  Zum einen “Über” und “Berechnungsinformationen”.
  Bei beiden Hyperlinks öffnet sich nach dem drücken ein 
@@ -3390,10 +3506,12 @@ Popup
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Über
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -3401,6 +3519,7 @@ Popup
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/ueber.PNG
 	lyxscale 70
@@ -3413,6 +3532,7 @@ Popup
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -3420,16 +3540,19 @@ Popup
 \end_layout
 
 \begin_layout Standard
+\noindent
 Hier werden allgemeine Informationen zum Projekt bereitgestellt, wie um
  welche Version es sich handelt.
  Außerdem stehen alle Namen die an dem Projekt mitgearbeitet haben.
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Berechnungsinformationen
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -3437,6 +3560,7 @@ Berechnungsinformationen
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/berechnungsinfos.PNG
 	display false
@@ -3448,6 +3572,7 @@ Berechnungsinformationen
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -3455,6 +3580,7 @@ Berechnungsinformationen
 \end_layout
 
 \begin_layout Standard
+\noindent
 Hier wird nach ein erfolgreichen Berechnung, Informationen zu Berechnung
  dargestellt, wie zum Beispiel wie viele Knoten der Algorithmus zu Berechnung
  sich aus der Datenbank genommen hat oder wie lange die Berechnung insgesamt
@@ -3462,6 +3588,7 @@ Hier wird nach ein erfolgreichen Berechnung, Informationen zu Berechnung
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Newpage newpage
 \end_inset
 
@@ -3469,10 +3596,12 @@ Hier wird nach ein erfolgreichen Berechnung, Informationen zu Berechnung
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Auswahl- und Optionsbereich
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -3480,6 +3609,7 @@ Auswahl- und Optionsbereich
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/Optionsbereich.PNG
 	display false
@@ -3491,6 +3621,7 @@ Auswahl- und Optionsbereich
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -3498,6 +3629,7 @@ Auswahl- und Optionsbereich
 \end_layout
 
 \begin_layout Standard
+\noindent
 Im oberen Bereich kann der 
 \shape italic
 Client
@@ -3519,6 +3651,7 @@ Client
 \end_layout
 
 \begin_layout Standard
+\noindent
 Neben jedem Ort- und Straßenfeld befindet sich ein Button mit einem “+”
  Zeichen.
  Mit diesem Button kann der 
@@ -3537,6 +3670,7 @@ Client
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -3544,6 +3678,7 @@ Client
 \end_layout
 
 \begin_layout Standard
+\noindent
 Anschließend folgen 3 Hyperlinks.
  Diese sind “Optionen”, “Zusammenfassung” und “Wegbeschreibung”.Beim drücken
  dieser Hyperlinks öffnet sich darunter ein Feld, in dem man Optionen angeben
@@ -3551,10 +3686,12 @@ Anschließend folgen 3 Hyperlinks.
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Optionen
 \end_layout
 
 \begin_layout Standard
+\noindent
 Hier kann man zu aller erst die Routenart festlegen.
  Man kann wählen zwischen “schnellste” und “kürzeste”.
  Standardmäßig ist die “schnellste” ausgewählt.
@@ -3581,10 +3718,12 @@ A*
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Zusammenfassung
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -3592,35 +3731,42 @@ Zusammenfassung
 \end_layout
 
 \begin_layout Standard
+\noindent
 Hier wird nach einer erfolgreichen Berechnung Angaben zu der Route gemacht.
  
 \end_layout
 
 \begin_layout Itemize
+\noindent
 “Gesamt” zeigt die zu fahrenden km und die benötigte Zeit der gesamten Route
  
 \end_layout
 
 \begin_layout Itemize
+\noindent
 “Autobahn” zeigt nur die zu fahrenden km und die benötigte Zeit die der
  Benutzer auf der Autobahn verbringt 
 \end_layout
 
 \begin_layout Itemize
+\noindent
 “Landstraße” zeigt nur die zu fahrenden km und die benötigte Zeit die der
  Benutzer auf der Landstraße verbringt 
 \end_layout
 
 \begin_layout Itemize
+\noindent
 “Innerorts” zeigt nur die zu fahrenden km und die benötigte Zeit die der
  Benutzer innerhalb eines Ortes verbringt
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Wegbeschreibung
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -3628,14 +3774,17 @@ Wegbeschreibung
 \end_layout
 
 \begin_layout Standard
+\noindent
 Hier wird die textuelle Ausgabe der Route dargestellt.
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Kartenbereich
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -3643,6 +3792,7 @@ Kartenbereich
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename Images/map.PNG
 	lyxscale 80
@@ -3655,6 +3805,7 @@ Kartenbereich
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -3662,6 +3813,7 @@ Kartenbereich
 \end_layout
 
 \begin_layout Standard
+\noindent
 In diesem Bereich wird die Karte angezeigt.
  Sie wird mit Hilfe von mapstraction.com dargestellt.
  Die eine eigene API für die Einbindung von verschieden Karten bereitstellen.
@@ -3673,14 +3825,17 @@ In diesem Bereich wird die Karte angezeigt.
 \end_layout
 
 \begin_layout Subsection
+\noindent
 Sonstige Klassen
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Datenbank Connector
 \end_layout
 
 \begin_layout Standard
+\noindent
 Der Datenbank Connector stellt über die JDBC Schnittstelle eine Verbindung
  zum MySQL-Server her.
  Dazu ist es notwenig einen JDBC-Treiber, in diesem Fall einen speziellen
@@ -3699,10 +3854,12 @@ r herstellen zu können.
 \end_layout
 
 \begin_layout Subsubsection
+\noindent
 Property-Klasse
 \end_layout
 
 \begin_layout Standard
+\noindent
 Mit Hilfe einer 
 \shape italic
 Property-Klasse
@@ -3730,6 +3887,7 @@ Repository
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -3737,10 +3895,12 @@ Repository
 \end_layout
 
 \begin_layout Section
+\noindent
 Qualitätsmanagement
 \end_layout
 
 \begin_layout Standard
+\noindent
 Um die Qualität unserer Software sicher zu stellen bzw.
  zu erhalten, haben wir uns schon recht früh dazu entschieden unser Programm
  kontinuierlich zu testen.
@@ -3748,6 +3908,7 @@ Um die Qualität unserer Software sicher zu stellen bzw.
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset space ~
 \end_inset
 
@@ -3765,6 +3926,7 @@ Da ein Mitglied unseres Teams in der Entwicklung und Qualitätsmanagement
 \end_layout
 
 \begin_layout Standard
+\noindent
 Die Fehler bzw.
  
 \shape italic
@@ -3791,10 +3953,12 @@ verantwortliche so schnell wie möglich mit der Beseitigung des Fehlers beginnen
 \end_layout
 
 \begin_layout Section
+\noindent
 Fazit
 \end_layout
 
 \begin_layout Standard
+\noindent
 Als Fazit ist zu sagen, dass wir das Projekt als erfolgreich abgeschlossen
  betrachten.
  Es war uns in der gegeben Zeit möglich alle Funktionen aus dem Lastenheft
@@ -3803,6 +3967,7 @@ Als Fazit ist zu sagen, dass wir das Projekt als erfolgreich abgeschlossen
 \end_layout
 
 \begin_layout Standard
+\noindent
 Leider konnten wir die von uns festgelegte Zeit von 3 Sekunden für das berechnen
  einer Route, die wir im Lastenheft angegeben hatten, nicht immer einhalten.
  Der Grund hierfür ist, dass wir uns schon zu Beginn an Werten großer Unternehme
@@ -3815,15 +3980,18 @@ n würden.
 \end_layout
 
 \begin_layout Standard
+\noindent
 Im Abschlussgespräch stellte sich heraus, dass allen Teilnehmern das Arbeiten
  am Projekt spaß gemacht und jeder sehr viel gelernt hat.
 \end_layout
 
 \begin_layout Section
+\noindent
 Glossar
 \end_layout
 
 \begin_layout Description
+\noindent
 A 
 \series bold
 Stern (A*):
@@ -3834,34 +4002,40 @@ Stern (A*):
 \end_layout
 
 \begin_layout Description
+\noindent
 Autofill: Funktion: Nach Eingabe der ersten Buchstaben in einem Suchfeld,
  wird in der Datenbank nach gleichen Orten oder Straßen die mit diesen Buchstabe
 n beginnen gesucht.
 \end_layout
 
 \begin_layout Description
+\noindent
 Bidirektional: Es wird ein möglichst mittlerer Punkt innerhalb der Sart-Ziel
  Strecke gewählt.
  Dieser Punkt wird geichzeitig vom Zielpunkt und vom Startpunkt geroutet.
 \end_layout
 
 \begin_layout Description
+\noindent
 Branch: Dient zur Entwicklung von Programmen in unterschiedlichen Entwicklungszw
 eigen (engl.
  Branches) eines Projektes.
 \end_layout
 
 \begin_layout Description
+\noindent
 Bug: Programm- oder Softwarefehler, das allgemeinen ein Fehlverhalten von
  Computerprogrammen bezeichnet.
 \end_layout
 
 \begin_layout Description
+\noindent
 Client: Ein Client ist ein Computerprogramm, das Kontakt zu einem anderen
  Computerprogramm, dem Server, aufnimmt, um dessen Dienstleistung zu nutzen.
 \end_layout
 
 \begin_layout Description
+\noindent
 Code 
 \series bold
 & Fix:
@@ -3877,27 +4051,32 @@ Vorgehensmodell
 \end_layout
 
 \begin_layout Description
+\noindent
 Dijkstra: dient der Berechnung eines kürzesten Pfades zwischen einem Startknoten
  und einem oder mehreren beliebigen Knoten in einem kantengewichteten Graphen.
 \end_layout
 
 \begin_layout Description
+\noindent
 ER-Diagramm: Die grafische Darstellung von Entitätstypen und Beziehungstypen
  wird Entity-Relationship-Diagramm oder ER-Diagramm genannt.
 \end_layout
 
 \begin_layout Description
+\noindent
 Framework: Ein Framework ist ein Programmiergerüst, das in der Softwaretechnik,
  insbesondere im Rahmen der objektorientierten Softwareentwicklung sowie
  bei komponentenbasierten Entwicklungsansätzen, verwendet wird.
 \end_layout
 
 \begin_layout Description
+\noindent
 GitHub: GitHub ist ein Hosting-Dienst für webbasierte Projekte, welche das
  Git-Versionsverwaltungs-System verwenden.
 \end_layout
 
 \begin_layout Description
+\noindent
 Graphical 
 \series bold
 User Interface (GUI):
@@ -3907,6 +4086,7 @@ User Interface (GUI):
 \end_layout
 
 \begin_layout Description
+\noindent
 Google
 \series bold
  Web Toolkit (GWT):
@@ -3915,6 +4095,7 @@ Google
 \end_layout
 
 \begin_layout Description
+\noindent
 Issue-Tracker: ist eine Art von Software, um Empfang, Bestätigung, Klassifizieru
 ng und Bearbeitung von Kundenanfragen (Tickets bzw.
  Fälle) zu handhaben.
@@ -3923,21 +4104,25 @@ ng und Bearbeitung von Kundenanfragen (Tickets bzw.
 \end_layout
 
 \begin_layout Description
+\noindent
 Javascript: JavaScript ist eine Skriptsprache, die hauptsächlich in Web-Browsern
  eingesetzt wird.
 \end_layout
 
 \begin_layout Description
+\noindent
 Konstruktor: Prozeduren bzw.
  Methoden, die beim Erzeugen von Objekten und Variablen aufgerufen werden.
 \end_layout
 
 \begin_layout Description
+\noindent
 Lastenheft: Das Lastenheftbeschreibt dieGesamtheit der Forderungen des Auftragge
 bers an die Lieferungen und Leistungen eines Auftragnehmers
 \end_layout
 
 \begin_layout Description
+\noindent
 OpenStreetMap: OpenStreetMap (abgekürzt OSM) ist ein Open-Source-Projekt
  mit dem Ziel, ein für jeden freiverfügbares weltweites Geodaten-Material,
  z.B.
@@ -3945,16 +4130,19 @@ OpenStreetMap: OpenStreetMap (abgekürzt OSM) ist ein Open-Source-Projekt
 \end_layout
 
 \begin_layout Description
+\noindent
 Popup: Visuelles Element eines Computerprogramms, das in manchen Situationen
  aufspringt und dabei andere Teile überdeckt.
 \end_layout
 
 \begin_layout Description
+\noindent
 Property-Klasse: Klasse in Java, um sehr einfach Werte aus Text Dateien
  zu lesen.
 \end_layout
 
 \begin_layout Description
+\noindent
 Repository: Verwaltetes Verzeichnis zur Speicherung und Beschreibung von
  digitalen Objekten.
  Bei den verwalteten Objekten kann es sich beispielsweise um Programme (Software
@@ -3962,25 +4150,30 @@ Repository: Verwaltetes Verzeichnis zur Speicherung und Beschreibung von
 \end_layout
 
 \begin_layout Description
+\noindent
 Rendern: Der Begriff Rendern bezeichnet die Erstellung einer Grafik aus
  einer Skizze oder einem Modell.
 \end_layout
 
 \begin_layout Description
+\noindent
 Routenplaner: Computerprogramme, mit deren Hilfe ein Weg zwischen einem
  Start- und einem Zielort gefunden werden kann
 \end_layout
 
 \begin_layout Description
+\noindent
 RouteToText: Methode um die gefundene Route in schriftlicher Form auszugeben.
 \end_layout
 
 \begin_layout Description
+\noindent
 Routingalgorithmus: Algorithmus.
  um von einem Startpunkt zu einem Zielpunkt zu gelangen.
 \end_layout
 
 \begin_layout Description
+\noindent
 Scrum: 
 \shape italic
 Vorgehensmodell
@@ -3989,6 +4182,7 @@ Vorgehensmodell
 \end_layout
 
 \begin_layout Description
+\noindent
 Singleton: Das Singleton ist ein in der Softwareentwicklung eingesetztes
  Entwurfsmuster und gehört zur Kategorie der Erzeugungsmuster.
  Es verhindert, dass von einer Klasse mehr als ein Objekt erzeugt werden
@@ -3996,18 +4190,21 @@ Singleton: Das Singleton ist ein in der Softwareentwicklung eingesetztes
 \end_layout
 
 \begin_layout Description
+\noindent
 SourceForge: SourceForge ist ein Repository in Form einer Website, welche
  Programmierern die Möglichkeit bietet, quelloffene Softwareprojekte zu
  erstellen und zu verwalten.
 \end_layout
 
 \begin_layout Description
+\noindent
 Tag: Geodaten, die mit Informationen versehen wurden um zB.
  aus Ihnen automatische Karten zu generien.
  (Bsp: highway=motorway).
 \end_layout
 
 \begin_layout Description
+\noindent
 Unified 
 \series bold
 Modeling Language (UML):
@@ -4017,11 +4214,13 @@ on von Teilen von Software und anderen Systemen
 \end_layout
 
 \begin_layout Description
+\noindent
 Vorgehensmodell: dient dazu, die Softwareentwicklung übersichtlicher zu
  gestalten und in der Komplexität beherrschbar zu machen.
 \end_layout
 
 \begin_layout Description
+\noindent
 Wasserfallmodell: Das Wasserfallmodell ist ein lineares (nicht-iteratives)
  
 \shape italic
@@ -4034,26 +4233,32 @@ Vorgehensmodell
 \end_layout
 
 \begin_layout Section
+\noindent
 Anhang
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Lastenheft
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Testplan
 \end_layout
 
 \begin_layout Itemize
+\noindent
 Nachweis des Zeitaufwandes
 \end_layout
 
 \begin_layout Section
+\noindent
 Quellenangabe
 \end_layout
 
 \begin_layout Standard
+\noindent
 Die Formulierungen des Glossars wurden Teilweise aus Wikipedia (www.wikipedia.de)
  kopiert.
 \end_layout
