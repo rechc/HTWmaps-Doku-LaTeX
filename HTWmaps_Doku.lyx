@@ -44,29 +44,12 @@
 
 \begin_layout Title
 \noindent
-HTWmaps Dokumentation
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-\noindent
 \begin_inset Newpage newpage
 \end_inset
 
@@ -101,9 +84,10 @@ s mit Hilfe des Kartenmaterials von
 OpenStreetMap
 \shape default
 .
- Die zu entwickelnde Software soll das Planen von Routen innerhalb Deutschlands
- ermöglichen.
- Von uns wurde der Name HTWmaps gewählt.
+ Die zu entwickelnde Software soll das Planen von Routen innerhalb von Deutschla
+nd ermöglichen.
+ Zu Beginn des Projekts einigten wir uns einstimmig auf den Projektnamen
+ HTWmaps.
  Diese Dokumentation umfasst das Vorgehen im Projekt.
 \end_layout
 
@@ -132,6 +116,11 @@ Bartsch, Tim
 
 \begin_layout Itemize
 \noindent
+Gökkaya, Volkan
+\end_layout
+
+\begin_layout Itemize
+\noindent
 Klos, Yassir 
 \end_layout
 
@@ -153,11 +142,6 @@ Schneider, Lucian
 \begin_layout Itemize
 \noindent
 Tartakowski, Stanislaw 
-\end_layout
-
-\begin_layout Itemize
-\noindent
-Gökkaya, Volkan
 \end_layout
 
 \begin_layout Standard
@@ -471,9 +455,9 @@ Christian Rech, Lucian Schneider
 
 \begin_layout Standard
 \noindent
-Die Tabelle zeigt nur Tätigkeit die sich über einen längeren Zeitraum erstreckte
-n.
- Jedes Teammitglied hat sich auch um andere Aufgaben gekümmert.
+Die Tabelle zeigt nur Tätigkeiten, die sich über einen längeren Zeitraum
+ erstreckten.
+ Jedes Teammitglied hat auch in anderen Aufgabenbereichen mitgearbeitet.
 \end_layout
 
 \begin_layout Subsection
@@ -546,7 +530,8 @@ Projektabgrenzung
 
 \begin_layout Standard
 \noindent
-Die zu erstellende Software bietet nicht alle Möglichkeiten und Optionen,
+HTWmaps beinhaltet nur das Kartenmaterial von Deutschland.
+ Die zu erstellende Software bietet nicht alle Möglichkeiten und Optionen,
  die technisch machbar gewesen wären.
  Aufgrund der zeitlichen Beschränkung mussten wir auf folgende Features
  verzichten: 
@@ -589,7 +574,7 @@ GWT
 JavaScript
 \shape default
  implementiert werden.
- Ansonsten wurde noch HTML und CSS verwendet um die Oberfläche grafisch
+ Ansonsten wurde noch HTML und CSS verwendet um die Oberfläche graphisch
  aufzuarbeiten.
 \end_layout
 
@@ -620,6 +605,7 @@ OpenStreetMap
 \noindent
 \begin_inset Graphics
 	filename Images/xmlstruktur.png
+	display false
 	width 100col%
 
 \end_inset
@@ -664,7 +650,7 @@ g am Code arbeiten zu können.
 
 \begin_layout Standard
 \noindent
-In der näheren Auswahl standen bei den Projekthostern 
+In der näheren Auswahl standen die Projekthoster 
 \shape italic
 Sourceforge
 \shape default
@@ -672,24 +658,26 @@ Sourceforge
 \shape italic
 Github
 \shape default
-, bei den Versionsverwaltungen Apache Subversion und Git.
+.
+ Bei der Versionsverwaltung Apache Subversion und Git.
  Die Seite des Projekthosters 
 \shape italic
 Github
 \shape default
  ist intuitiv und einfach zu bedienen, sie bietet deshalb auch nur eine
- eingeschränkte Auswahl an Funktionen, aber dennoch alles was wir für unser
- Projekt benötigten.
+ eingeschränkte Auswahl an Funktionen, aber dennoch alle Funktionen die
+ wir für unser Projekt benötigten.
  
 \shape italic
 Sourceforge
 \shape default
- hat dagegen sehr viele Funktionen, ist aufwendig einzurichten und zu verwalten.
- Somit bevorzugten wir bei den Projekthostern klar 
+ hat dagegen sehr viele Funktionen, ist jedoch aufwändig einzurichten und
+ zu verwalten.
+ Somit haben wir 
 \shape italic
 Github
 \shape default
-.
+ als Projekthoster gewählt.
  
 \shape italic
 Github
@@ -698,7 +686,7 @@ Github
 \shape italic
 Github
 \shape default
- ist es möglich das Projekt über HTTP zu managen.
+ ist es möglich das Projekt über HTTP zu verwalten.
  Bei einem Versuch, Git innerhalb der HTW über SSH zu verwenden, scheiterten
  wir an der Firewall der HTW.
 \end_layout
@@ -761,13 +749,13 @@ Javascript
 \shape italic
 GWT
 \shape default
- unterestützt auch Remote Procedure Calls (RPC), mit diesen Aufrufen können
+ unterstützt auch Remote Procedure Calls (RPC), mit diesen Aufrufen können
  von einem 
 \shape italic
 Client
 \shape default
  Methoden auf einem Server aufgerufen werden.
- Mithilfe dieser RPCs konnten wir den 
+ Mit Hilfe dieser RPCs konnten wir den 
 \shape italic
 Routeplaner
 \shape default
@@ -780,7 +768,8 @@ Client
 
 \begin_layout Standard
 \noindent
-Zu Beginn des Projektes, hatte keiner in unsere Gruppe Erfahrungen mit 
+Zu Beginn des Projektes hatte niemand in unserer Gruppe Erfahrungen mit
+ 
 \shape italic
 GWT
 \shape default
@@ -887,7 +876,7 @@ JRE - Java Programme lokal ausführen
 \noindent
 Außer der Installation mussten auch noch einige Konfigurationen gemacht
  werden.
- So wurden auch Start- und Endeskript erstellt.
+ So wurden auch Start- und Stopskripte erstellt.
  Außerdem wurde an den Einstellungen von MySQL und Apache gearbeitet um
  eine maximale Performance zu erreichen.
 \end_layout
@@ -902,11 +891,8 @@ Unvollständigkeit der Daten
 Die Daten bei Openstreet Maps sind derzeit noch unvollständig.
  So sind manchmal Wege und Straßen nicht verzeichnet, oder besitzen ungültige
  Namen, wie beispielsweise „unbekannt“.
- Die Unvollständigkeit der Daten hat folgende Auswirkungen auf den 
-\shape italic
-Routenplaner
-\shape default
-:
+ Folgende Unvollständigkeit der Daten, welche teilweise Auswirkungen auf
+ die Routenplanung haben, wurden im Laufe des Projektes von uns festgestellt:
 \end_layout
 
 \begin_layout Itemize
@@ -931,7 +917,7 @@ Häufige Rechtschreibfehler der Orte/Straßen
 
 \begin_layout Itemize
 \noindent
-Manche Orte hab keine Straßennamen 
+Manche Orte haben keinen Straßennamen 
 \end_layout
 
 \begin_layout Itemize
@@ -956,7 +942,7 @@ Es gibt Orte, zu denen keine Straße führt, hierhin findet der Algorithmus
 
 \begin_layout Itemize
 \noindent
-Viele Straßen sind keinem Ort zugeordete.
+Viele Straßen sind keinem Ort zugeordnet.
  Der Benutzer muss aber in der Lage sein, eine Straße und einen Ort anzugeben,
  um dem Programm mitzuteilen, wohin und von wo er routen will.
  Dieses Problem wurde von uns nur teilweise gelöst.
@@ -965,7 +951,7 @@ Viele Straßen sind keinem Ort zugeordete.
  jeweiligen Ort kennzeichnet.
  Manche Orte sind jedoch exakt vermerkt, sodass man jede Straße mit einem
  anderen Verfahren („Punkt in Polygon“) kennzeichnen konnte.
- Allerdings sind solche exakt verzeichnete Orte selten.
+ Allerdings sind diese Orte eher selten.
  
 \end_layout
 
@@ -1170,7 +1156,7 @@ des Zielpunktes:
 \series default
  Der Benutzer wählt einen Zielpunkt aus, indem er eine Zieladresse im Programm
  eingibt.
- Auswahlmöglichkeit kürzeste- und schnellste Route.
+ Auswahlmöglichkeit sind kürzeste- und schnellste Route.
  Dem Benutzer soll es möglich sein auszuwählen, ob die kürzeste Route oder
  die schnellste Route berechnet werden soll.
 \end_layout
@@ -1263,7 +1249,7 @@ Vorwort
 \begin_layout Standard
 \noindent
 Der folgende Abschnitt erläutert den Aufbau von HTWmaps.
- Sie geht auf das zu Grunde liegende Konzept der Implementierung und des
+ Sie geht auf das zugrunde liegende Konzept der Implementierung und des
  Aufbaus der Datenbank ein.
  
 \end_layout
@@ -1306,11 +1292,11 @@ Aufbau GWT
 
 \begin_layout Standard
 \noindent
-Beim Anlegen eines 
+Bei dem Anlegen eines 
 \shape italic
 GWT
 \shape default
- Projektes wird eine Grundstruktur an Paketen mit angelegt.
+ Projektes wird noch zusätzlich eine Grundstruktur an Paketen angelegt.
  Diese Pakete heißen: 
 \end_layout
 
@@ -1507,11 +1493,11 @@ Vorwort
 
 \begin_layout Standard
 \noindent
-Zu beginn des Projektes prüften wir verschiedene Möglichkeiten zur Datenbeschaff
+Zu Beginn des Projektes prüften wir verschiedene Möglichkeiten zur Datenbeschaff
 ung und Datenbereitstellung.
  Die Möglichkeit direkt mit dem Kartenmaterial, welches im XML Format vorliegt,
  zu arbeiten erwies sich schnell als nicht realisierbar, da das Kartenmaterial
- ~9,3GiB ist und somit Dateioperationen sehr langsam und eine Auslagerung
+ ~9,3GB groß ist und somit Dateioperationen sehr langsam und eine Auslagerung
  der Daten im RAM auf Grund der Größe nicht möglich ist.
  Schnell kristalisierte sich die Verwendung einer Datenbank als beste und
  komfortabelste Lösung heraus.
@@ -1792,10 +1778,155 @@ Performance hat höhere Priorität als Normalisierung.
 
 \begin_layout Standard
 \noindent
-Die Versionen 0.1 - 0.3 wurden ausschließlich auf Grundlage der Kartendaten
+Die ersten Versionen wurden ausschließlich auf Grundlage der Kartendaten
  des Saarlandes entwickelt und gefüllt.
  Erst ab Version 0.4 wurde ganz Deutschland berücksichtigt.
  
+\end_layout
+
+\begin_layout Paragraph
+Entwicklung des Datenbankschemas
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Graphics
+	filename Images/db/ERDiagramm_0.1.png
+	display false
+	width 65col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Version 0.1
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Graphics
+	filename /Users/tobiaslana/Dropbox/HTWmaps-Doku-LaTeX/Images/db/ERDiagramm_0.2.png
+	display false
+	width 65col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Version 0.2
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Graphics
+	filename /Users/tobiaslana/Dropbox/HTWmaps-Doku-LaTeX/Images/db/ERDiagramm_0.3.png
+	display false
+	width 65col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Version 0.3
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Graphics
+	filename Images/db/ERDiagramm_0.4.png
+	display false
+	width 65col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Version 0.4
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Graphics
+	filename Images/db/ERDiagramm_0.5.png
+	display false
+	width 65col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Version 0.5
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space ~
+\end_inset
+
+
 \end_layout
 
 \begin_layout Paragraph
@@ -1805,14 +1936,30 @@ Finales Datenbankschema (1.0)
 
 \begin_layout Standard
 \noindent
-Ein 
-\shape italic
-ER-Diagramm
-\shape default
- erweist sich hier als wenig sinnvoll, da fast jede Tabelle mit jeder anderen
- aufgrund von Redundanz in Verbindung gebracht werden kann.
- Ausserdem sind JOINS und andere SQL Anfragen, die tabellenübergreifend
- sind aufgrund von Performance nicht erwünscht.
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Graphics
+	filename Images/db/db_1.0.png
+	display false
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space ~
+\end_inset
+
+
 \end_layout
 
 \begin_layout Paragraph
@@ -2453,19 +2600,13 @@ Kantenoptimierung
 
 \begin_layout Standard
 \noindent
-Im Rahmen der Performanceoptimierung der Wegsuche wurde eine Kantenoptimierung
+Um die Performance der Wegsuche zu steigern wurde eine Kantenoptimierung
  realisiert.
  Hierbei handelt es sich um einen optimierten (schlankeren) Graphen.
- Dieser Graph unterscheidet sich vom ursprünglichen Graphen, den man aus
- der OSM Datei entnehmen kann, um die Anzahl der Knoten und Kanten.
- Die Anzahl wurde erheblich reduziert.
- Es gibt im 
-\shape italic
-OSM
-\shape default
- Kartenmaterial viele Knoten, die für die Wegsuche keinen brauchbaren Wert
- haben, auch wenn sie auf der Straße liegen, die eine Ergebnisstraße ist.
- 
+ Dieser Graph unterscheidet sich vom ursprünglichen Graphen, an der Anzahl
+ der Knoten und Kanten.
+ In dem OSM Kartenmaterial existieren viele Knoten, die für das routen keinen
+ brauchbaren Wert haben, auch wenn sich diese auf der Ergebnisstraße ist.
 \end_layout
 
 \begin_layout Standard
@@ -2530,8 +2671,8 @@ A*
 A*
 \shape default
  Bidirectional, die beide unabhängig voneinander entwickelt wurden.
- Beide Algorithmen können in allen Bereichen, wo es darum geht von einem
- bekannten Anfangspunkt einen Weg zu einem bekannten Endpunkt zu finden,
+ Beide Algorithmen können in allen Bereichen, in denen es darum geht, von
+ einem bekannten Anfangspunkt einen Weg zu einem bekannten Endpunkt zu finden,
  ihre Anwendung finden.
  Der 
 \shape italic
@@ -2549,8 +2690,8 @@ Dijkstra
  ist auf das Suchen des kürzesten Weges von jedem Knoten aus zum Startknoten
  konzipiert.
  Dies hat den Vorteil, dass man nicht von Vornherein wissen muss, wo sich
- das Ende befindet.
- Beispielsweise Routen durch ein Netzwerk.
+ das Ende befindet z.B.
+ das Routen durch ein Netzwerk.
  Dieses Konzept ist für den Anwendungsfall unserer Software wenig sinnvoll,
  da wir nur den kürzesten Weg zwischen Start- und Endknoten suchen.
  
@@ -2558,7 +2699,7 @@ Dijkstra
 A*
 \shape default
  erfüllt dieses Kriterium.
- Entscheidender Unterschied zu 
+ Ein entscheidender Unterschied zu 
 \shape italic
 Dijkstra
 \shape default
@@ -2571,11 +2712,11 @@ Dijkstra
 Dijkstra
 \shape default
 .
- Ein Weg 
+ Eine Möglichkeit 
 \shape italic
 A*
 \shape default
- zu optimieren ist ein sogenanntes „
+ zu optimieren, ist ein sogenanntes „
 \shape italic
 Bidirektional
 \shape default
@@ -2597,8 +2738,8 @@ A*
 A*
 \shape default
  gleichzeitig von Start nach Ende, sowie von Ende nach Start sucht.
- Dort, wo sich die beiden Verfahren zum ersten Mal treffen, ist die Schnittstell
-e zum gefundenen Weg.
+ In den Punkten, in denen sich die beiden Verfahren zum ersten Mal treffen,
+ ist die Schnittstelle zum gefundenen Weg.
  Dieses Verfahren beschleunigt die Suche und ist von der Theorie her korrekt.
 \end_layout
 
@@ -2645,8 +2786,7 @@ Momentaufnahme
 
 \begin_layout Standard
 \noindent
-Die rosa Punkte zeigen jeden Knoten der vom Algorithmus derzeit besucht
- wurde.
+Die rosa Punkte zeigen jeden Knoten der vom Algorithmus besucht wurde.
  
 \end_layout
 
@@ -2660,8 +2800,8 @@ Die rosa Punkte zeigen jeden Knoten der vom Algorithmus derzeit besucht
 
 \begin_layout Standard
 \noindent
-Wenn jede Kante denselben Abstand besitzt, dann kann man die Ausbreitung
- der Algorithmen auf dem Graphen veranschaulichen:
+Wenn jede Kante denselben Abstand besitzt, kann man die Ausbreitung der
+ Algorithmen auf dem Graphen veranschaulichen:
 \end_layout
 
 \begin_layout Standard
@@ -2906,7 +3046,7 @@ Fibonacci Heap
 \begin_layout Standard
 \noindent
 Entscheidend, was die Performance betrifft, ist eine optimale Datenstruktur.
- Ohne auf Details einzugehen gibt das folgende Bild einen ausreichenden
+ Ohne auf Details einzugehen, gibt das folgende Bild einen ausreichenden
  Eindruck:
 \end_layout
 
@@ -2944,10 +3084,18 @@ Entscheidend, was die Performance betrifft, ist eine optimale Datenstruktur.
 Zur Laufzeitoptimierung, verwenden beide Algorithmen den „Fibonacci Heap“.
  Diese Datenstruktur ist prinzipiell eine sehr performante Prioritätsliste.
  Sie wurde nicht vom Projektteam implementiert, es wurde stattdessen eine
- Implementierung aus dem Buch Introduction to Algorithms von Charles E.
+ Implementierung aus dem Buch 
+\begin_inset Quotes eld
+\end_inset
+
+Introduction to Algorithms von Charles E.
  Leiserson, Thomas H.
  Cormen und Ronald L.
- Rivest benutzt.
+ Rivest
+\begin_inset Quotes erd
+\end_inset
+
+ benutzt.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2965,7 +3113,7 @@ Anfangs wurden immer alle Kanten und Knoten aus der Datenbank geladen, um
  Doch auch bei diesen wenigen Daten konnten wir mit einer Selektierung der
  Knoten und Kanten einen Geschwindigkeitsgewinn erreichen.
  Unsere erste Idee war es nur Knoten und Kanten zu berücksichtigen, die
- sich in einem zur x-Achse parallelen Rechteck befinden.
+ sich in einem zur x-Achse parallelem Rechteck befinden.
  Ob sich ein Punkt, hier also ein Knoten bzw eine Kante, in einem zur x-Achse
  Parallelen Rechteck befindet, lässt sich mit wenigen einfachen Vergleichen
  herausfinden.
@@ -2988,7 +3136,7 @@ Anfangs wurden immer alle Kanten und Knoten aus der Datenbank geladen, um
 \noindent
 Allerdings können eine ungünstige Position des Start- oder Endpunktes das
  Rechteck so verschmälern, dass mit den selektierten Kanten und Knoten keine
- Verbindung mehr zwischen den Beiden Punkten gefunden werden kann.
+ Verbindung mehr zwischen den beiden Punkten gefunden werden kann.
 \end_layout
 
 \begin_layout Standard
@@ -3024,8 +3172,8 @@ Um diese Probleme zu umgehen, hatten wir die Idee eines Parabelselekts.
 \begin_layout Standard
 \noindent
 Allerdings entstehen hier sehr ähnliche Probleme.
- Wie bei der ursprünglichen Rechteckidee, werden oft zu wenige Knoten und
- Kanten selektiert.
+ Wie bei der ursprünglichen Idee des Rechecks, werden oft zu wenige Knoten
+ und Kanten selektiert.
 \end_layout
 
 \begin_layout Standard
@@ -3051,7 +3199,7 @@ Allerdings entstehen hier sehr ähnliche Probleme.
 \begin_layout Standard
 \noindent
 Dieses Problem konnten wir mit einem Rechteck lösen, welches sich mit den
- Start- und Endpunkten mitdreht und somit immer gleich breit ist.
+ Start- und Endpunkten mitdreht und somit immer die Breite gleich ist.
  Zur weiteren Performancesteigerung gibt es ein kleines, inneres Rechteck
  das alle Straßen enthält und ein sehr großes äußeres, welches nur Autobahnen
  enthält.
@@ -3072,20 +3220,21 @@ Dieses Problem konnten wir mit einem Rechteck lösen, welches sich mit den
 
 \begin_layout Standard
 \noindent
-Die Vergleiche und Formeln zum überprüfen, ob ein Punkt im Rechteckt liegt
+Die Vergleiche und Formeln zum überprüfen, ob ein Punkt im Rechteckt liegt,
  sind nachfolgend aufgeführt:
 \end_layout
 
 \begin_layout Standard
 \noindent
-Legende: S=Start E=Ende und dessen Koordinaten y=Latitude x=Longitude h=Breite.
+Legende: S = Start E = Ende und dessen Koordinaten y = Latitude x = Longitude
+ h = Breite.
  
 \end_layout
 
 \begin_layout Standard
 \noindent
-In der Software ist h=30KM.
- Dh das innere Rechteck ist 30 Km breit.
+In der Software ist h = 30KM d.h.
+ das innere Rechteck ist 30 km breit.
  Das Autobahnrechteck ist 240 km breit.
  Wenn Sy < Ey && Sx < Ex
 \end_layout
@@ -3124,7 +3273,7 @@ Punkt ist im Rechteck, wenn: punktY < a(punktX) && punktY > b(punktX) &&
 
 \begin_layout Standard
 \noindent
-(2) Wenn Sy>Ey && Sx < Ex
+(2) Wenn Sy > Ey && Sx < Ex 
 \end_layout
 
 \begin_layout Standard
@@ -3187,9 +3336,9 @@ Punkt ist im Rechteck wenn: PunktY >d(PunktX) && PunktY < c(PunktX) && punktY>
 
 \begin_layout Standard
 \noindent
-Punkt ist im Rechteck, wenn: punktY > a(punktX) && punktY<b(punktX)&&punktY<c(pu
-nktX)&&punktY>d(punktX).
- Wenn Sy<Ey&&Sx>Ex
+Punkt ist im Rechteck, wenn: punktY > a(punktX) && punktY< b(punktX)&&punktY<
+ c(punktX)&&punktY > d(punktX).
+ Wenn Sy < Ey&&Sx > Ex
 \end_layout
 
 \begin_layout Standard
@@ -3243,23 +3392,23 @@ Konstruktor
  der Klasse erwartet zwei Listen.
  Dies sind erstens eine Liste mit allen besuchten Knoten (Nodes) und zweitens
  eine Liste mit den besuchten Kanten (Edges).
- Mithilfe der Informationen aus den Listen werden über eine SQL-Abfrage
- weitere Informationen aus der Datenbank geladen, welche in den Nodes und
- Edges Objekten nicht vorhanden sind.
+ Mit Hilfe der Informationen aus den Listen werden über eine SQL-Abfrage
+ weitere Informationen aus der Datenbank geladen, welche in den Knoten und
+ Kanten Objekten nicht vorhanden sind.
  Als weitere Informationen werden zum Beispiel die besuchten Straßennamen,
- Ortsnamen, Bundesländer usw.
+ Ortsnamen, Bundesländer etc.
  geladen.
- Beim Laden der Nodes und Edges Daten aus der Datenbank wurden nicht gleich
- alle Daten geladen, da ansonsten auch Informationen von Nodes und Edges
+ Beim Laden der Knoten und Kanten aus der Datenbank wurden nicht gleich
+ alle Daten geladen, da ansonsten auch Informationen von Knoten und Kanten
  geladen werden würden, welche am Ende nicht auf der gefundenen Strecke
  liegen.
- Durch die kleineren Nodes und Edges Objekte konnte eine bessere Performance
+ Durch die kleineren Knoten und Kanten Objekte konnte eine bessere Performance
  erreicht werden.
  Aus den neuen Informationen und den bereits vorhandenen, werden durch die
  Klasse StreetDetails neue Objekte erstellt, welche jeweils die gleichen
  Informationen eines Streckenabschnitts der Route besitzen.
- Dies bedeutet, dass Edges mit dem selben Straßennamen oder der selben Schnellst
-raßenbezeichnung gruppiert werden.
+ Dies bedeutet, dass Kanten mit dem selben Straßennamen oder der selben
+ Schnellstraßenbezeichnung gruppiert werden.
  Die gruppierten Informationen werden dann in einem Objekt gespeichert.
  Sobald alle Daten zu einer gefunden Route gesammelt wurden, gibt es eine
  Methode in der Klasse 
@@ -3280,9 +3429,9 @@ RouteToText
 \shape default
  ist außerdem dafür verantwortlich, dass eine Statistik über die gefundene
  Strecke erstellt wird.
- Ein Edge-Objekt besitzt die Attribute distance (beinhaltet Länge der Kante)
- und highwayType (zeigt durch eine ID wie schnell auf dieser Kante gefahren
- werden darf).
+ Ein Kanten-Objekt besitzt die Attribute distance (beinhaltet Länge der
+ Kante) und highwayType (zeigt durch eine ID wie schnell auf dieser Kante
+ gefahren werden darf).
  Mit diesen Informationen kann ermittelt werden, wie weit die Distanz auf
  den einzelnen Straßentypen ist und wie lange man benötigt, um diese zu
  befahren.
@@ -3366,16 +3515,12 @@ GUI
 Google Web Toolkit
 \shape default
  entschieden.
- Der wichtigste Punkt für diese Software war, dass sie ein Java-nach-
+ Der wichtigste Punkt, warum wir und für diese Software entschieden haben,
+ war das sie einen Java-nach-
 \shape italic
 Javascript
 \shape default
 -Compiler besitzt.
- Da keiner von uns Erfahrung mit 
-\shape italic
-Javascript
-\shape default
- hat.
  So konnten wir die Oberfläche in Java entwickeln und das 
 \shape italic
 Google Web Toolkit
@@ -3454,13 +3599,13 @@ eich.
 
 \begin_layout Itemize
 \noindent
-“Berechne Route” dieser Zustand wird angezeigt sobald der Benutzer auf den
- “Route berechnen” Button drückt 
+“Berechne Route” : Dieser Zustand wird angezeigt, sobald der Benutzer auf
+ den “Route berechnen” Button drückt 
 \end_layout
 
 \begin_layout Itemize
 \noindent
-“Ihre Route wurde berechnet.”, wenn eine Route gefunden wird
+“Ihre Route wurde berechnet.”, wenn eine Route gefunden wurde
 \end_layout
 
 \begin_layout Standard
@@ -3490,15 +3635,15 @@ Dazu gibt es noch weitere verschiedene Fehlermeldungen, die in roter Schrift
 \noindent
 “Falsche Angaben in Zeile: 2” bedeutet, dass keine sinnvollen Angaben in
  einem der beiden Feldern vorhanden ist.
- Diese trifft zu wenn zum Beispiel Zahlen eingegeben hat oder die Straße
+ Diese trifft zu, wenn zum Beispiel Zahlen eingegeben wurden oder die Straße
  nicht in der Datenbank vorhanden ist wegen der Ungenauigkeit der Daten.
 \end_layout
 
 \begin_layout Standard
 \noindent
-Am rechten Rand befinden sich dann noch 2 Hyperlinks.
- Zum einen “Über” und “Berechnungsinformationen”.
- Bei beiden Hyperlinks öffnet sich nach dem drücken ein 
+Am rechten Rand befinden sich dann noch zwei Hyperlinks.
+ Zum einen “Über” und zum anderen “Berechnungsinformationen”.
+ Beide Links erzeugen ein 
 \shape italic
 Popup
 \shape default
@@ -3541,9 +3686,8 @@ Popup
 
 \begin_layout Standard
 \noindent
-Hier werden allgemeine Informationen zum Projekt bereitgestellt, wie um
- welche Version es sich handelt.
- Außerdem stehen alle Namen die an dem Projekt mitgearbeitet haben.
+Hier werden allgemeine Informationen zum Projekt bereitgestellt, dazu zählen
+ die aktuelle Programmversion und die Projektteilnehmer.
 \end_layout
 
 \begin_layout Subsubsection
@@ -3581,10 +3725,10 @@ Berechnungsinformationen
 
 \begin_layout Standard
 \noindent
-Hier wird nach ein erfolgreichen Berechnung, Informationen zu Berechnung
- dargestellt, wie zum Beispiel wie viele Knoten der Algorithmus zu Berechnung
- sich aus der Datenbank genommen hat oder wie lange die Berechnung insgesamt
- gedauert hat.
+Hier werden nach einer erfolgreichen Berechnung, Informationen zur Routenplanung
+ dargestellt.
+ Unter anderem wie viele Knoten der Algorithmus zu Berechnung aus der Datenbank
+ selektiert oder wie lange die Berechnung insgesamt gedauert hat.
 \end_layout
 
 \begin_layout Standard
@@ -3630,21 +3774,17 @@ Auswahl- und Optionsbereich
 
 \begin_layout Standard
 \noindent
-Im oberen Bereich kann der 
-\shape italic
-Client
-\shape default
- seine Start- und Zieldaten eingeben.
- Die Ort- und Straßenfeldern besitzen eine 
+Im oberen Bereich kann der Benutzer seine Start- und Zieldaten eingeben.
+ Die Ort- und Straßenfelder besitzen eine 
 \shape italic
 Autofill
 \shape default
-- Funktionen.
+- Funktion.
  Diese sucht nach Eingabe der ersten Buchstaben in der Datenbank nach gleichen
  Orten oder Straßen die mit diesen Buchstaben beginnen.
  So dass ein Auswahlbox erscheint, in der der 
 \shape italic
-Client
+Benutzer
 \shape default
  dann den Ort oder Straße nur noch auswählen muss.
  
@@ -3660,11 +3800,11 @@ Client
 \shape default
  ein neues Zwischenziel hinzufügen.
  Diese wird dann ein Zeile darunter eingefügt.
- Es ist möglich, so viele Zwischenziele wie man will, hinzuzufügen.
+ Es ist möglich, so viele Zwischenziele wie man möchte, hinzuzufügen.
  Wenn mehr als 2 Orts- und Straßenfelder vorhanden sind, erscheint dazu
  hinter dem “+” Button noch ein zweiter Button mit einem “-” Zeichen.
  Mit diesem kann man die momentane Zeile wieder löschen.
- Darunter ist der “Route berechnen” Button angebracht.
+ Darunter ist der “Route berechnen” Button.
  Beim drücken dieses Buttons werden die eingegebenen Informationen an den
  Server geschickt und versucht zu diesen Eingaben eine Route zu finden.
 \end_layout
@@ -3679,10 +3819,10 @@ Client
 
 \begin_layout Standard
 \noindent
-Anschließend folgen 3 Hyperlinks.
- Diese sind “Optionen”, “Zusammenfassung” und “Wegbeschreibung”.Beim drücken
- dieser Hyperlinks öffnet sich darunter ein Feld, in dem man Optionen angeben
- kann, oder die Zusammenfassung dargestellt wird.
+Anschließend folgen drei Hyperlinks.
+ Diese sind “Optionen”, “Zusammenfassung” und “Wegbeschreibung”.
+ Beim drücken dieser Hyperlinks öffnet sich darunter ein Feld, in dem man
+ Optionen angeben kann oder die Zusammenfassung dargestellt wird.
 \end_layout
 
 \begin_layout Subsubsection
@@ -3692,11 +3832,11 @@ Optionen
 
 \begin_layout Standard
 \noindent
-Hier kann man zu aller erst die Routenart festlegen.
- Man kann wählen zwischen “schnellste” und “kürzeste”.
+Hier kann man zunächst die Routenart festlegen.
+ Man kann zwischen der “schnellsten” und “kürzesten” Route wählen.
  Standardmäßig ist die “schnellste” ausgewählt.
  Darunter kann der Benutzer seine Geschwindigkeit eintragen mit der er die
- verschieden Straßenabschnitte absolvieren will.
+ verschieden Straßenabschnitte befahren möchte.
  Mit dieser Information wird die Zeitangabe, wie lange er für die Route
  benötigt, dann genau auf seine Fahrverhalten abgestimmt.
  Im folgenden kann er noch zwischen den zwei implementierten Algorithmen
@@ -3705,12 +3845,12 @@ Hier kann man zu aller erst die Routenart festlegen.
 \shape italic
 A*
 \shape default
-” oder “
+” oder zum anderen “
 \shape italic
 A*
 \shape default
  Bideriktional”.
- Hier ist standardmäßig “
+ Standardmäßig ist “
 \shape italic
 A*
 \shape default
@@ -3815,13 +3955,13 @@ Kartenbereich
 \begin_layout Standard
 \noindent
 In diesem Bereich wird die Karte angezeigt.
- Sie wird mit Hilfe von mapstraction.com dargestellt.
- Die eine eigene API für die Einbindung von verschieden Karten bereitstellen.
- Bei Programmstart sieht man ganz Deutschland.
+ Sie wird mit Hilfe von mapstraction.com dargestellt, die eine eigene API
+ für die Einbindung von verschieden Karten bereitstellen.
+ Bei Programmstart sieht man zunächst ganz Deutschland.
  Nach einer erfolgreichen Berechnung wird die Karte auf die Route verkleinert,
- so dass Start- und Zielpunkt zu sehen ist.
- Start- und Zielpunkt werden zusätzlich mit einem Marker hervorgehoben.
- Die Strecke wird mit einer roten Linie gekennzeichnet.
+ so dass Start- und Zielpunkt zu sehen sind.
+ Start- und Zielpunkt werden zusätzlich mit einem Marker hervorgehoben und
+ die Strecke wird mit einer roten Linie gekennzeichnet.
 \end_layout
 
 \begin_layout Subsection
@@ -3864,7 +4004,7 @@ Mit Hilfe einer
 \shape italic
 Property-Klasse
 \shape default
- ist es in Java sehr einfach aus einer einfachen Text-Datei Werte auszulesen.
+ ist es in Java sehr simpel aus einer einfachen Text-Datei Werte auszulesen.
  Hier geht man in der Text-Datei ähnlich vor wie bei der Variablen-Zuweisung.
  Diese Werte können dann über das Property-Objekt in Java verwendet werden.
  Die 
@@ -3879,7 +4019,7 @@ Singleton
  das selbe Objekt verwenden können.
  In der Property-Datei wurden die Zugangsdaten zum SQL-Server abgelegt.
  Ein Eintrag in der Git-Ignore Datei hat dann dafür gesorgt, dass die Datei
- mit den SQL Zugangsdaten nicht ins Internet auf unser öffentliches 
+ mit den SQL Zugangsdaten nicht auf unser öffentliches 
 \shape italic
 Repository
 \shape default
@@ -3912,9 +4052,9 @@ Um die Qualität unserer Software sicher zu stellen bzw.
 \begin_inset space ~
 \end_inset
 
-Da ein Mitglied unseres Teams in der Entwicklung und Qualitätsmanagement
- bei einer saarbrücker Firma tätig ist, wurde er als Qualitätsverantwortlicher
- für HTWMaps ausgewählt.
+Da ein Mitglied unseres Teams in der Entwicklung und im Qualitätsmanagement
+ einer Saarbrücker Firma tätig ist, wurde er als Qualitätsverantwortlicher
+ für HTWmaps ausgewählt.
  Neben dem Testen des Programms, umfasste sein Tätigkeitsbereich auch das
  Erstellen eines Testplans.
  Mit Hilfe eines solchen Testplans hat man zu jeder Zeit einen genauen Überblick
@@ -3932,8 +4072,8 @@ Die Fehler bzw.
 \shape italic
 Bug
 \shape default
-s, die während der Testphase entdeckt wurden, haben wir auf der Webseite
- unseres Projekthosters Github.com eingetragen.
+s, die während der Testphase entdeckt wurden, wurden auf der Webseite unseres
+ Projekthosters Github.com eingetragen.
  Wir haben diese Vorgehensweise ausgewählt, da bei jedem neu eingetragenen
  
 \shape italic
@@ -3944,12 +4084,8 @@ Bug
 Issue-Tracker
 \shape default
  des Projekthosters automatisch eine Email an den Verantwortlichen sendet.
- Dadurch wird gewährleistet, dass der 
-\shape italic
-Bug
-\shape default
-verantwortliche so schnell wie möglich mit der Beseitigung des Fehlers beginnen
- kann.
+ Dadurch wird gewährleistet, dass der Verantwortliche so schnell wie möglich
+ mit der Beseitigung des Fehlers beginnen kann.
 \end_layout
 
 \begin_layout Section
@@ -3962,7 +4098,7 @@ Fazit
 Als Fazit ist zu sagen, dass wir das Projekt als erfolgreich abgeschlossen
  betrachten.
  Es war uns in der gegeben Zeit möglich alle Funktionen aus dem Lastenheft
- in das Programm zu implementieren.
+ zu implementieren.
  
 \end_layout
 
@@ -4234,6 +4370,17 @@ Vorgehensmodell
 
 \begin_layout Section
 \noindent
+Quellenangabe
+\end_layout
+
+\begin_layout Standard
+\noindent
+Die Formulierungen des Glossars wurden Teilweise aus Wikipedia (www.wikipedia.de)
+ kopiert.
+\end_layout
+
+\begin_layout Section
+\noindent
 Anhang
 \end_layout
 
@@ -4250,17 +4397,6 @@ Testplan
 \begin_layout Itemize
 \noindent
 Nachweis des Zeitaufwandes
-\end_layout
-
-\begin_layout Section
-\noindent
-Quellenangabe
-\end_layout
-
-\begin_layout Standard
-\noindent
-Die Formulierungen des Glossars wurden Teilweise aus Wikipedia (www.wikipedia.de)
- kopiert.
 \end_layout
 
 \end_body
